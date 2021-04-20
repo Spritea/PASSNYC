@@ -7,6 +7,7 @@
     <!--    <script src="http://d3js.org/d3.v4.min.js" charset="utf-8"></script>-->
     <script src="{{ url_for('static',filename='js/d3.v4.min.js') }}" charset="utf-8"></script>
     <script src="{{ url_for('static',filename='js/jquery-3.6.0.js') }}" charset="utf-8"></script>
+    <script src="{{ url_for('static',filename='js/BiPlot.js') }}" charset="utf-8"></script>
 
     <style>
         .tooltip {
@@ -173,6 +174,9 @@
         .attr('text-anchor', 'middle')
         .attr('id', "histogramcaption")
         .text('Histogram');
+
+    //below call functions to draw.
+    biPlot()
 
 </script>
 </body>
