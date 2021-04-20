@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PASSNYC</title>
+    {# remove favicon.ico error in chrome.#}
+    <link rel="shortcut icon" href="#"/>
+    <!--    <script src="http://d3js.org/d3.v4.min.js" charset="utf-8"></script>-->
+    <script src="{{ url_for('static',filename='js/d3.v4.min.js') }}" charset="utf-8"></script>
+    <script src="{{ url_for('static',filename='js/jquery-3.6.0.js') }}" charset="utf-8"></script>
+
+    <style>
+        .tooltip {
+            position: absolute;
+            z-index: 10;
+            text-align: center;
+            max-width: 150px;
+            font-size: 14px;
+            background: white;
+            color: red;
+            /* pointer-events: none; */
+        }
+
+        .background path {
+            fill: none;
+            stroke: #ddd;
+            shape-rendering: crispEdges;
+        }
+
+        .foreground path {
+            fill: none;
+            /* stroke: steelblue; */
+        }
+
+        .brush .extent {
+            fill-opacity: .3;
+            stroke: #fff;
+            shape-rendering: crispEdges;
+        }
+
+        .text_title {
+            position: absolute;
+            width: 500px;
+            z-index: 1000;
+            top: 5px;
+            font-size: 16px;
+            left: 50%;
+            transform: translate(-50%, 0);
+            text-align: center;
+        }
+
+        .scatterplot_div {
+            position: absolute;
+            top: 50px;
+            left: 0px;
+        }
+
+        .barchart_div {
+            position: absolute;
+            top: 50px;
+            left: 640px;
+        }
+
+        .biplot_div {
+            position: absolute;
+            top: 470px;
+            left: 0px;
+        }
+
+        .mca_div {
+            position: absolute;
+            top: 470px;
+            left: 640px;
+        }
+
+        .histogram_div {
+            position: absolute;
+            top: 50px;
+            left: 1280px;
+        }
+
+    </style>
+
+<body>
+
+<div class="scatterplot_div">
+    <svg width="640" height="420" id="scattersvg" class="svgs"></svg>
+</div>
+
+<div class="biplot_div">
+    <svg width="640" height="420" id="biplotsvg" class="svgs"></svg>
+</div>
+
+<div class="barchart_div">
+    <svg width="640" height="420" id="barchartsvg" class="svgs"></svg>
+</div>
+
+<div class="mca_div">
+    <svg width="640" height="420" id="mcasvg" class="svgs"></svg>
+</div>
+
+<div class="histogram_div">
+    <svg width="640" height="840" id="histogramsvg" class="svgs"></svg>
+</div>
+
+<div class="text_title" , id="text_title">
+    PASSNYC: Specilized High School in NYC
+</div>
+
+</body>
+
+
+</head>
+<body>
+<script>
+    const scattersvg = d3.select('#scattersvg');
+    const width = +scattersvg.attr('width');
+    const height = +scattersvg.attr('height');
+    const margin = {top: 50, right: 50, bottom: 50, left: 50};
+    const innerWidth = width - margin.left - margin.right;
+    const innerHeight = height - margin.top - margin.bottom;
+
+    const biplotsvg = d3.select('#biplotsvg');
+    const barchartsvg = d3.select('#barchartsvg');
+    const mcasvg = d3.select('#mcasvg');
+    const histogramsvg = d3.select('#histogramsvg');
+
+    scattersvg.append('g')
+        .append('text')
+        .attr('x', width / 2)
+        .attr('y', margin.top / 2)
+        .attr('font-size', 18)
+        .attr('fill', 'black')
+        .attr('text-anchor', 'middle')
+        .attr('id', "scattercaption")
+        .text('Scatterplot');
+
+    biplotsvg.append('g')
+        .append('text')
+        .attr('x', width / 2)
+        .attr('y', margin.top / 2)
+        .attr('font-size', 18)
+        .attr('fill', 'black')
+        .attr('text-anchor', 'middle')
+        .attr('id', "biplotcaption")
+        .text('Biplot');
+
+    barchartsvg.append('g')
+        .append('text')
+        .attr('x', width / 2)
+        .attr('y', margin.top / 2)
+        .attr('font-size', 18)
+        .attr('fill', 'black')
+        .attr('text-anchor', 'middle')
+        .attr('id', "barchartcaption")
+        .text('Barchart');
+
+    mcasvg.append('g')
+        .append('text')
+        .attr('x', width / 2)
+        .attr('y', margin.top / 2)
+        .attr('font-size', 18)
+        .attr('fill', 'black')
+        .attr('text-anchor', 'middle')
+        .attr('id', "mcacaption")
+        .text('MCA');
+
+    histogramsvg.append('g')
+        .append('text')
+        .attr('x', width / 2)
+        .attr('y', margin.top / 2)
+        .attr('font-size', 18)
+        .attr('fill', 'black')
+        .attr('text-anchor', 'middle')
+        .attr('id', "histogramcaption")
+        .text('Histogram');
+
+</script>
+</body>
+</html>
