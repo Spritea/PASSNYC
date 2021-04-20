@@ -50,7 +50,7 @@ class My_PCA:
         return original_df,pca.components_
 
 
-pca_class=My_PCA(csv_file='school_data_clean.csv',label_col="City")
+pca_class=My_PCA(csv_file='school_data_clean_v2.csv', label_col="City")
 print('kk')
 
 @app.route('/')
