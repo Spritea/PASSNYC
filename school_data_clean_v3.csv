@@ -1,0 +1,660 @@
+City,Economic Need Index,School Income Estimate,Percent ELL,Student Attendance Rate,Percent of Students Chronically Absent,Rigorous Instruction %,Rigorous Instruction Rating,Collaborative Teachers %,Collaborative Teachers Rating,Supportive Environment %,Supportive Environment Rating,Effective School Leadership %,Effective School Leadership Rating,Strong Family-Community Ties %,Strong Family-Community Ties Rating,Trust %,Trust Rating,Student Achievement Rating,Average ELA Proficiency,Average Math Proficiency,Average Proficiency
+New York,0.919,31141.72,9%,94%,18%,89%,Meeting Target,94%,Meeting Target,86%,Exceeding Target,91%,Exceeding Target,85%,Meeting Target,94%,Exceeding Target,Approaching Target,2.14,2.17,2.155
+New York,0.744,44342.61,15%,94%,20%,87%,Meeting Target,77%,Meeting Target,82%,Approaching Target,61%,Not Meeting Target,80%,Approaching Target,79%,Not Meeting Target,Approaching Target,2.39,2.54,2.465
+New York,0.86,31454,7%,92%,28%,85%,Approaching Target,78%,Meeting Target,82%,Meeting Target,73%,Approaching Target,89%,Meeting Target,88%,Meeting Target,Exceeding Target,2.48,2.47,2.475
+New York,0.73,46435.59,3%,93%,23%,90%,Meeting Target,88%,Meeting Target,87%,Meeting Target,81%,Meeting Target,89%,Meeting Target,93%,Meeting Target,Meeting Target,2.38,2.54,2.46
+New York,0.858,39415.45,6%,92%,33%,93%,Meeting Target,99%,Exceeding Target,95%,Exceeding Target,91%,Exceeding Target,88%,Meeting Target,97%,Exceeding Target,Meeting Target,2.29,2.48,2.385
+New York,0.833,28820.67,12%,91%,36%,87%,Approaching Target,89%,Meeting Target,88%,Approaching Target,88%,Meeting Target,79%,Approaching Target,94%,Exceeding Target,Meeting Target,2.28,2.73,2.505
+New York,0.849,34889.24,14%,93%,27%,94%,Meeting Target,91%,Approaching Target,85%,Meeting Target,87%,Meeting Target,83%,Meeting Target,93%,Meeting Target,Meeting Target,2.21,2.27,2.24
+New York,0.861,35545.1,8%,92%,27%,92%,Meeting Target,89%,Meeting Target,90%,Meeting Target,83%,Meeting Target,89%,Meeting Target,95%,Exceeding Target,Meeting Target,2.16,2.31,2.235
+New York,0.917,27881.59,16%,91%,37%,100%,Meeting Target,100%,Exceeding Target,99%,Meeting Target,99%,Exceeding Target,92%,Exceeding Target,99%,Exceeding Target,Meeting Target,2.17,2.32,2.245
+New York,0.362,63760,1%,95%,11%,90%,Meeting Target,93%,Exceeding Target,94%,Meeting Target,93%,Exceeding Target,97%,Exceeding Target,96%,Exceeding Target,Meeting Target,2.86,3.2,3.03
+New York,0.451,62519.57,7%,93%,23%,97%,Meeting Target,97%,Meeting Target,97%,Meeting Target,96%,Exceeding Target,93%,Exceeding Target,94%,Meeting Target,Meeting Target,2.89,2.99,2.94
+New York,0.43,57504.48,4%,93%,23%,99%,Exceeding Target,97%,Exceeding Target,95%,Meeting Target,96%,Exceeding Target,95%,Exceeding Target,99%,Exceeding Target,Approaching Target,2.55,2.68,2.615
+New York,0.448,56787.2,6%,94%,15%,96%,Exceeding Target,99%,Exceeding Target,96%,Exceeding Target,98%,Exceeding Target,96%,Exceeding Target,98%,Exceeding Target,Meeting Target,3.1,3.08,3.09
+New York,0.257,76833.96,0%,97%,3%,81%,Exceeding Target,73%,Approaching Target,85%,Meeting Target,55%,Not Meeting Target,81%,Approaching Target,74%,Not Meeting Target,Exceeding Target,3.83,4.03,3.93
+New York,0.769,32817.79,25%,95%,18%,89%,Meeting Target,91%,Meeting Target,95%,Meeting Target,86%,Meeting Target,87%,Meeting Target,94%,Exceeding Target,Exceeding Target,2.59,3.14,2.865
+New York,0.858,26114.78,36%,98%,6%,93%,Approaching Target,86%,Meeting Target,94%,Meeting Target,76%,Approaching Target,83%,Meeting Target,89%,Meeting Target,Meeting Target,2.75,3.24,2.995
+New York,0.176,103399.19,4%,95%,13%,97%,Exceeding Target,93%,Meeting Target,97%,Meeting Target,93%,Exceeding Target,96%,Exceeding Target,95%,Exceeding Target,Meeting Target,3.09,3.41,3.25
+New York,0.101,144270.13,2%,96%,5%,87%,Meeting Target,90%,Exceeding Target,95%,Exceeding Target,87%,Meeting Target,92%,Exceeding Target,90%,Meeting Target,Exceeding Target,3.4,3.71,3.555
+New York,0.293,98455.77,3%,96%,10%,93%,Exceeding Target,93%,Exceeding Target,98%,Exceeding Target,91%,Exceeding Target,93%,Exceeding Target,95%,Exceeding Target,Meeting Target,3.12,3.35,3.235
+New York,0.43,88011.14,4%,96%,13%,97%,Exceeding Target,90%,Exceeding Target,94%,Exceeding Target,82%,Meeting Target,92%,Exceeding Target,89%,Meeting Target,Meeting Target,3.04,3.4,3.22
+New York,0.153,102421.46,3%,96%,7%,97%,Exceeding Target,94%,Exceeding Target,99%,Exceeding Target,91%,Exceeding Target,96%,Exceeding Target,96%,Exceeding Target,Exceeding Target,3.39,3.65,3.52
+New York,0.066,115909.89,2%,97%,2%,95%,Exceeding Target,96%,Exceeding Target,98%,Exceeding Target,92%,Exceeding Target,95%,Exceeding Target,98%,Exceeding Target,Exceeding Target,3.44,3.7,3.57
+New York,0.626,91149.35,9%,94%,15%,90%,Meeting Target,95%,Exceeding Target,97%,Exceeding Target,91%,Exceeding Target,89%,Meeting Target,97%,Exceeding Target,Exceeding Target,2.55,2.83,2.69
+New York,0.075,116235.64,4%,96%,6%,87%,Exceeding Target,87%,Exceeding Target,95%,Exceeding Target,76%,Approaching Target,94%,Exceeding Target,89%,Meeting Target,Exceeding Target,3.24,3.62,3.43
+New York,0.069,105947.71,0%,97%,1%,93%,Exceeding Target,96%,Exceeding Target,98%,Exceeding Target,93%,Exceeding Target,95%,Exceeding Target,99%,Exceeding Target,Exceeding Target,3.73,3.91,3.82
+New York,0.068,181382.06,4%,96%,6%,95%,Meeting Target,94%,Meeting Target,98%,Exceeding Target,90%,Exceeding Target,93%,Exceeding Target,97%,Exceeding Target,Exceeding Target,3.23,3.71,3.47
+New York,0.645,70970.41,12%,92%,26%,89%,Approaching Target,79%,Approaching Target,81%,Approaching Target,74%,Approaching Target,88%,Meeting Target,86%,Meeting Target,Meeting Target,2.39,2.47,2.43
+New York,0.307,96174.16,11%,95%,14%,92%,Exceeding Target,92%,Exceeding Target,95%,Meeting Target,83%,Meeting Target,90%,Exceeding Target,92%,Meeting Target,Meeting Target,3.07,3.17,3.12
+New York,0.578,42493.71,29%,98%,2%,83%,Approaching Target,77%,Approaching Target,94%,Exceeding Target,65%,Approaching Target,80%,Approaching Target,85%,Meeting Target,Exceeding Target,3.1,3.55,3.325
+New York,0.728,38919.61,17%,96%,10%,91%,Exceeding Target,93%,Exceeding Target,91%,Exceeding Target,89%,Exceeding Target,82%,Approaching Target,95%,Exceeding Target,Exceeding Target,2.93,3.29,3.11
+New York,0.616,59851.21,13%,99%,2%,98%,Meeting Target,97%,Exceeding Target,97%,Exceeding Target,96%,Exceeding Target,90%,Exceeding Target,99%,Exceeding Target,Exceeding Target,3.09,3.61,3.35
+New York,0.196,132795.44,2%,95%,5%,95%,Meeting Target,90%,Meeting Target,96%,Exceeding Target,90%,Exceeding Target,95%,Exceeding Target,97%,Exceeding Target,Exceeding Target,3.37,3.43,3.4
+New York,0.367,81690.71,7%,94%,16%,96%,Exceeding Target,96%,Meeting Target,93%,Meeting Target,90%,Exceeding Target,92%,Exceeding Target,95%,Exceeding Target,Meeting Target,2.83,3.2,3.015
+New York,0.11,94194.68,5%,96%,8%,96%,Exceeding Target,87%,Exceeding Target,96%,Exceeding Target,80%,Meeting Target,89%,Meeting Target,89%,Meeting Target,Exceeding Target,3.49,3.74,3.615
+New York,0.074,104700.89,6%,96%,7%,85%,Meeting Target,94%,Exceeding Target,94%,Exceeding Target,88%,Exceeding Target,93%,Exceeding Target,95%,Exceeding Target,Exceeding Target,3.26,3.39,3.325
+New York,0.365,81932.76,7%,94%,19%,89%,Approaching Target,90%,Approaching Target,86%,Meeting Target,78%,Meeting Target,95%,Exceeding Target,93%,Meeting Target,Meeting Target,2.73,2.97,2.85
+New York,0.2,85295.72,2%,96%,5%,93%,Exceeding Target,98%,Exceeding Target,97%,Exceeding Target,97%,Exceeding Target,97%,Exceeding Target,99%,Exceeding Target,Meeting Target,3.14,3.45,3.295
+New York,0.429,58096.58,3%,92%,26%,91%,Exceeding Target,91%,Exceeding Target,93%,Meeting Target,82%,Meeting Target,95%,Exceeding Target,90%,Meeting Target,Meeting Target,2.71,2.75,2.73
+New York,0.065,176793.4,1%,96%,6%,92%,Exceeding Target,90%,Exceeding Target,97%,Exceeding Target,76%,Approaching Target,94%,Exceeding Target,87%,Meeting Target,Exceeding Target,3.25,3.55,3.4
+New York,0.114,140085.12,2%,96%,8%,92%,Exceeding Target,94%,Meeting Target,88%,Meeting Target,92%,Exceeding Target,90%,Exceeding Target,93%,Meeting Target,Meeting Target,3.16,3.32,3.24
+New York,0.064,107878.64,3%,96%,6%,92%,Exceeding Target,96%,Exceeding Target,97%,Exceeding Target,92%,Exceeding Target,93%,Exceeding Target,97%,Exceeding Target,Exceeding Target,3.37,3.75,3.56
+New York,0.812,51287.22,6%,92%,29%,82%,Meeting Target,68%,Not Meeting Target,91%,Meeting Target,53%,Not Meeting Target,82%,Approaching Target,82%,Meeting Target,Meeting Target,2.32,2.23,2.275
+New York,0.059,143926.53,2%,96%,6%,97%,Meeting Target,93%,Meeting Target,97%,Exceeding Target,93%,Exceeding Target,94%,Exceeding Target,95%,Meeting Target,Exceeding Target,3.29,3.58,3.435
+New York,0.468,56095.12,0%,96%,7%,98%,Exceeding Target,98%,Exceeding Target,92%,Meeting Target,94%,Exceeding Target,84%,Meeting Target,95%,Exceeding Target,Exceeding Target,3.21,3.65,3.43
+New York,0.221,95312.63,3%,96%,6%,100%,Exceeding Target,95%,Exceeding Target,99%,Exceeding Target,91%,Exceeding Target,90%,Exceeding Target,96%,Exceeding Target,Exceeding Target,3.38,3.66,3.52
+New York,0.599,56614.57,13%,94%,22%,93%,Meeting Target,88%,Meeting Target,92%,Meeting Target,80%,Meeting Target,92%,Exceeding Target,92%,Meeting Target,Exceeding Target,2.63,2.83,2.73
+New York,0.85,39051.13,9%,90%,42%,91%,Meeting Target,95%,Meeting Target,93%,Meeting Target,89%,Exceeding Target,89%,Exceeding Target,96%,Exceeding Target,Meeting Target,2.39,2.24,2.315
+New York,0.5,64633.18,10%,95%,14%,92%,Meeting Target,94%,Exceeding Target,97%,Exceeding Target,81%,Meeting Target,89%,Meeting Target,93%,Meeting Target,Meeting Target,2.76,3,2.88
+New York,0.099,111115.15,4%,96%,6%,92%,Meeting Target,80%,Approaching Target,97%,Meeting Target,69%,Not Meeting Target,93%,Exceeding Target,84%,Approaching Target,Exceeding Target,3.38,3.59,3.485
+New York,0.843,44727.39,13%,91%,35%,91%,Approaching Target,85%,Meeting Target,89%,Approaching Target,76%,Approaching Target,82%,Approaching Target,84%,Approaching Target,Approaching Target,2.12,2.16,2.14
+New York,0.883,37110.83,9%,91%,37%,83%,Approaching Target,70%,Not Meeting Target,77%,Approaching Target,60%,Not Meeting Target,81%,Approaching Target,82%,Approaching Target,Approaching Target,2.1,2.03,2.065
+New York,0.503,64272.58,7%,95%,13%,89%,Approaching Target,82%,Meeting Target,91%,Meeting Target,59%,Not Meeting Target,91%,Meeting Target,78%,Approaching Target,Meeting Target,2.99,3.3,3.145
+New York,0.739,48783.74,17%,91%,29%,87%,Meeting Target,82%,Meeting Target,87%,Meeting Target,73%,Approaching Target,86%,Meeting Target,85%,Approaching Target,Meeting Target,2.37,2.41,2.39
+New York,0.217,98595.22,2%,96%,8%,84%,Meeting Target,86%,Meeting Target,95%,Meeting Target,68%,Approaching Target,90%,Meeting Target,84%,Approaching Target,Meeting Target,3.3,3.54,3.42
+New York,0.69,51468.6,5%,94%,19%,86%,Meeting Target,86%,Exceeding Target,86%,Meeting Target,85%,Meeting Target,90%,Exceeding Target,90%,Meeting Target,Approaching Target,2.48,2.44,2.46
+New York,0.758,63947.38,8%,91%,33%,82%,Approaching Target,79%,Approaching Target,82%,Approaching Target,70%,Approaching Target,88%,Meeting Target,88%,Meeting Target,Approaching Target,2.23,2.1,2.165
+New York,0.078,115897.33,3%,96%,5%,94%,Exceeding Target,93%,Exceeding Target,99%,Exceeding Target,90%,Exceeding Target,94%,Exceeding Target,95%,Exceeding Target,Exceeding Target,3.36,3.68,3.52
+New York,0.875,30321.85,11%,93%,26%,88%,Meeting Target,90%,Meeting Target,82%,Meeting Target,81%,Meeting Target,85%,Meeting Target,91%,Meeting Target,Approaching Target,2.25,2.24,2.245
+New York,0.886,38655.2,7%,90%,37%,96%,Approaching Target,76%,Approaching Target,82%,Approaching Target,62%,Not Meeting Target,83%,Approaching Target,75%,Approaching Target,Meeting Target,2.18,2.52,2.35
+New York,0.233,72112.72,1%,95%,9%,93%,Exceeding Target,87%,Exceeding Target,88%,Meeting Target,79%,Meeting Target,94%,Exceeding Target,91%,Meeting Target,Meeting Target,3.09,3.03,3.06
+New York,0.134,89026.73,0%,98%,1%,90%,Exceeding Target,90%,Exceeding Target,92%,Exceeding Target,87%,Meeting Target,93%,Exceeding Target,92%,Meeting Target,Exceeding Target,3.93,4.15,4.04
+New York,0.253,76791.47,1%,96%,7%,96%,Exceeding Target,97%,Exceeding Target,91%,Exceeding Target,95%,Exceeding Target,91%,Exceeding Target,95%,Exceeding Target,Exceeding Target,3.67,3.85,3.76
+New York,0.899,24553.59,12%,90%,34%,90%,Meeting Target,86%,Exceeding Target,83%,Approaching Target,82%,Meeting Target,84%,Meeting Target,87%,Meeting Target,Exceeding Target,2.43,2.52,2.475
+New York,0.435,48431.58,0%,97%,5%,92%,Exceeding Target,92%,Exceeding Target,91%,Exceeding Target,86%,Meeting Target,87%,Meeting Target,90%,Meeting Target,Exceeding Target,3.64,3.89,3.765
+New York,0.779,28310.81,4%,92%,28%,90%,Meeting Target,88%,Exceeding Target,92%,Meeting Target,74%,Approaching Target,86%,Meeting Target,93%,Meeting Target,Meeting Target,2.5,2.44,2.47
+New York,0.915,34567.95,10%,88%,50%,87%,Approaching Target,77%,Not Meeting Target,76%,Approaching Target,68%,Approaching Target,82%,Approaching Target,82%,Approaching Target,Meeting Target,2.14,2.12,2.13
+New York,0.885,26905.07,12%,92%,28%,92%,Meeting Target,85%,Meeting Target,85%,Meeting Target,81%,Meeting Target,82%,Approaching Target,91%,Meeting Target,Exceeding Target,2.46,2.57,2.515
+New York,0.866,33728.15,11%,92%,30%,90%,Meeting Target,90%,Exceeding Target,94%,Exceeding Target,82%,Meeting Target,87%,Meeting Target,92%,Meeting Target,Meeting Target,2.32,2.4,2.36
+New York,0.772,31874.34,9%,93%,25%,88%,Approaching Target,90%,Meeting Target,90%,Meeting Target,85%,Meeting Target,87%,Meeting Target,98%,Exceeding Target,Exceeding Target,2.76,2.8,2.78
+New York,0.902,25392.85,18%,91%,37%,88%,Approaching Target,85%,Meeting Target,89%,Meeting Target,77%,Approaching Target,77%,Not Meeting Target,88%,Approaching Target,Meeting Target,2.17,2.03,2.1
+New York,0.833,29590.37,12%,91%,35%,86%,Approaching Target,78%,Approaching Target,84%,Approaching Target,68%,Approaching Target,87%,Meeting Target,88%,Meeting Target,Meeting Target,2.32,2.39,2.355
+New York,0.843,27911.28,13%,91%,34%,87%,Approaching Target,80%,Approaching Target,86%,Approaching Target,67%,Approaching Target,83%,Approaching Target,86%,Meeting Target,Meeting Target,2.29,2.31,2.3
+New York,0.903,29414.74,19%,92%,29%,77%,Approaching Target,71%,Approaching Target,80%,Approaching Target,65%,Approaching Target,90%,Meeting Target,84%,Meeting Target,Meeting Target,2.14,2.19,2.165
+New York,0.902,27577.94,40%,93%,25%,84%,Approaching Target,79%,Approaching Target,91%,Meeting Target,74%,Approaching Target,85%,Meeting Target,79%,Approaching Target,Meeting Target,2.16,2.17,2.165
+New York,0.751,31078.32,3%,94%,19%,92%,Exceeding Target,83%,Meeting Target,95%,Exceeding Target,71%,Approaching Target,87%,Meeting Target,89%,Meeting Target,Exceeding Target,2.85,3.08,2.965
+New York,0.859,31668.33,36%,94%,18%,93%,Approaching Target,85%,Approaching Target,91%,Meeting Target,60%,Not Meeting Target,84%,Approaching Target,80%,Approaching Target,Meeting Target,2.37,2.71,2.54
+New York,0.817,27376.45,14%,93%,25%,83%,Approaching Target,85%,Meeting Target,85%,Meeting Target,80%,Meeting Target,82%,Approaching Target,91%,Meeting Target,Meeting Target,2.36,2.54,2.45
+New York,0.917,29237.2,9%,92%,27%,89%,Meeting Target,86%,Exceeding Target,89%,Meeting Target,75%,Approaching Target,86%,Meeting Target,86%,Approaching Target,Meeting Target,2.23,2.25,2.24
+New York,0.383,47895.96,1%,95%,14%,100%,Meeting Target,97%,Exceeding Target,98%,Exceeding Target,95%,Exceeding Target,96%,Exceeding Target,94%,Exceeding Target,Approaching Target,2.67,2.58,2.625
+New York,0.46,42839.62,1%,93%,18%,95%,Exceeding Target,98%,Exceeding Target,97%,Exceeding Target,98%,Exceeding Target,94%,Exceeding Target,97%,Exceeding Target,Meeting Target,2.96,3.08,3.02
+New York,0.896,26581.16,9%,89%,40%,94%,Meeting Target,91%,Meeting Target,92%,Meeting Target,83%,Meeting Target,88%,Meeting Target,92%,Meeting Target,Approaching Target,2.27,2.18,2.225
+New York,0.839,35932.05,7%,90%,44%,90%,Approaching Target,81%,Approaching Target,83%,Approaching Target,72%,Approaching Target,82%,Approaching Target,87%,Approaching Target,Approaching Target,2.19,2.3,2.245
+New York,0.903,23035.78,9%,90%,39%,91%,Meeting Target,89%,Meeting Target,85%,Meeting Target,81%,Meeting Target,80%,Approaching Target,90%,Meeting Target,Approaching Target,2.19,2.19,2.19
+New York,0.897,32865.04,12%,90%,37%,87%,Approaching Target,88%,Approaching Target,91%,Meeting Target,78%,Meeting Target,86%,Meeting Target,90%,Meeting Target,Approaching Target,2.2,2.22,2.21
+New York,0.835,34752.53,17%,88%,49%,83%,Approaching Target,72%,Approaching Target,84%,Approaching Target,65%,Not Meeting Target,82%,Approaching Target,81%,Approaching Target,Approaching Target,2.11,2,2.055
+New York,0.805,35891.53,11%,91%,38%,83%,Approaching Target,90%,Meeting Target,96%,Meeting Target,92%,Exceeding Target,89%,Meeting Target,95%,Exceeding Target,Exceeding Target,2.81,3.12,2.965
+New York,0.854,31077.89,11%,92%,33%,90%,Approaching Target,91%,Approaching Target,82%,Approaching Target,76%,Approaching Target,81%,Approaching Target,89%,Meeting Target,Meeting Target,2.38,2.29,2.335
+New York,0.875,33344.03,6%,91%,34%,84%,Approaching Target,73%,Approaching Target,76%,Approaching Target,47%,Not Meeting Target,76%,Not Meeting Target,77%,Approaching Target,Meeting Target,2.21,2.19,2.2
+New York,0.899,28358.99,15%,92%,31%,91%,Approaching Target,87%,Meeting Target,93%,Meeting Target,79%,Approaching Target,82%,Approaching Target,85%,Approaching Target,Approaching Target,2.15,2.16,2.155
+New York,0.875,29854.02,27%,91%,35%,89%,Meeting Target,89%,Meeting Target,85%,Meeting Target,79%,Meeting Target,86%,Meeting Target,90%,Meeting Target,Meeting Target,2.28,2.38,2.33
+New York,0.893,34273.8,12%,91%,39%,93%,Meeting Target,92%,Meeting Target,91%,Meeting Target,78%,Meeting Target,84%,Approaching Target,87%,Approaching Target,Approaching Target,2.14,2.26,2.2
+New York,0.898,30519.96,18%,90%,47%,91%,Approaching Target,73%,Approaching Target,94%,Approaching Target,49%,Not Meeting Target,87%,Meeting Target,67%,Not Meeting Target,Approaching Target,2,2.02,2.01
+New York,0.874,34797.1,6%,88%,47%,94%,Approaching Target,92%,Approaching Target,92%,Approaching Target,92%,Exceeding Target,92%,Exceeding Target,95%,Exceeding Target,Meeting Target,2.21,2.27,2.24
+New York,0.892,34610.48,11%,88%,46%,83%,Approaching Target,88%,Approaching Target,89%,Approaching Target,81%,Meeting Target,85%,Meeting Target,92%,Meeting Target,Approaching Target,2.12,2.13,2.125
+New York,0.783,33466.58,2%,91%,31%,97%,Meeting Target,91%,Meeting Target,89%,Meeting Target,84%,Meeting Target,93%,Exceeding Target,92%,Exceeding Target,Approaching Target,2.59,2.58,2.585
+New York,0.844,34684.21,40%,92%,33%,91%,Meeting Target,84%,Meeting Target,87%,Approaching Target,74%,Approaching Target,82%,Approaching Target,88%,Meeting Target,Approaching Target,2.24,2.33,2.285
+New York,0.851,29783.6,46%,93%,26%,89%,Meeting Target,86%,Meeting Target,90%,Meeting Target,68%,Approaching Target,86%,Meeting Target,89%,Meeting Target,Approaching Target,2.11,2.28,2.195
+New York,0.841,33529.45,31%,93%,20%,91%,Exceeding Target,86%,Exceeding Target,85%,Approaching Target,82%,Meeting Target,89%,Meeting Target,91%,Meeting Target,Meeting Target,2.25,2.34,2.295
+New York,0.823,44006.21,44%,93%,23%,92%,Meeting Target,87%,Meeting Target,86%,Meeting Target,79%,Meeting Target,85%,Meeting Target,90%,Meeting Target,Meeting Target,2.1,2.36,2.23
+New York,0.901,37015.04,32%,94%,20%,96%,Exceeding Target,96%,Meeting Target,96%,Exceeding Target,87%,Meeting Target,85%,Meeting Target,95%,Meeting Target,Meeting Target,2.32,2.64,2.48
+New York,0.801,45688.6,30%,94%,16%,86%,Meeting Target,88%,Meeting Target,89%,Meeting Target,83%,Meeting Target,84%,Meeting Target,94%,Exceeding Target,Meeting Target,2.26,2.41,2.335
+New York,0.856,40151.07,38%,93%,26%,85%,Approaching Target,74%,Approaching Target,87%,Approaching Target,69%,Approaching Target,86%,Meeting Target,84%,Approaching Target,Approaching Target,2.15,2.3,2.225
+New York,0.882,30569.26,33%,92%,27%,93%,Meeting Target,88%,Meeting Target,94%,Meeting Target,72%,Approaching Target,84%,Approaching Target,89%,Meeting Target,Meeting Target,2.13,2.35,2.24
+New York,0.817,34767.56,28%,91%,29%,92%,Meeting Target,93%,Exceeding Target,94%,Meeting Target,89%,Exceeding Target,89%,Meeting Target,94%,Meeting Target,Approaching Target,2.2,2.39,2.295
+New York,0.857,35210.09,46%,95%,14%,87%,Approaching Target,80%,Approaching Target,90%,Meeting Target,72%,Approaching Target,85%,Meeting Target,84%,Approaching Target,Meeting Target,2.22,2.25,2.235
+New York,0.869,39043.45,29%,94%,22%,91%,Meeting Target,87%,Meeting Target,89%,Meeting Target,79%,Meeting Target,84%,Meeting Target,88%,Meeting Target,Meeting Target,2.25,2.46,2.355
+New York,0.834,37102.07,29%,93%,26%,96%,Exceeding Target,86%,Exceeding Target,95%,Meeting Target,82%,Meeting Target,87%,Meeting Target,86%,Approaching Target,Meeting Target,2.34,2.54,2.44
+New York,0.75,39010.66,16%,93%,24%,90%,Meeting Target,76%,Meeting Target,87%,Approaching Target,64%,Not Meeting Target,77%,Not Meeting Target,80%,Approaching Target,Meeting Target,2.36,2.67,2.515
+New York,0.406,68615.55,7%,95%,11%,91%,Meeting Target,91%,Meeting Target,88%,Meeting Target,82%,Meeting Target,90%,Exceeding Target,89%,Meeting Target,Meeting Target,2.84,2.98,2.91
+New York,0.872,36511.02,29%,94%,18%,90%,Meeting Target,86%,Meeting Target,91%,Meeting Target,80%,Meeting Target,85%,Meeting Target,89%,Meeting Target,Meeting Target,2.3,2.48,2.39
+New York,0.829,41056.33,25%,92%,26%,92%,Approaching Target,83%,Approaching Target,93%,Meeting Target,69%,Approaching Target,88%,Meeting Target,82%,Approaching Target,Approaching Target,2.2,2.35,2.275
+New York,0.8,36575.2,33%,95%,12%,94%,Meeting Target,92%,Meeting Target,91%,Exceeding Target,83%,Meeting Target,86%,Meeting Target,91%,Meeting Target,Exceeding Target,2.46,2.62,2.54
+New York,0.604,50767.71,12%,95%,13%,97%,Exceeding Target,96%,Meeting Target,94%,Exceeding Target,90%,Exceeding Target,86%,Meeting Target,96%,Exceeding Target,Meeting Target,2.76,2.86,2.81
+New York,0.713,42610.02,22%,96%,7%,86%,Meeting Target,89%,Meeting Target,86%,Meeting Target,80%,Meeting Target,92%,Exceeding Target,91%,Meeting Target,Approaching Target,2.45,2.48,2.465
+New York,0.429,52781.49,4%,95%,7%,99%,Meeting Target,96%,Meeting Target,97%,Exceeding Target,95%,Exceeding Target,96%,Exceeding Target,96%,Exceeding Target,Exceeding Target,2.98,3.04,3.01
+New York,0.864,40828.12,32%,93%,27%,88%,Approaching Target,88%,Meeting Target,93%,Meeting Target,78%,Meeting Target,83%,Approaching Target,91%,Meeting Target,Approaching Target,2.14,2.19,2.165
+New York,0.777,36559.91,17%,94%,13%,95%,Meeting Target,89%,Exceeding Target,92%,Meeting Target,84%,Meeting Target,88%,Meeting Target,92%,Meeting Target,Meeting Target,2.57,2.72,2.645
+New York,0.756,38325.28,16%,92%,27%,95%,Approaching Target,93%,Meeting Target,85%,Approaching Target,88%,Meeting Target,93%,Exceeding Target,92%,Meeting Target,Approaching Target,2.22,2.38,2.3
+Bronx,0.915,23144.32,25%,92%,33%,90%,Meeting Target,89%,Meeting Target,90%,Meeting Target,78%,Approaching Target,83%,Meeting Target,91%,Meeting Target,Approaching Target,2.19,2.23,2.21
+Bronx,0.905,22754.7,24%,91%,36%,90%,Meeting Target,87%,Meeting Target,81%,Approaching Target,79%,Meeting Target,82%,Approaching Target,85%,Approaching Target,Approaching Target,2.15,2.11,2.13
+Bronx,0.914,22635.63,26%,92%,29%,88%,Meeting Target,90%,Meeting Target,90%,Meeting Target,82%,Meeting Target,83%,Meeting Target,93%,Meeting Target,Meeting Target,2.17,2.39,2.28
+Bronx,0.863,26194.38,14%,93%,23%,93%,Meeting Target,89%,Meeting Target,91%,Meeting Target,80%,Meeting Target,82%,Approaching Target,90%,Meeting Target,Meeting Target,2.37,2.42,2.395
+Bronx,0.891,23911.23,13%,91%,35%,90%,Exceeding Target,91%,Exceeding Target,92%,Meeting Target,81%,Meeting Target,84%,Meeting Target,93%,Meeting Target,Approaching Target,2.12,2.12,2.12
+Bronx,0.923,22281.39,17%,90%,40%,87%,Approaching Target,90%,Meeting Target,91%,Meeting Target,84%,Meeting Target,90%,Exceeding Target,91%,Meeting Target,Approaching Target,2.09,2.15,2.12
+Bronx,0.878,28918.55,13%,90%,39%,86%,Approaching Target,86%,Meeting Target,85%,Approaching Target,79%,Meeting Target,81%,Approaching Target,89%,Meeting Target,Approaching Target,2.09,2.04,2.065
+Bronx,0.91,20902.4,9%,91%,33%,89%,Approaching Target,95%,Meeting Target,90%,Meeting Target,84%,Meeting Target,86%,Meeting Target,96%,Exceeding Target,Exceeding Target,2.29,2.46,2.375
+Bronx,0.924,22392.38,16%,92%,30%,87%,Approaching Target,83%,Meeting Target,81%,Approaching Target,74%,Approaching Target,83%,Approaching Target,85%,Meeting Target,Meeting Target,2.19,2.45,2.32
+Bronx,0.957,22507.91,12%,89%,48%,92%,Meeting Target,88%,Meeting Target,88%,Approaching Target,82%,Meeting Target,84%,Approaching Target,91%,Meeting Target,Approaching Target,2.06,2.12,2.09
+Bronx,0.912,18984.33,10%,93%,25%,93%,Meeting Target,95%,Meeting Target,92%,Exceeding Target,91%,Exceeding Target,84%,Meeting Target,96%,Exceeding Target,Meeting Target,2.29,2.33,2.31
+Bronx,0.879,26508.27,9%,90%,41%,92%,Exceeding Target,91%,Exceeding Target,93%,Meeting Target,80%,Meeting Target,82%,Approaching Target,92%,Meeting Target,Meeting Target,2.32,2.41,2.365
+Bronx,0.906,25153.14,19%,91%,37%,90%,Approaching Target,87%,Meeting Target,91%,Meeting Target,71%,Approaching Target,79%,Approaching Target,86%,Meeting Target,Meeting Target,2.33,2.48,2.405
+Bronx,0.899,23737.32,30%,92%,33%,94%,Meeting Target,92%,Meeting Target,90%,Meeting Target,83%,Meeting Target,85%,Meeting Target,96%,Exceeding Target,Meeting Target,2.31,2.35,2.33
+Bronx,0.928,22649.64,16%,93%,22%,90%,Meeting Target,90%,Exceeding Target,89%,Exceeding Target,84%,Meeting Target,87%,Meeting Target,93%,Exceeding Target,Meeting Target,2.28,2.64,2.46
+Bronx,0.923,23020.7,47%,92%,30%,75%,Not Meeting Target,86%,Meeting Target,83%,Approaching Target,81%,Meeting Target,88%,Meeting Target,90%,Meeting Target,Approaching Target,1.97,2.04,2.005
+Bronx,0.498,66619.65,5%,93%,22%,94%,Meeting Target,96%,Exceeding Target,98%,Exceeding Target,91%,Exceeding Target,84%,Meeting Target,97%,Exceeding Target,Meeting Target,2.61,2.8,2.705
+Bronx,0.779,39933.44,16%,93%,24%,94%,Meeting Target,95%,Meeting Target,96%,Meeting Target,86%,Meeting Target,87%,Meeting Target,96%,Exceeding Target,Exceeding Target,2.6,2.73,2.665
+Bronx,0.922,27859.91,18%,92%,31%,88%,Meeting Target,84%,Meeting Target,86%,Meeting Target,68%,Approaching Target,77%,Not Meeting Target,84%,Approaching Target,Meeting Target,2.1,2.18,2.14
+Bronx,0.896,23837.79,11%,91%,35%,89%,Meeting Target,94%,Exceeding Target,92%,Meeting Target,86%,Meeting Target,85%,Meeting Target,95%,Meeting Target,Meeting Target,2.15,2.35,2.25
+Bronx,0.751,47598.42,8%,93%,22%,94%,Exceeding Target,86%,Exceeding Target,92%,Meeting Target,79%,Meeting Target,81%,Approaching Target,88%,Meeting Target,Exceeding Target,2.72,3.02,2.87
+Bronx,0.511,57078.08,7%,93%,22%,93%,Meeting Target,93%,Exceeding Target,86%,Meeting Target,91%,Exceeding Target,79%,Approaching Target,93%,Exceeding Target,Exceeding Target,2.66,2.87,2.765
+Bronx,0.761,46642.64,5%,91%,35%,91%,Meeting Target,87%,Exceeding Target,89%,Meeting Target,79%,Meeting Target,83%,Meeting Target,91%,Meeting Target,Meeting Target,2.33,2.44,2.385
+Bronx,0.922,23987.16,13%,91%,36%,93%,Exceeding Target,92%,Meeting Target,91%,Meeting Target,83%,Meeting Target,80%,Approaching Target,93%,Meeting Target,Meeting Target,2.24,2.34,2.29
+Bronx,0.667,42885.01,9%,93%,28%,96%,Meeting Target,95%,Meeting Target,95%,Exceeding Target,87%,Meeting Target,93%,Exceeding Target,96%,Exceeding Target,Approaching Target,2.26,2.32,2.29
+Bronx,0.86,27710.67,5%,92%,31%,94%,Meeting Target,95%,Meeting Target,91%,Meeting Target,91%,Exceeding Target,82%,Approaching Target,95%,Meeting Target,Meeting Target,2.32,2.34,2.33
+Bronx,0.913,27853.77,9%,90%,43%,95%,Meeting Target,93%,Meeting Target,92%,Meeting Target,84%,Meeting Target,83%,Approaching Target,92%,Meeting Target,Meeting Target,2.21,2.24,2.225
+Bronx,0.8,39485.31,25%,94%,21%,84%,Approaching Target,89%,Meeting Target,92%,Meeting Target,83%,Meeting Target,86%,Meeting Target,94%,Exceeding Target,Meeting Target,2.41,2.68,2.545
+Bronx,0.872,24977.29,23%,92%,27%,95%,Meeting Target,92%,Meeting Target,93%,Meeting Target,85%,Meeting Target,86%,Meeting Target,95%,Exceeding Target,Meeting Target,2.07,2.22,2.145
+Bronx,0.851,35635.81,4%,89%,42%,94%,Approaching Target,97%,Exceeding Target,92%,Approaching Target,86%,Meeting Target,81%,Approaching Target,95%,Meeting Target,Approaching Target,2.32,2.39,2.355
+Bronx,0.875,26763.23,11%,90%,40%,88%,Approaching Target,82%,Meeting Target,87%,Approaching Target,76%,Approaching Target,84%,Meeting Target,88%,Meeting Target,Meeting Target,2.16,2.36,2.26
+Bronx,0.911,25203.54,13%,91%,36%,95%,Meeting Target,90%,Meeting Target,92%,Meeting Target,82%,Meeting Target,83%,Approaching Target,89%,Meeting Target,Approaching Target,2.25,2.27,2.26
+Bronx,0.913,28256.04,26%,91%,35%,80%,Approaching Target,83%,Meeting Target,89%,Meeting Target,73%,Approaching Target,83%,Approaching Target,85%,Approaching Target,Meeting Target,2.19,2.39,2.29
+Bronx,0.73,45924.94,4%,92%,32%,85%,Meeting Target,75%,Meeting Target,82%,Approaching Target,59%,Not Meeting Target,80%,Not Meeting Target,82%,Approaching Target,Meeting Target,2.59,2.77,2.68
+Bronx,0.388,67098.68,1%,95%,13%,90%,Meeting Target,94%,Meeting Target,96%,Exceeding Target,86%,Exceeding Target,90%,Meeting Target,98%,Exceeding Target,Exceeding Target,2.94,3.1,3.02
+Bronx,0.915,26448.84,24%,89%,46%,89%,Approaching Target,80%,Approaching Target,91%,Approaching Target,62%,Not Meeting Target,78%,Approaching Target,85%,Approaching Target,Meeting Target,2.22,2.21,2.215
+Bronx,0.891,25876.53,18%,92%,34%,95%,Meeting Target,96%,Meeting Target,97%,Meeting Target,95%,Exceeding Target,86%,Meeting Target,98%,Exceeding Target,Meeting Target,2.27,2.54,2.405
+Bronx,0.903,28830.61,12%,88%,44%,85%,Meeting Target,77%,Meeting Target,89%,Approaching Target,68%,Approaching Target,80%,Approaching Target,86%,Approaching Target,Approaching Target,2.28,2.45,2.365
+Bronx,0.923,26475.48,25%,92%,33%,95%,Exceeding Target,94%,Meeting Target,92%,Meeting Target,83%,Meeting Target,84%,Meeting Target,93%,Meeting Target,Approaching Target,2.31,2.32,2.315
+Bronx,0.922,25532.54,32%,91%,33%,90%,Meeting Target,80%,Approaching Target,89%,Meeting Target,50%,Not Meeting Target,93%,Meeting Target,62%,Not Meeting Target,Exceeding Target,2.28,2.47,2.375
+Bronx,0.834,27766.12,25%,93%,23%,89%,Approaching Target,87%,Exceeding Target,86%,Meeting Target,76%,Approaching Target,81%,Approaching Target,92%,Meeting Target,Meeting Target,2.28,2.48,2.38
+Bronx,0.935,24249.23,16%,90%,37%,88%,Approaching Target,91%,Exceeding Target,86%,Approaching Target,88%,Exceeding Target,90%,Meeting Target,93%,Meeting Target,Meeting Target,2.18,2.25,2.215
+Bronx,0.919,23994.98,25%,90%,42%,91%,Meeting Target,88%,Meeting Target,92%,Approaching Target,81%,Meeting Target,80%,Approaching Target,88%,Approaching Target,Exceeding Target,2.42,2.63,2.525
+Bronx,0.939,19445.65,11%,92%,28%,86%,Approaching Target,78%,Approaching Target,83%,Approaching Target,74%,Approaching Target,81%,Approaching Target,90%,Meeting Target,Approaching Target,2.04,2.15,2.095
+Bronx,0.91,25416.2,20%,90%,43%,87%,Approaching Target,79%,Approaching Target,86%,Approaching Target,69%,Not Meeting Target,79%,Not Meeting Target,80%,Not Meeting Target,Meeting Target,2.17,2.32,2.245
+Bronx,0.89,25772.81,19%,90%,39%,96%,Exceeding Target,94%,Exceeding Target,94%,Meeting Target,88%,Exceeding Target,86%,Meeting Target,95%,Exceeding Target,Exceeding Target,2.55,2.65,2.6
+Bronx,0.916,28190.58,25%,91%,37%,88%,Meeting Target,87%,Meeting Target,84%,Approaching Target,82%,Meeting Target,82%,Approaching Target,90%,Meeting Target,Approaching Target,2.1,2.26,2.18
+Bronx,0.891,22580.13,22%,90%,41%,85%,Approaching Target,82%,Approaching Target,82%,Approaching Target,68%,Approaching Target,83%,Approaching Target,83%,Approaching Target,Approaching Target,2.07,2.1,2.085
+Bronx,0.874,26397.05,25%,91%,32%,79%,Approaching Target,69%,Approaching Target,73%,Approaching Target,57%,Not Meeting Target,79%,Approaching Target,77%,Approaching Target,Approaching Target,2.19,2.17,2.18
+Bronx,0.91,21689.93,12%,93%,25%,83%,Meeting Target,83%,Meeting Target,82%,Meeting Target,68%,Approaching Target,82%,Approaching Target,86%,Approaching Target,Meeting Target,2.33,2.4,2.365
+Bronx,0.904,26823.06,33%,92%,31%,95%,Meeting Target,93%,Meeting Target,95%,Meeting Target,86%,Meeting Target,83%,Approaching Target,93%,Meeting Target,Approaching Target,2.07,2.19,2.13
+Bronx,0.91,22701.33,22%,91%,36%,89%,Approaching Target,79%,Approaching Target,85%,Meeting Target,70%,Approaching Target,79%,Not Meeting Target,79%,Approaching Target,Approaching Target,2.27,2.17,2.22
+Bronx,0.928,22702.97,13%,89%,44%,95%,Meeting Target,76%,Approaching Target,71%,Approaching Target,60%,Not Meeting Target,75%,Not Meeting Target,74%,Not Meeting Target,Approaching Target,2.07,2.18,2.125
+Bronx,0.928,25534.74,32%,93%,26%,77%,Approaching Target,55%,Approaching Target,69%,Approaching Target,48%,Not Meeting Target,78%,Approaching Target,67%,Not Meeting Target,Meeting Target,2.3,2.42,2.36
+Bronx,0.901,26634.37,29%,91%,34%,87%,Approaching Target,79%,Approaching Target,87%,Approaching Target,69%,Approaching Target,82%,Approaching Target,82%,Approaching Target,Approaching Target,2.21,2.31,2.26
+Bronx,0.865,21870,10%,94%,18%,89%,Meeting Target,95%,Exceeding Target,92%,Meeting Target,89%,Exceeding Target,87%,Meeting Target,98%,Exceeding Target,Exceeding Target,2.46,2.65,2.555
+Bronx,0.861,25919.64,31%,94%,18%,89%,Meeting Target,84%,Meeting Target,89%,Meeting Target,76%,Approaching Target,82%,Approaching Target,88%,Meeting Target,Meeting Target,2.45,2.56,2.505
+Bronx,0.882,26958.39,12%,93%,20%,93%,Meeting Target,93%,Meeting Target,92%,Exceeding Target,85%,Meeting Target,87%,Meeting Target,93%,Meeting Target,Approaching Target,2.19,2.28,2.235
+Bronx,0.898,27970.3,32%,92%,31%,95%,Meeting Target,93%,Meeting Target,90%,Meeting Target,82%,Meeting Target,83%,Meeting Target,94%,Meeting Target,Meeting Target,2.24,2.22,2.23
+Bronx,0.876,26370.44,22%,93%,24%,93%,Meeting Target,90%,Exceeding Target,88%,Meeting Target,89%,Exceeding Target,90%,Exceeding Target,94%,Exceeding Target,Approaching Target,2.1,2.22,2.16
+Bronx,0.909,30300.35,19%,91%,38%,90%,Meeting Target,92%,Meeting Target,84%,Meeting Target,81%,Meeting Target,87%,Meeting Target,92%,Meeting Target,Meeting Target,2.14,2.35,2.245
+Bronx,0.864,25544.48,10%,91%,37%,97%,Meeting Target,90%,Meeting Target,87%,Meeting Target,83%,Meeting Target,83%,Meeting Target,91%,Meeting Target,Meeting Target,2.35,2.54,2.445
+Bronx,0.746,41223.11,20%,96%,5%,97%,Exceeding Target,97%,Exceeding Target,98%,Exceeding Target,92%,Exceeding Target,88%,Meeting Target,99%,Exceeding Target,Meeting Target,2.63,2.97,2.8
+Bronx,0.8,33601.34,25%,93%,29%,89%,Meeting Target,90%,Exceeding Target,93%,Meeting Target,80%,Meeting Target,79%,Approaching Target,92%,Meeting Target,Exceeding Target,2.43,2.64,2.535
+Bronx,0.923,26516.8,27%,90%,40%,91%,Meeting Target,87%,Meeting Target,88%,Approaching Target,71%,Approaching Target,83%,Approaching Target,88%,Meeting Target,Meeting Target,2.16,2.39,2.275
+Bronx,0.852,28779.66,7%,95%,16%,86%,Approaching Target,86%,Meeting Target,85%,Meeting Target,79%,Meeting Target,84%,Meeting Target,91%,Meeting Target,Exceeding Target,2.57,2.84,2.705
+Bronx,0.806,34155.6,19%,92%,29%,88%,Approaching Target,82%,Meeting Target,84%,Meeting Target,69%,Approaching Target,75%,Not Meeting Target,85%,Approaching Target,Meeting Target,2.32,2.34,2.33
+Bronx,0.905,24966.63,13%,91%,34%,79%,Approaching Target,89%,Meeting Target,82%,Approaching Target,78%,Meeting Target,81%,Approaching Target,91%,Meeting Target,Meeting Target,2.13,2.14,2.135
+Bronx,0.227,81320.51,3%,94%,13%,82%,Approaching Target,71%,Approaching Target,86%,Approaching Target,57%,Not Meeting Target,85%,Approaching Target,77%,Not Meeting Target,Meeting Target,2.87,3.09,2.98
+Bronx,0.925,22737.12,13%,93%,28%,97%,Exceeding Target,96%,Exceeding Target,96%,Exceeding Target,89%,Exceeding Target,84%,Meeting Target,97%,Exceeding Target,Meeting Target,2.31,2.42,2.365
+Bronx,0.91,27633.11,26%,92%,31%,88%,Meeting Target,89%,Meeting Target,91%,Meeting Target,78%,Meeting Target,91%,Exceeding Target,92%,Meeting Target,Meeting Target,2.15,2.33,2.24
+Bronx,0.752,69064.16,15%,92%,33%,93%,Meeting Target,92%,Meeting Target,85%,Approaching Target,86%,Meeting Target,88%,Meeting Target,92%,Meeting Target,Meeting Target,2.37,2.55,2.46
+Bronx,0.906,26555.51,40%,92%,29%,90%,Meeting Target,87%,Meeting Target,89%,Meeting Target,76%,Approaching Target,81%,Approaching Target,92%,Meeting Target,Meeting Target,2.08,2.24,2.16
+Bronx,0.714,32539.98,4%,94%,21%,99%,Exceeding Target,90%,Meeting Target,98%,Meeting Target,84%,Meeting Target,83%,Meeting Target,96%,Exceeding Target,Approaching Target,2.49,2.54,2.515
+Bronx,0.896,24568.96,26%,92%,25%,91%,Meeting Target,87%,Meeting Target,88%,Meeting Target,79%,Meeting Target,84%,Meeting Target,90%,Meeting Target,Meeting Target,2.27,2.2,2.235
+Bronx,0.821,36131.36,14%,93%,25%,97%,Exceeding Target,93%,Exceeding Target,93%,Meeting Target,88%,Exceeding Target,82%,Approaching Target,95%,Exceeding Target,Exceeding Target,2.7,3.01,2.855
+Bronx,0.934,22046.2,15%,91%,38%,94%,Meeting Target,94%,Meeting Target,92%,Meeting Target,89%,Exceeding Target,92%,Exceeding Target,96%,Exceeding Target,Meeting Target,2.13,2.3,2.215
+Bronx,0.357,71366.79,8%,94%,17%,93%,Exceeding Target,92%,Exceeding Target,99%,Exceeding Target,83%,Meeting Target,90%,Exceeding Target,96%,Exceeding Target,Meeting Target,2.81,3.08,2.945
+Bronx,0.925,23548.89,22%,91%,35%,84%,Approaching Target,82%,Meeting Target,82%,Approaching Target,70%,Approaching Target,81%,Approaching Target,85%,Approaching Target,Approaching Target,2.02,2.05,2.035
+Bronx,0.878,33865.07,30%,94%,20%,95%,Meeting Target,95%,Exceeding Target,93%,Exceeding Target,88%,Exceeding Target,83%,Meeting Target,96%,Exceeding Target,Exceeding Target,2.47,2.8,2.635
+Bronx,0.903,29919.76,38%,91%,36%,82%,Approaching Target,76%,Approaching Target,80%,Approaching Target,66%,Not Meeting Target,78%,Approaching Target,75%,Not Meeting Target,Exceeding Target,2.33,2.52,2.425
+Bronx,0.862,33404.63,26%,91%,34%,86%,Approaching Target,86%,Approaching Target,88%,Approaching Target,74%,Approaching Target,82%,Approaching Target,93%,Meeting Target,Approaching Target,2.17,2.22,2.195
+Bronx,0.907,23307.95,30%,93%,26%,99%,Meeting Target,99%,Meeting Target,96%,Meeting Target,93%,Exceeding Target,93%,Exceeding Target,100%,Exceeding Target,Meeting Target,2.33,2.43,2.38
+Bronx,0.887,23907.92,20%,93%,26%,88%,Meeting Target,91%,Meeting Target,93%,Meeting Target,80%,Meeting Target,83%,Approaching Target,94%,Exceeding Target,Meeting Target,2.4,2.51,2.455
+Bronx,0.903,30205.5,22%,93%,23%,82%,Approaching Target,80%,Approaching Target,86%,Meeting Target,70%,Approaching Target,81%,Approaching Target,85%,Approaching Target,Meeting Target,2.22,2.34,2.28
+Bronx,0.88,34941.39,27%,92%,30%,81%,Approaching Target,82%,Approaching Target,86%,Approaching Target,67%,Approaching Target,84%,Meeting Target,91%,Meeting Target,Meeting Target,2.13,2.3,2.215
+Bronx,0.918,26313.1,29%,93%,26%,90%,Meeting Target,92%,Meeting Target,88%,Meeting Target,89%,Exceeding Target,87%,Meeting Target,93%,Meeting Target,Meeting Target,2.26,2.33,2.295
+Bronx,0.837,37116.54,12%,93%,22%,95%,Exceeding Target,92%,Exceeding Target,96%,Exceeding Target,84%,Meeting Target,81%,Approaching Target,94%,Exceeding Target,Exceeding Target,2.48,2.66,2.57
+Bronx,0.923,24753.36,24%,91%,30%,97%,Meeting Target,96%,Meeting Target,97%,Exceeding Target,93%,Exceeding Target,86%,Meeting Target,98%,Exceeding Target,Exceeding Target,2.4,2.67,2.535
+Bronx,0.91,23044.61,17%,92%,27%,86%,Approaching Target,76%,Approaching Target,88%,Meeting Target,69%,Approaching Target,84%,Approaching Target,85%,Meeting Target,Meeting Target,2.19,2.3,2.245
+Bronx,0.836,35736.86,25%,95%,16%,91%,Meeting Target,93%,Meeting Target,90%,Meeting Target,85%,Meeting Target,84%,Approaching Target,96%,Exceeding Target,Approaching Target,2.27,2.43,2.35
+Bronx,0.874,36529.19,15%,93%,21%,93%,Meeting Target,84%,Exceeding Target,92%,Meeting Target,74%,Approaching Target,82%,Approaching Target,86%,Approaching Target,Meeting Target,2.23,2.56,2.395
+Bronx,0.868,26738.54,16%,94%,19%,95%,Exceeding Target,93%,Exceeding Target,80%,Meeting Target,90%,Exceeding Target,87%,Meeting Target,89%,Meeting Target,Exceeding Target,2.46,2.61,2.535
+Bronx,0.909,33837.87,23%,92%,30%,90%,Meeting Target,95%,Exceeding Target,93%,Meeting Target,86%,Meeting Target,83%,Approaching Target,97%,Exceeding Target,Meeting Target,2.29,2.52,2.405
+Bronx,0.421,54446.9,3%,94%,11%,95%,Meeting Target,95%,Meeting Target,94%,Meeting Target,91%,Exceeding Target,91%,Exceeding Target,96%,Exceeding Target,Approaching Target,2.74,2.95,2.845
+Bronx,0.794,39138.83,14%,91%,31%,88%,Approaching Target,82%,Meeting Target,90%,Meeting Target,67%,Not Meeting Target,79%,Approaching Target,86%,Approaching Target,Approaching Target,2.22,2.13,2.175
+Bronx,0.918,23846.2,30%,94%,20%,91%,Meeting Target,89%,Meeting Target,90%,Meeting Target,85%,Meeting Target,78%,Not Meeting Target,93%,Meeting Target,Approaching Target,2.23,2.3,2.265
+Bronx,0.931,23981.38,29%,93%,23%,83%,Approaching Target,83%,Meeting Target,89%,Meeting Target,72%,Approaching Target,83%,Approaching Target,86%,Approaching Target,Approaching Target,2.23,2.25,2.24
+Bronx,0.893,28539.68,18%,93%,23%,86%,Meeting Target,87%,Exceeding Target,87%,Meeting Target,81%,Meeting Target,87%,Meeting Target,90%,Meeting Target,Meeting Target,2.3,2.38,2.34
+Bronx,0.772,45746.42,4%,90%,37%,90%,Meeting Target,87%,Meeting Target,90%,Meeting Target,81%,Meeting Target,85%,Approaching Target,88%,Meeting Target,Approaching Target,2.25,2.37,2.31
+Bronx,0.35,62840.53,8%,95%,9%,96%,Meeting Target,96%,Exceeding Target,89%,Meeting Target,94%,Exceeding Target,83%,Meeting Target,95%,Exceeding Target,Approaching Target,2.81,2.98,2.895
+Bronx,0.783,36662.41,7%,90%,39%,88%,Approaching Target,91%,Approaching Target,86%,Approaching Target,76%,Approaching Target,79%,Approaching Target,93%,Meeting Target,Approaching Target,2.23,2.31,2.27
+Bronx,0.833,35475.19,9%,90%,39%,97%,Meeting Target,95%,Meeting Target,94%,Meeting Target,92%,Exceeding Target,87%,Meeting Target,96%,Exceeding Target,Exceeding Target,2.42,2.57,2.495
+Bronx,0.617,58477.18,1%,93%,23%,87%,Exceeding Target,81%,Approaching Target,87%,Meeting Target,70%,Approaching Target,82%,Approaching Target,80%,Not Meeting Target,Meeting Target,2.34,2.45,2.395
+Bronx,0.716,40759.79,13%,93%,25%,88%,Meeting Target,79%,Approaching Target,88%,Meeting Target,67%,Approaching Target,83%,Approaching Target,85%,Meeting Target,Approaching Target,2.25,2.36,2.305
+Bronx,0.759,50205.02,4%,91%,34%,89%,Approaching Target,90%,Meeting Target,91%,Approaching Target,77%,Meeting Target,80%,Approaching Target,89%,Approaching Target,Approaching Target,2.21,2.3,2.255
+Bronx,0.611,51523.99,12%,95%,11%,85%,Meeting Target,87%,Exceeding Target,84%,Meeting Target,76%,Approaching Target,77%,Approaching Target,87%,Meeting Target,Meeting Target,2.6,2.76,2.68
+Bronx,0.688,52080.62,2%,94%,18%,91%,Approaching Target,85%,Meeting Target,84%,Meeting Target,82%,Meeting Target,82%,Approaching Target,92%,Meeting Target,Meeting Target,2.32,2.51,2.415
+Bronx,0.737,42125.55,21%,93%,22%,88%,Meeting Target,85%,Meeting Target,82%,Meeting Target,82%,Meeting Target,78%,Approaching Target,87%,Approaching Target,Meeting Target,2.3,2.29,2.295
+Bronx,0.774,38623.61,8%,91%,32%,95%,Meeting Target,94%,Meeting Target,96%,Meeting Target,86%,Meeting Target,82%,Approaching Target,94%,Meeting Target,Meeting Target,2.41,2.64,2.525
+Bronx,0.541,66488.21,4%,94%,20%,93%,Exceeding Target,81%,Meeting Target,92%,Meeting Target,68%,Approaching Target,87%,Meeting Target,86%,Meeting Target,Meeting Target,2.53,2.71,2.62
+Bronx,0.813,32671.09,18%,91%,35%,94%,Meeting Target,94%,Meeting Target,94%,Meeting Target,88%,Meeting Target,81%,Approaching Target,95%,Meeting Target,Meeting Target,2.34,2.31,2.325
+Bronx,0.802,41002.93,20%,93%,23%,88%,Approaching Target,77%,Approaching Target,88%,Meeting Target,64%,Not Meeting Target,73%,Not Meeting Target,80%,Approaching Target,Meeting Target,2.42,2.58,2.5
+Bronx,0.706,44552.48,14%,93%,23%,94%,Meeting Target,92%,Meeting Target,92%,Approaching Target,85%,Meeting Target,82%,Approaching Target,94%,Meeting Target,Meeting Target,2.54,2.76,2.65
+Bronx,0.55,53439.93,11%,94%,17%,92%,Exceeding Target,80%,Meeting Target,93%,Meeting Target,67%,Approaching Target,79%,Approaching Target,84%,Meeting Target,Meeting Target,2.72,2.92,2.82
+Bronx,0.779,39415.18,8%,91%,34%,78%,Approaching Target,64%,Approaching Target,79%,Approaching Target,50%,Not Meeting Target,77%,Not Meeting Target,73%,Approaching Target,Approaching Target,2.12,2.15,2.135
+Bronx,0.904,26709.85,5%,91%,44%,90%,Approaching Target,94%,Meeting Target,91%,Approaching Target,87%,Meeting Target,85%,Meeting Target,96%,Exceeding Target,Approaching Target,2.08,2.09,2.085
+Bronx,0.666,44929.61,6%,93%,26%,91%,Meeting Target,83%,Meeting Target,95%,Meeting Target,66%,Not Meeting Target,80%,Approaching Target,85%,Meeting Target,Approaching Target,2.45,2.69,2.57
+Bronx,0.443,47216.26,1%,95%,15%,90%,Exceeding Target,91%,Meeting Target,90%,Exceeding Target,84%,Meeting Target,85%,Meeting Target,96%,Exceeding Target,Meeting Target,2.77,3.01,2.89
+Bronx,0.512,51302.5,6%,94%,18%,91%,Meeting Target,90%,Meeting Target,93%,Meeting Target,82%,Meeting Target,83%,Approaching Target,94%,Exceeding Target,Approaching Target,2.31,2.25,2.28
+Bronx,0.672,54024.91,3%,94%,21%,96%,Exceeding Target,93%,Exceeding Target,96%,Meeting Target,88%,Meeting Target,86%,Meeting Target,91%,Meeting Target,Meeting Target,2.5,2.73,2.615
+Bronx,0.247,73103.77,2%,95%,13%,93%,Meeting Target,96%,Meeting Target,85%,Meeting Target,88%,Meeting Target,87%,Meeting Target,90%,Meeting Target,Meeting Target,2.86,3.03,2.945
+Bronx,0.535,44313.87,3%,95%,15%,93%,Meeting Target,83%,Meeting Target,88%,Approaching Target,75%,Approaching Target,78%,Approaching Target,88%,Meeting Target,Meeting Target,2.41,2.6,2.505
+Bronx,0.742,43493.31,4%,92%,30%,88%,Meeting Target,92%,Exceeding Target,84%,Meeting Target,88%,Exceeding Target,84%,Meeting Target,94%,Exceeding Target,Meeting Target,2.37,2.54,2.455
+Bronx,0.764,45253.24,14%,95%,16%,92%,Exceeding Target,87%,Exceeding Target,85%,Meeting Target,79%,Meeting Target,76%,Not Meeting Target,88%,Meeting Target,Meeting Target,2.5,2.82,2.66
+Bronx,0.647,45355.72,6%,95%,10%,91%,Meeting Target,88%,Meeting Target,87%,Exceeding Target,86%,Meeting Target,82%,Approaching Target,90%,Meeting Target,Meeting Target,2.65,2.76,2.705
+Bronx,0.932,23200.82,10%,89%,45%,89%,Approaching Target,88%,Approaching Target,83%,Not Meeting Target,67%,Not Meeting Target,82%,Approaching Target,88%,Approaching Target,Approaching Target,2.12,2.22,2.17
+Bronx,0.919,25112.45,16%,90%,40%,94%,Meeting Target,73%,Approaching Target,72%,Approaching Target,51%,Not Meeting Target,81%,Approaching Target,74%,Not Meeting Target,Approaching Target,2.26,2.35,2.305
+Bronx,0.856,33612.34,25%,93%,24%,97%,Meeting Target,94%,Meeting Target,96%,Meeting Target,84%,Meeting Target,85%,Meeting Target,94%,Exceeding Target,Meeting Target,2.3,2.28,2.29
+Bronx,0.899,26933.86,14%,90%,42%,95%,Meeting Target,95%,Meeting Target,95%,Meeting Target,88%,Meeting Target,84%,Meeting Target,94%,Meeting Target,Meeting Target,2.28,2.33,2.305
+Bronx,0.87,24190.42,7%,94%,17%,94%,Approaching Target,87%,Meeting Target,92%,Meeting Target,71%,Approaching Target,89%,Meeting Target,77%,Not Meeting Target,Meeting Target,2.17,2.44,2.305
+Bronx,0.892,27311.75,12%,92%,31%,87%,Meeting Target,85%,Meeting Target,87%,Meeting Target,69%,Approaching Target,82%,Approaching Target,87%,Approaching Target,Approaching Target,2.2,2.2,2.2
+Bronx,0.908,21576.71,7%,91%,38%,87%,Meeting Target,84%,Meeting Target,85%,Approaching Target,73%,Approaching Target,80%,Approaching Target,79%,Not Meeting Target,Meeting Target,2.19,2.3,2.245
+Bronx,0.923,24153.23,19%,90%,42%,82%,Not Meeting Target,78%,Approaching Target,81%,Not Meeting Target,65%,Not Meeting Target,85%,Meeting Target,85%,Approaching Target,Approaching Target,2,1.9,1.95
+Bronx,0.889,25141.36,11%,91%,37%,83%,Approaching Target,84%,Exceeding Target,87%,Approaching Target,72%,Approaching Target,82%,Approaching Target,84%,Approaching Target,Meeting Target,2.33,2.35,2.34
+Bronx,0.877,24836.47,22%,91%,35%,92%,Meeting Target,91%,Meeting Target,90%,Approaching Target,81%,Meeting Target,84%,Approaching Target,93%,Meeting Target,Approaching Target,2.19,2.26,2.225
+Bronx,0.913,27483.68,26%,92%,29%,90%,Approaching Target,91%,Approaching Target,89%,Approaching Target,82%,Meeting Target,85%,Meeting Target,92%,Meeting Target,Approaching Target,2.07,2.19,2.13
+Bronx,0.869,23881.24,24%,92%,30%,87%,Approaching Target,79%,Approaching Target,86%,Approaching Target,65%,Not Meeting Target,82%,Approaching Target,81%,Approaching Target,Meeting Target,2.22,2.36,2.29
+Bronx,0.891,26962.88,19%,91%,35%,89%,Approaching Target,90%,Meeting Target,84%,Approaching Target,84%,Meeting Target,78%,Approaching Target,90%,Meeting Target,Meeting Target,2.15,2.26,2.205
+Bronx,0.867,26979.39,10%,91%,33%,85%,Meeting Target,89%,Exceeding Target,82%,Meeting Target,86%,Meeting Target,78%,Approaching Target,90%,Meeting Target,Meeting Target,2.24,2.36,2.3
+Bronx,0.917,21603.69,14%,89%,46%,93%,Approaching Target,94%,Meeting Target,91%,Approaching Target,90%,Exceeding Target,88%,Meeting Target,96%,Exceeding Target,Approaching Target,2.15,2.18,2.165
+Bronx,0.915,28867.61,16%,92%,33%,96%,Meeting Target,91%,Meeting Target,89%,Meeting Target,86%,Meeting Target,87%,Meeting Target,93%,Meeting Target,Meeting Target,2.13,2.1,2.115
+Bronx,0.848,33924.52,21%,93%,24%,88%,Meeting Target,89%,Meeting Target,87%,Meeting Target,90%,Exceeding Target,83%,Approaching Target,93%,Meeting Target,Approaching Target,2.11,2.23,2.17
+Bronx,0.853,32464.21,21%,91%,36%,97%,Meeting Target,93%,Meeting Target,96%,Meeting Target,89%,Meeting Target,83%,Approaching Target,93%,Meeting Target,Meeting Target,2.24,2.36,2.3
+Bronx,0.798,33229.57,13%,92%,31%,87%,Approaching Target,78%,Approaching Target,84%,Approaching Target,71%,Approaching Target,82%,Approaching Target,88%,Meeting Target,Meeting Target,2.3,2.36,2.33
+Brooklyn,0.819,48164.74,11%,92%,33%,90%,Meeting Target,86%,Meeting Target,92%,Meeting Target,83%,Meeting Target,87%,Meeting Target,90%,Meeting Target,Meeting Target,2.46,2.48,2.47
+Brooklyn,0.179,111743.74,2%,96%,8%,91%,Exceeding Target,93%,Exceeding Target,84%,Meeting Target,90%,Exceeding Target,92%,Exceeding Target,92%,Meeting Target,Meeting Target,3.19,3.17,3.18
+Brooklyn,0.437,70839.92,4%,94%,18%,92%,Approaching Target,94%,Meeting Target,96%,Meeting Target,87%,Meeting Target,94%,Exceeding Target,95%,Exceeding Target,Meeting Target,2.85,2.82,2.835
+Brooklyn,0.483,55903.76,2%,94%,16%,92%,Exceeding Target,89%,Exceeding Target,95%,Meeting Target,85%,Meeting Target,90%,Exceeding Target,90%,Meeting Target,Exceeding Target,2.92,3.15,3.035
+Brooklyn,0.641,60844.69,3%,91%,32%,91%,Meeting Target,95%,Meeting Target,92%,Approaching Target,89%,Exceeding Target,92%,Exceeding Target,95%,Exceeding Target,Meeting Target,2.4,2.53,2.465
+Brooklyn,0.872,41143.63,6%,90%,37%,88%,Meeting Target,87%,Meeting Target,80%,Approaching Target,75%,Meeting Target,85%,Meeting Target,91%,Meeting Target,Meeting Target,2.27,2.31,2.29
+Brooklyn,0.88,37632.19,14%,89%,44%,92%,Meeting Target,95%,Exceeding Target,93%,Meeting Target,88%,Meeting Target,83%,Approaching Target,93%,Meeting Target,Meeting Target,2.27,2.32,2.295
+Brooklyn,0.853,37511.84,14%,90%,42%,93%,Meeting Target,92%,Meeting Target,87%,Approaching Target,85%,Meeting Target,90%,Exceeding Target,93%,Meeting Target,Approaching Target,2.04,2.09,2.065
+Brooklyn,0.786,52763.92,3%,92%,32%,93%,Meeting Target,95%,Meeting Target,95%,Meeting Target,86%,Exceeding Target,90%,Meeting Target,97%,Exceeding Target,Exceeding Target,2.54,2.82,2.68
+Brooklyn,0.938,39140.78,8%,91%,36%,94%,Approaching Target,89%,Approaching Target,91%,Approaching Target,82%,Meeting Target,87%,Meeting Target,89%,Meeting Target,Meeting Target,2.09,2.15,2.12
+Brooklyn,0.842,43872.26,10%,89%,39%,90%,Approaching Target,87%,Meeting Target,81%,Approaching Target,72%,Approaching Target,85%,Meeting Target,86%,Meeting Target,Approaching Target,2.32,2.36,2.34
+Brooklyn,0.447,67861.67,4%,94%,16%,98%,Meeting Target,97%,Exceeding Target,93%,Exceeding Target,93%,Exceeding Target,92%,Exceeding Target,96%,Exceeding Target,Approaching Target,2.52,2.43,2.475
+Brooklyn,0.882,38385.06,9%,88%,51%,91%,Meeting Target,90%,Meeting Target,92%,Approaching Target,78%,Approaching Target,85%,Meeting Target,91%,Meeting Target,Meeting Target,2.41,2.48,2.445
+Brooklyn,0.886,40603.12,9%,89%,44%,82%,Not Meeting Target,80%,Approaching Target,84%,Approaching Target,71%,Approaching Target,82%,Approaching Target,88%,Meeting Target,Meeting Target,2.18,2.2,2.19
+Brooklyn,0.555,64025.89,4%,92%,26%,89%,Approaching Target,78%,Meeting Target,82%,Approaching Target,75%,Approaching Target,89%,Meeting Target,86%,Approaching Target,Approaching Target,2.52,2.51,2.515
+Brooklyn,0.902,35929.65,3%,88%,52%,94%,Meeting Target,88%,Meeting Target,94%,Approaching Target,80%,Meeting Target,77%,Not Meeting Target,87%,Meeting Target,Approaching Target,2.14,2.1,2.12
+Brooklyn,0.834,40387.97,8%,89%,44%,79%,Approaching Target,80%,Meeting Target,86%,Approaching Target,63%,Not Meeting Target,79%,Not Meeting Target,79%,Not Meeting Target,Approaching Target,2.04,1.99,2.015
+Brooklyn,0.849,36954.58,3%,91%,32%,95%,Meeting Target,93%,Exceeding Target,92%,Meeting Target,84%,Meeting Target,89%,Meeting Target,95%,Exceeding Target,Meeting Target,2.18,2.38,2.28
+Brooklyn,0.363,63016.09,1%,95%,10%,94%,Exceeding Target,96%,Exceeding Target,90%,Exceeding Target,92%,Exceeding Target,91%,Exceeding Target,93%,Exceeding Target,Meeting Target,2.82,2.83,2.825
+Brooklyn,0.904,23469.23,9%,92%,26%,95%,Meeting Target,95%,Meeting Target,98%,Meeting Target,82%,Meeting Target,88%,Meeting Target,94%,Exceeding Target,Meeting Target,2.26,2.41,2.335
+Brooklyn,0.725,60124.45,13%,93%,22%,93%,Meeting Target,90%,Meeting Target,97%,Meeting Target,78%,Meeting Target,86%,Meeting Target,92%,Meeting Target,Exceeding Target,2.43,2.7,2.565
+Brooklyn,0.801,44810.53,18%,92%,31%,95%,Approaching Target,97%,Exceeding Target,97%,Meeting Target,93%,Exceeding Target,83%,Meeting Target,98%,Exceeding Target,Approaching Target,2.23,2.38,2.305
+Brooklyn,0.914,29397.91,12%,89%,42%,98%,Meeting Target,97%,Exceeding Target,98%,Meeting Target,94%,Exceeding Target,89%,Exceeding Target,96%,Exceeding Target,Meeting Target,2.16,2.36,2.26
+Brooklyn,0.514,57806.03,7%,95%,12%,96%,Meeting Target,91%,Meeting Target,96%,Exceeding Target,83%,Meeting Target,85%,Meeting Target,95%,Exceeding Target,Exceeding Target,3.1,3.41,3.255
+Brooklyn,0.35,63982.88,13%,94%,15%,96%,Exceeding Target,94%,Exceeding Target,93%,Meeting Target,84%,Meeting Target,87%,Meeting Target,94%,Exceeding Target,Meeting Target,2.97,3.28,3.125
+Brooklyn,0.921,26762.05,14%,89%,42%,92%,Meeting Target,96%,Meeting Target,91%,Approaching Target,88%,Meeting Target,84%,Meeting Target,94%,Meeting Target,Meeting Target,2.19,2.26,2.225
+Brooklyn,0.577,57582.52,17%,93%,23%,93%,Meeting Target,93%,Exceeding Target,92%,Meeting Target,84%,Meeting Target,89%,Meeting Target,94%,Exceeding Target,Approaching Target,2.43,2.45,2.44
+Brooklyn,0.404,62585.59,10%,95%,12%,98%,Meeting Target,96%,Meeting Target,95%,Meeting Target,90%,Exceeding Target,89%,Meeting Target,96%,Exceeding Target,Approaching Target,2.72,2.74,2.73
+Brooklyn,0.871,40417.99,15%,94%,20%,97%,Exceeding Target,98%,Exceeding Target,99%,Exceeding Target,94%,Exceeding Target,87%,Meeting Target,98%,Exceeding Target,Meeting Target,2.17,2.59,2.38
+Brooklyn,0.516,56594.7,10%,94%,17%,86%,Meeting Target,86%,Exceeding Target,91%,Meeting Target,80%,Meeting Target,89%,Meeting Target,90%,Meeting Target,Meeting Target,3.02,3.15,3.085
+Brooklyn,0.849,33658.98,8%,92%,30%,94%,Exceeding Target,98%,Exceeding Target,95%,Exceeding Target,94%,Exceeding Target,89%,Exceeding Target,98%,Exceeding Target,Meeting Target,2.27,2.38,2.325
+Brooklyn,0.859,42709.08,19%,93%,23%,94%,Meeting Target,91%,Meeting Target,93%,Exceeding Target,87%,Meeting Target,86%,Meeting Target,94%,Exceeding Target,Meeting Target,2.2,2.2,2.2
+Brooklyn,0.812,38357.99,10%,93%,25%,95%,Exceeding Target,96%,Exceeding Target,95%,Meeting Target,92%,Exceeding Target,87%,Meeting Target,98%,Exceeding Target,Exceeding Target,2.43,2.67,2.55
+Brooklyn,0.782,34774.99,13%,94%,22%,94%,Approaching Target,87%,Meeting Target,90%,Meeting Target,73%,Approaching Target,84%,Meeting Target,93%,Meeting Target,Approaching Target,2.46,2.51,2.485
+Brooklyn,0.826,31675.15,12%,94%,18%,95%,Meeting Target,100%,Exceeding Target,99%,Exceeding Target,98%,Exceeding Target,92%,Exceeding Target,99%,Exceeding Target,Exceeding Target,2.76,2.77,2.765
+Brooklyn,0.916,28072.24,8%,89%,43%,85%,Meeting Target,88%,Meeting Target,88%,Meeting Target,81%,Meeting Target,90%,Exceeding Target,91%,Meeting Target,Approaching Target,2.2,2.35,2.275
+Brooklyn,0.814,36627.9,22%,94%,19%,88%,Meeting Target,89%,Exceeding Target,94%,Exceeding Target,81%,Meeting Target,84%,Meeting Target,91%,Meeting Target,Meeting Target,2.59,2.8,2.695
+Brooklyn,0.829,42845.08,43%,95%,13%,84%,Approaching Target,79%,Meeting Target,88%,Meeting Target,68%,Approaching Target,83%,Approaching Target,89%,Meeting Target,Meeting Target,2.35,2.6,2.475
+Brooklyn,0.334,77828.57,5%,96%,7%,92%,Exceeding Target,87%,Meeting Target,96%,Exceeding Target,80%,Meeting Target,93%,Exceeding Target,91%,Meeting Target,Exceeding Target,3,3.28,3.14
+Brooklyn,0.809,36259.2,6%,92%,32%,90%,Meeting Target,94%,Exceeding Target,90%,Meeting Target,85%,Meeting Target,88%,Meeting Target,94%,Exceeding Target,Meeting Target,2.39,2.63,2.51
+Brooklyn,0.799,42541.58,46%,96%,10%,81%,Approaching Target,83%,Meeting Target,85%,Meeting Target,64%,Not Meeting Target,83%,Approaching Target,86%,Meeting Target,Approaching Target,2.12,2.43,2.275
+Brooklyn,0.094,113707.13,3%,96%,5%,92%,Exceeding Target,96%,Exceeding Target,97%,Exceeding Target,91%,Exceeding Target,96%,Exceeding Target,98%,Exceeding Target,Meeting Target,3.32,3.58,3.45
+Brooklyn,0.491,67461.95,3%,94%,15%,88%,Meeting Target,93%,Exceeding Target,92%,Exceeding Target,90%,Exceeding Target,93%,Exceeding Target,97%,Exceeding Target,Meeting Target,2.7,3.19,2.945
+Brooklyn,0.64,55574.87,5%,93%,25%,93%,Meeting Target,93%,Meeting Target,93%,Meeting Target,86%,Meeting Target,93%,Exceeding Target,93%,Meeting Target,Exceeding Target,2.54,2.73,2.635
+Brooklyn,0.174,96102.36,4%,96%,5%,87%,Exceeding Target,80%,Meeting Target,89%,Meeting Target,69%,Approaching Target,92%,Exceeding Target,83%,Meeting Target,Meeting Target,3.3,3.45,3.375
+Brooklyn,0.135,105151.5,5%,96%,5%,91%,Meeting Target,94%,Exceeding Target,97%,Exceeding Target,92%,Exceeding Target,95%,Exceeding Target,94%,Meeting Target,Meeting Target,3.24,3.47,3.355
+Brooklyn,0.852,31997.48,55%,97%,7%,90%,Meeting Target,83%,Meeting Target,91%,Meeting Target,77%,Approaching Target,81%,Approaching Target,87%,Meeting Target,Approaching Target,2.31,2.78,2.545
+Brooklyn,0.092,103244.94,1%,96%,3%,98%,Meeting Target,91%,Meeting Target,95%,Exceeding Target,88%,Meeting Target,92%,Exceeding Target,93%,Meeting Target,Meeting Target,3.35,3.6,3.475
+Brooklyn,0.647,63778.77,18%,94%,15%,90%,Meeting Target,80%,Approaching Target,95%,Exceeding Target,63%,Approaching Target,83%,Approaching Target,86%,Meeting Target,Meeting Target,2.59,2.61,2.6
+Brooklyn,0.536,66731.09,15%,96%,9%,92%,Exceeding Target,87%,Exceeding Target,93%,Exceeding Target,82%,Meeting Target,86%,Meeting Target,90%,Meeting Target,Meeting Target,2.69,2.84,2.765
+Brooklyn,0.798,34945.93,43%,95%,12%,94%,Exceeding Target,96%,Exceeding Target,97%,Exceeding Target,89%,Exceeding Target,83%,Meeting Target,97%,Exceeding Target,Exceeding Target,2.64,2.93,2.785
+Brooklyn,0.351,64358.48,2%,95%,12%,97%,Exceeding Target,99%,Exceeding Target,95%,Exceeding Target,99%,Exceeding Target,95%,Exceeding Target,98%,Exceeding Target,Meeting Target,2.96,2.96,2.96
+Brooklyn,0.232,85598.17,5%,96%,7%,88%,Meeting Target,93%,Meeting Target,99%,Exceeding Target,90%,Exceeding Target,94%,Exceeding Target,97%,Exceeding Target,Meeting Target,3.28,3.28,3.28
+Brooklyn,0.822,38576.22,46%,97%,8%,82%,Meeting Target,73%,Approaching Target,87%,Meeting Target,61%,Not Meeting Target,80%,Approaching Target,74%,Approaching Target,Meeting Target,2.56,3,2.78
+Brooklyn,0.715,46086.07,25%,96%,9%,97%,Exceeding Target,95%,Exceeding Target,97%,Exceeding Target,95%,Exceeding Target,88%,Meeting Target,98%,Exceeding Target,Exceeding Target,3.33,3.93,3.63
+Brooklyn,0.723,51358.99,31%,96%,11%,92%,Exceeding Target,97%,Meeting Target,97%,Exceeding Target,93%,Exceeding Target,87%,Meeting Target,98%,Exceeding Target,Meeting Target,2.79,2.87,2.83
+Brooklyn,0.394,73221.7,5%,94%,15%,88%,Meeting Target,84%,Meeting Target,91%,Meeting Target,75%,Approaching Target,94%,Exceeding Target,90%,Meeting Target,Meeting Target,3.13,3.14,3.135
+Brooklyn,0.55,61759.23,16%,95%,10%,91%,Exceeding Target,96%,Exceeding Target,95%,Exceeding Target,95%,Exceeding Target,90%,Exceeding Target,98%,Exceeding Target,Meeting Target,2.77,2.97,2.87
+Brooklyn,0.097,110422.67,2%,97%,3%,96%,Exceeding Target,96%,Exceeding Target,98%,Exceeding Target,96%,Exceeding Target,94%,Exceeding Target,98%,Exceeding Target,Meeting Target,3.4,3.59,3.495
+Brooklyn,0.933,18409.76,9%,89%,41%,84%,Approaching Target,82%,Meeting Target,85%,Approaching Target,72%,Approaching Target,80%,Approaching Target,82%,Approaching Target,Meeting Target,2.19,2.32,2.255
+Brooklyn,0.877,41931.64,6%,91%,39%,96%,Meeting Target,91%,Meeting Target,88%,Meeting Target,75%,Meeting Target,86%,Meeting Target,90%,Meeting Target,Approaching Target,2.05,2.09,2.07
+Brooklyn,0.781,34089.01,1%,92%,29%,92%,Exceeding Target,88%,Exceeding Target,90%,Meeting Target,79%,Meeting Target,87%,Meeting Target,89%,Meeting Target,Meeting Target,2.51,2.51,2.51
+Brooklyn,0.867,36940.25,6%,91%,39%,88%,Approaching Target,89%,Meeting Target,90%,Meeting Target,87%,Exceeding Target,87%,Meeting Target,92%,Meeting Target,Meeting Target,2.11,2.4,2.255
+Brooklyn,0.887,33696.63,6%,90%,39%,89%,Meeting Target,91%,Meeting Target,87%,Approaching Target,78%,Meeting Target,84%,Meeting Target,94%,Exceeding Target,Meeting Target,2.5,2.5,2.5
+Brooklyn,0.862,33550.68,10%,91%,36%,90%,Approaching Target,89%,Meeting Target,91%,Meeting Target,86%,Meeting Target,88%,Meeting Target,92%,Meeting Target,Approaching Target,2.13,2.15,2.14
+Brooklyn,0.905,34784.38,6%,92%,34%,95%,Meeting Target,93%,Meeting Target,91%,Meeting Target,92%,Exceeding Target,83%,Approaching Target,92%,Meeting Target,Meeting Target,2.14,2.24,2.19
+Brooklyn,0.892,28369.33,8%,90%,36%,93%,Meeting Target,94%,Meeting Target,88%,Meeting Target,85%,Meeting Target,86%,Meeting Target,94%,Meeting Target,Meeting Target,2.24,2.38,2.31
+Brooklyn,0.881,31741.82,2%,90%,40%,87%,Approaching Target,79%,Approaching Target,88%,Approaching Target,69%,Approaching Target,80%,Not Meeting Target,80%,Approaching Target,Meeting Target,2.18,2.47,2.325
+Brooklyn,0.827,42310.89,4%,92%,32%,92%,Meeting Target,95%,Meeting Target,90%,Meeting Target,85%,Meeting Target,86%,Meeting Target,92%,Meeting Target,Meeting Target,2.55,2.41,2.48
+Brooklyn,0.828,35536.41,5%,89%,44%,87%,Approaching Target,86%,Meeting Target,86%,Approaching Target,77%,Approaching Target,83%,Approaching Target,86%,Approaching Target,Approaching Target,2.27,2.01,2.14
+Brooklyn,0.884,38100.14,8%,92%,28%,88%,Approaching Target,80%,Approaching Target,89%,Meeting Target,73%,Approaching Target,82%,Approaching Target,82%,Approaching Target,Meeting Target,2.14,2.24,2.19
+Brooklyn,0.878,29071.6,4%,90%,35%,87%,Approaching Target,93%,Meeting Target,91%,Meeting Target,85%,Meeting Target,85%,Meeting Target,95%,Exceeding Target,Exceeding Target,2.33,2.35,2.34
+Brooklyn,0.841,33792.71,4%,91%,37%,88%,Exceeding Target,95%,Exceeding Target,97%,Meeting Target,91%,Exceeding Target,97%,Exceeding Target,100%,Exceeding Target,Meeting Target,2.62,2.48,2.55
+Brooklyn,0.62,40423.43,0%,94%,24%,93%,Meeting Target,99%,Exceeding Target,97%,Meeting Target,99%,Exceeding Target,94%,Exceeding Target,98%,Exceeding Target,Meeting Target,2.64,2.75,2.695
+Brooklyn,0.831,40015.87,15%,92%,34%,95%,Exceeding Target,97%,Exceeding Target,95%,Meeting Target,86%,Meeting Target,82%,Approaching Target,95%,Exceeding Target,Meeting Target,2.31,2.46,2.385
+Brooklyn,0.858,29535.04,6%,90%,42%,93%,Approaching Target,85%,Meeting Target,93%,Approaching Target,84%,Meeting Target,87%,Meeting Target,91%,Meeting Target,Approaching Target,2.26,2.19,2.225
+Brooklyn,0.768,40387.86,6%,92%,28%,95%,Meeting Target,89%,Meeting Target,93%,Meeting Target,80%,Meeting Target,83%,Approaching Target,85%,Approaching Target,Meeting Target,2.18,2.22,2.2
+Brooklyn,0.807,41502.76,15%,92%,30%,77%,Approaching Target,89%,Meeting Target,84%,Approaching Target,77%,Meeting Target,86%,Meeting Target,92%,Meeting Target,Approaching Target,2.14,2.22,2.18
+Brooklyn,0.776,42632,6%,91%,31%,99%,Exceeding Target,100%,Exceeding Target,92%,Meeting Target,99%,Exceeding Target,92%,Exceeding Target,96%,Exceeding Target,Meeting Target,2.47,2.54,2.505
+Brooklyn,0.736,41699.4,4%,94%,20%,99%,Meeting Target,94%,Meeting Target,96%,Meeting Target,89%,Exceeding Target,87%,Meeting Target,95%,Exceeding Target,Approaching Target,2.45,2.64,2.545
+Brooklyn,0.721,43642.71,9%,92%,26%,80%,Approaching Target,81%,Meeting Target,81%,Approaching Target,79%,Meeting Target,81%,Approaching Target,87%,Meeting Target,Approaching Target,2.27,2.17,2.22
+Brooklyn,0.735,36588.31,16%,94%,18%,94%,Approaching Target,91%,Meeting Target,87%,Meeting Target,83%,Meeting Target,82%,Meeting Target,90%,Meeting Target,Exceeding Target,2.66,2.91,2.785
+Brooklyn,0.916,31283.29,4%,89%,47%,94%,Meeting Target,88%,Meeting Target,91%,Approaching Target,78%,Approaching Target,77%,Not Meeting Target,84%,Approaching Target,Meeting Target,2.21,2.55,2.38
+Brooklyn,0.707,37729.35,6%,91%,33%,98%,Meeting Target,98%,Exceeding Target,96%,Meeting Target,88%,Exceeding Target,90%,Exceeding Target,98%,Exceeding Target,Meeting Target,2.44,2.49,2.465
+Brooklyn,0.788,41936.33,8%,93%,20%,89%,Meeting Target,90%,Meeting Target,91%,Meeting Target,83%,Meeting Target,84%,Approaching Target,92%,Meeting Target,Meeting Target,2.61,2.95,2.78
+Brooklyn,0.747,44794.45,24%,94%,17%,98%,Exceeding Target,97%,Exceeding Target,96%,Exceeding Target,88%,Exceeding Target,87%,Meeting Target,96%,Exceeding Target,Meeting Target,2.75,3.19,2.97
+Brooklyn,0.829,36590.41,7%,89%,41%,90%,Meeting Target,89%,Meeting Target,92%,Approaching Target,80%,Meeting Target,80%,Approaching Target,91%,Meeting Target,Exceeding Target,2.51,2.53,2.52
+Brooklyn,0.755,51849.49,4%,94%,18%,98%,Exceeding Target,94%,Exceeding Target,96%,Exceeding Target,83%,Meeting Target,86%,Meeting Target,94%,Meeting Target,Exceeding Target,2.57,2.85,2.71
+Brooklyn,0.802,43886.54,25%,90%,35%,88%,Meeting Target,92%,Meeting Target,90%,Meeting Target,89%,Exceeding Target,85%,Meeting Target,92%,Meeting Target,Meeting Target,2.2,2.44,2.32
+Brooklyn,0.797,32470.47,4%,92%,24%,89%,Meeting Target,86%,Meeting Target,83%,Approaching Target,80%,Meeting Target,82%,Approaching Target,85%,Approaching Target,Approaching Target,2.35,2.21,2.28
+Brooklyn,0.815,42545.15,12%,93%,27%,94%,Approaching Target,85%,Approaching Target,89%,Meeting Target,72%,Approaching Target,83%,Approaching Target,86%,Meeting Target,Approaching Target,2.25,2.22,2.235
+Brooklyn,0.868,36313.08,6%,88%,46%,89%,Approaching Target,89%,Meeting Target,86%,Approaching Target,79%,Meeting Target,82%,Approaching Target,92%,Meeting Target,Approaching Target,2.24,2.26,2.25
+Brooklyn,0.725,40553.81,9%,93%,25%,82%,Approaching Target,69%,Approaching Target,97%,Exceeding Target,53%,Not Meeting Target,87%,Meeting Target,77%,Approaching Target,Approaching Target,2.36,2.38,2.37
+Brooklyn,0.7,47728.34,7%,91%,35%,90%,Meeting Target,92%,Meeting Target,91%,Meeting Target,86%,Meeting Target,92%,Exceeding Target,97%,Exceeding Target,Meeting Target,2.19,2.24,2.215
+Brooklyn,0.654,42794.29,2%,93%,23%,83%,Meeting Target,91%,Exceeding Target,84%,Meeting Target,92%,Exceeding Target,92%,Exceeding Target,98%,Exceeding Target,Not Meeting Target,2.26,2.2,2.23
+Brooklyn,0.526,56939.68,2%,95%,12%,81%,Approaching Target,78%,Approaching Target,84%,Meeting Target,77%,Meeting Target,84%,Meeting Target,87%,Meeting Target,Meeting Target,2.5,2.69,2.595
+Brooklyn,0.702,57130.2,12%,92%,28%,93%,Approaching Target,88%,Meeting Target,93%,Meeting Target,91%,Exceeding Target,90%,Exceeding Target,92%,Meeting Target,Meeting Target,2.28,2.36,2.32
+Brooklyn,0.55,59768.44,3%,94%,18%,93%,Meeting Target,93%,Meeting Target,92%,Meeting Target,89%,Exceeding Target,86%,Meeting Target,94%,Meeting Target,Approaching Target,2.49,2.6,2.545
+Brooklyn,0.68,41884.4,4%,95%,18%,82%,Approaching Target,83%,Meeting Target,89%,Meeting Target,71%,Approaching Target,83%,Approaching Target,87%,Meeting Target,Approaching Target,2.51,2.43,2.47
+Brooklyn,0.557,57979.65,2%,94%,21%,94%,Meeting Target,92%,Meeting Target,94%,Meeting Target,83%,Meeting Target,85%,Meeting Target,92%,Meeting Target,Meeting Target,2.53,2.51,2.52
+Brooklyn,0.771,38077.71,6%,91%,35%,86%,Approaching Target,84%,Meeting Target,89%,Approaching Target,73%,Approaching Target,78%,Not Meeting Target,88%,Meeting Target,Meeting Target,2.38,2.34,2.36
+Brooklyn,0.631,48175.62,3%,93%,25%,89%,Meeting Target,92%,Meeting Target,89%,Meeting Target,84%,Meeting Target,82%,Approaching Target,95%,Meeting Target,Meeting Target,2.43,2.41,2.42
+Brooklyn,0.52,48361.64,1%,95%,11%,92%,Meeting Target,94%,Meeting Target,86%,Meeting Target,90%,Exceeding Target,83%,Meeting Target,93%,Meeting Target,Exceeding Target,3.05,3.1,3.075
+Brooklyn,0.655,48391.98,2%,92%,27%,94%,Meeting Target,88%,Meeting Target,91%,Meeting Target,71%,Approaching Target,82%,Approaching Target,84%,Approaching Target,Meeting Target,2.33,2.6,2.465
+Brooklyn,0.69,44427.28,5%,93%,21%,98%,Meeting Target,93%,Meeting Target,91%,Meeting Target,91%,Exceeding Target,84%,Meeting Target,98%,Exceeding Target,Approaching Target,2.26,2.29,2.275
+Brooklyn,0.796,38950.84,3%,90%,42%,84%,Approaching Target,80%,Approaching Target,87%,Approaching Target,72%,Approaching Target,81%,Approaching Target,83%,Approaching Target,Approaching Target,2.16,2.26,2.21
+Brooklyn,0.596,65964.03,8%,93%,22%,85%,Approaching Target,80%,Approaching Target,88%,Meeting Target,72%,Approaching Target,84%,Approaching Target,86%,Approaching Target,Approaching Target,2.27,2.4,2.335
+Brooklyn,0.572,62810.21,2%,94%,18%,88%,Meeting Target,85%,Meeting Target,87%,Meeting Target,79%,Meeting Target,89%,Meeting Target,91%,Meeting Target,Meeting Target,2.46,2.49,2.475
+Brooklyn,0.783,42863.84,19%,92%,29%,86%,Approaching Target,77%,Approaching Target,86%,Approaching Target,64%,Not Meeting Target,82%,Approaching Target,83%,Approaching Target,Approaching Target,2.34,2.4,2.37
+Brooklyn,0.892,35908.98,12%,91%,34%,91%,Meeting Target,79%,Approaching Target,77%,Meeting Target,66%,Approaching Target,85%,Approaching Target,79%,Approaching Target,Meeting Target,2.29,2.28,2.285
+Brooklyn,0.817,40028.43,27%,94%,19%,97%,Exceeding Target,93%,Exceeding Target,98%,Exceeding Target,88%,Exceeding Target,87%,Meeting Target,96%,Exceeding Target,Meeting Target,2.54,2.83,2.685
+Brooklyn,0.824,38667.98,41%,95%,10%,83%,Approaching Target,85%,Exceeding Target,91%,Exceeding Target,72%,Approaching Target,85%,Meeting Target,90%,Meeting Target,Meeting Target,2.2,2.27,2.235
+Brooklyn,0.838,41992.07,12%,92%,30%,96%,Exceeding Target,92%,Exceeding Target,96%,Exceeding Target,88%,Exceeding Target,85%,Meeting Target,94%,Exceeding Target,Exceeding Target,2.69,2.87,2.78
+Brooklyn,0.874,31075.24,8%,90%,40%,96%,Meeting Target,73%,Approaching Target,84%,Approaching Target,61%,Not Meeting Target,77%,Not Meeting Target,77%,Not Meeting Target,Approaching Target,2.15,2.31,2.23
+Brooklyn,0.877,34815.04,7%,90%,39%,93%,Meeting Target,94%,Meeting Target,92%,Meeting Target,89%,Exceeding Target,89%,Meeting Target,96%,Exceeding Target,Meeting Target,2.24,2.29,2.265
+Brooklyn,0.837,33472.14,18%,91%,30%,100%,Meeting Target,99%,Exceeding Target,99%,Meeting Target,94%,Exceeding Target,80%,Approaching Target,96%,Exceeding Target,Meeting Target,2.38,2.54,2.46
+Brooklyn,0.867,30071.23,10%,89%,48%,86%,Approaching Target,71%,Approaching Target,78%,Approaching Target,61%,Not Meeting Target,77%,Not Meeting Target,76%,Not Meeting Target,Approaching Target,2.18,2.22,2.2
+Brooklyn,0.833,33621.06,8%,90%,41%,88%,Approaching Target,72%,Approaching Target,85%,Approaching Target,59%,Not Meeting Target,79%,Not Meeting Target,75%,Not Meeting Target,Meeting Target,2.11,2.18,2.145
+Brooklyn,0.838,39739.81,14%,93%,22%,96%,Meeting Target,91%,Meeting Target,94%,Meeting Target,79%,Meeting Target,85%,Meeting Target,94%,Exceeding Target,Approaching Target,2.36,2.57,2.465
+Brooklyn,0.879,28387.84,6%,91%,32%,86%,Meeting Target,92%,Exceeding Target,85%,Meeting Target,81%,Meeting Target,83%,Approaching Target,91%,Meeting Target,Meeting Target,2.21,2.31,2.26
+Brooklyn,0.813,33786.12,2%,91%,36%,96%,Meeting Target,94%,Meeting Target,92%,Meeting Target,85%,Meeting Target,88%,Meeting Target,94%,Exceeding Target,Meeting Target,2.36,2.33,2.345
+Brooklyn,0.807,36146.75,17%,92%,28%,87%,Meeting Target,84%,Meeting Target,89%,Meeting Target,76%,Meeting Target,84%,Meeting Target,89%,Meeting Target,Meeting Target,2.55,2.74,2.645
+Brooklyn,0.875,30491.71,3%,86%,57%,85%,Approaching Target,68%,Not Meeting Target,78%,Approaching Target,50%,Not Meeting Target,81%,Approaching Target,75%,Not Meeting Target,Approaching Target,2.12,2.04,2.08
+Brooklyn,0.845,28849.37,3%,92%,36%,83%,Approaching Target,83%,Approaching Target,92%,Meeting Target,78%,Approaching Target,82%,Approaching Target,84%,Approaching Target,Approaching Target,2.04,2.12,2.08
+Brooklyn,0.931,20613.17,17%,88%,51%,85%,Approaching Target,91%,Approaching Target,92%,Approaching Target,84%,Meeting Target,84%,Meeting Target,92%,Meeting Target,Meeting Target,2.11,2.22,2.165
+Brooklyn,0.849,34151.72,16%,91%,33%,90%,Approaching Target,78%,Approaching Target,86%,Approaching Target,68%,Approaching Target,83%,Approaching Target,82%,Approaching Target,Approaching Target,2.28,2.3,2.29
+Brooklyn,0.676,30973.01,1%,93%,23%,92%,Approaching Target,93%,Meeting Target,93%,Meeting Target,85%,Meeting Target,85%,Meeting Target,93%,Meeting Target,Meeting Target,2.45,2.54,2.495
+Brooklyn,0.843,33393.45,14%,92%,30%,91%,Meeting Target,93%,Meeting Target,85%,Meeting Target,86%,Meeting Target,87%,Meeting Target,96%,Exceeding Target,Meeting Target,2.25,2.4,2.325
+Brooklyn,0.651,50776.12,26%,95%,13%,87%,Meeting Target,88%,Exceeding Target,87%,Meeting Target,81%,Meeting Target,76%,Not Meeting Target,90%,Meeting Target,Meeting Target,2.71,2.81,2.76
+Brooklyn,0.636,46501.74,28%,95%,14%,87%,Meeting Target,85%,Exceeding Target,92%,Meeting Target,76%,Meeting Target,78%,Approaching Target,92%,Meeting Target,Meeting Target,2.64,3,2.82
+Brooklyn,0.823,42684.18,53%,98%,4%,93%,Exceeding Target,95%,Exceeding Target,95%,Exceeding Target,85%,Meeting Target,82%,Approaching Target,97%,Exceeding Target,Exceeding Target,2.82,3.32,3.07
+Brooklyn,0.536,57954.82,15%,96%,10%,94%,Exceeding Target,93%,Exceeding Target,95%,Exceeding Target,86%,Meeting Target,83%,Approaching Target,94%,Meeting Target,Meeting Target,2.88,3.2,3.04
+Brooklyn,0.523,57526.02,9%,96%,10%,92%,Exceeding Target,93%,Exceeding Target,86%,Meeting Target,85%,Meeting Target,78%,Approaching Target,93%,Meeting Target,Meeting Target,2.82,3.09,2.955
+Brooklyn,0.806,37052.2,50%,99%,2%,90%,Exceeding Target,88%,Meeting Target,92%,Exceeding Target,83%,Meeting Target,85%,Meeting Target,93%,Exceeding Target,Exceeding Target,2.71,3.44,3.075
+Brooklyn,0.723,48426.22,24%,96%,12%,94%,Exceeding Target,91%,Exceeding Target,93%,Exceeding Target,87%,Exceeding Target,80%,Approaching Target,95%,Exceeding Target,Meeting Target,2.84,2.98,2.91
+Brooklyn,0.566,60471.09,30%,95%,13%,95%,Meeting Target,92%,Exceeding Target,97%,Exceeding Target,90%,Exceeding Target,84%,Meeting Target,94%,Meeting Target,Meeting Target,2.8,2.97,2.885
+Brooklyn,0.832,35558.78,66%,97%,5%,94%,Exceeding Target,93%,Exceeding Target,95%,Exceeding Target,87%,Exceeding Target,82%,Approaching Target,96%,Exceeding Target,Exceeding Target,2.69,3.25,2.97
+Brooklyn,0.655,55697.95,17%,96%,12%,95%,Exceeding Target,97%,Meeting Target,94%,Meeting Target,90%,Exceeding Target,83%,Meeting Target,96%,Exceeding Target,Exceeding Target,2.69,3.07,2.88
+Brooklyn,0.854,34700.76,15%,96%,9%,94%,Exceeding Target,96%,Exceeding Target,98%,Exceeding Target,90%,Exceeding Target,86%,Meeting Target,98%,Exceeding Target,Meeting Target,2.5,2.8,2.65
+Brooklyn,0.747,51600.25,36%,96%,9%,96%,Exceeding Target,97%,Exceeding Target,97%,Exceeding Target,91%,Exceeding Target,83%,Meeting Target,97%,Exceeding Target,Exceeding Target,2.67,3.12,2.895
+Brooklyn,0.696,49261.36,27%,97%,5%,95%,Exceeding Target,95%,Exceeding Target,96%,Exceeding Target,89%,Exceeding Target,82%,Meeting Target,96%,Exceeding Target,Exceeding Target,2.98,3.41,3.195
+Brooklyn,0.834,39598.5,47%,93%,23%,96%,Meeting Target,86%,Meeting Target,96%,Meeting Target,78%,Meeting Target,78%,Approaching Target,91%,Meeting Target,Approaching Target,2.39,2.51,2.45
+Brooklyn,0.706,39390.34,23%,97%,9%,93%,Meeting Target,94%,Exceeding Target,86%,Meeting Target,89%,Exceeding Target,80%,Approaching Target,93%,Exceeding Target,Meeting Target,2.74,3.03,2.885
+Brooklyn,0.361,63542.07,7%,95%,10%,93%,Exceeding Target,98%,Exceeding Target,98%,Exceeding Target,92%,Exceeding Target,86%,Meeting Target,97%,Exceeding Target,Approaching Target,2.9,3.11,3.005
+Brooklyn,0.659,46905.81,30%,96%,9%,92%,Exceeding Target,85%,Meeting Target,94%,Exceeding Target,79%,Meeting Target,83%,Approaching Target,88%,Meeting Target,Meeting Target,2.81,3.15,2.98
+Brooklyn,0.8,40627.41,30%,94%,16%,90%,Exceeding Target,89%,Exceeding Target,89%,Exceeding Target,78%,Meeting Target,81%,Approaching Target,90%,Meeting Target,Meeting Target,2.46,2.59,2.525
+Brooklyn,0.642,46434.53,24%,95%,15%,89%,Exceeding Target,82%,Meeting Target,92%,Meeting Target,76%,Approaching Target,79%,Approaching Target,90%,Meeting Target,Meeting Target,2.76,3.13,2.945
+Brooklyn,0.543,56876.96,14%,96%,9%,94%,Meeting Target,94%,Exceeding Target,96%,Exceeding Target,85%,Meeting Target,81%,Approaching Target,96%,Exceeding Target,Meeting Target,2.93,3.23,3.08
+Brooklyn,0.665,46604.64,30%,96%,11%,88%,Exceeding Target,86%,Exceeding Target,92%,Meeting Target,76%,Approaching Target,80%,Approaching Target,85%,Approaching Target,Exceeding Target,2.85,3.17,3.01
+Brooklyn,0.385,70641.62,9%,97%,8%,90%,Exceeding Target,88%,Meeting Target,87%,Meeting Target,76%,Approaching Target,80%,Approaching Target,89%,Meeting Target,Meeting Target,3.11,3.44,3.275
+Brooklyn,0.613,47650.34,25%,96%,10%,89%,Exceeding Target,90%,Exceeding Target,92%,Exceeding Target,79%,Meeting Target,82%,Approaching Target,95%,Exceeding Target,Exceeding Target,2.93,3.44,3.185
+Brooklyn,0.841,42189.81,50%,98%,3%,93%,Meeting Target,97%,Exceeding Target,95%,Exceeding Target,93%,Exceeding Target,95%,Exceeding Target,99%,Exceeding Target,Exceeding Target,2.79,3.48,3.135
+Brooklyn,0.881,39645.76,55%,95%,13%,81%,Exceeding Target,88%,Exceeding Target,89%,Meeting Target,85%,Meeting Target,87%,Meeting Target,93%,Meeting Target,Meeting Target,2.24,2.5,2.37
+Brooklyn,0.823,39306.37,27%,95%,12%,91%,Exceeding Target,93%,Exceeding Target,93%,Exceeding Target,85%,Meeting Target,82%,Approaching Target,95%,Exceeding Target,Meeting Target,2.46,2.75,2.605
+Brooklyn,0.379,51628.8,7%,95%,10%,93%,Meeting Target,94%,Exceeding Target,97%,Exceeding Target,86%,Meeting Target,93%,Exceeding Target,96%,Exceeding Target,Meeting Target,3.1,3.47,3.285
+Brooklyn,0.209,65859.29,6%,96%,5%,91%,Exceeding Target,97%,Exceeding Target,94%,Exceeding Target,95%,Exceeding Target,90%,Exceeding Target,95%,Exceeding Target,Meeting Target,3.47,3.68,3.575
+Brooklyn,0.525,52977.43,17%,96%,8%,98%,Exceeding Target,96%,Exceeding Target,98%,Exceeding Target,93%,Exceeding Target,83%,Meeting Target,95%,Exceeding Target,Exceeding Target,3.39,3.72,3.555
+Brooklyn,0.839,30709.21,16%,92%,31%,82%,Approaching Target,81%,Approaching Target,90%,Meeting Target,78%,Approaching Target,82%,Approaching Target,84%,Approaching Target,Meeting Target,2.39,2.62,2.505
+Brooklyn,0.695,40295.15,14%,94%,19%,97%,Exceeding Target,95%,Exceeding Target,97%,Exceeding Target,90%,Exceeding Target,82%,Meeting Target,94%,Exceeding Target,Meeting Target,2.76,2.95,2.855
+Brooklyn,0.571,46192.81,26%,96%,10%,89%,Meeting Target,90%,Meeting Target,96%,Exceeding Target,88%,Exceeding Target,81%,Approaching Target,95%,Exceeding Target,Exceeding Target,2.78,3.21,2.995
+Brooklyn,0.695,37038.11,31%,92%,28%,99%,Exceeding Target,100%,Exceeding Target,96%,Meeting Target,96%,Exceeding Target,80%,Approaching Target,97%,Exceeding Target,Meeting Target,2.62,2.86,2.74
+Brooklyn,0.407,37867.04,13%,94%,14%,96%,Meeting Target,96%,Meeting Target,96%,Meeting Target,87%,Meeting Target,80%,Approaching Target,91%,Meeting Target,Meeting Target,2.97,3.28,3.125
+Brooklyn,0.615,46794.68,18%,96%,8%,93%,Exceeding Target,96%,Exceeding Target,97%,Exceeding Target,91%,Exceeding Target,82%,Approaching Target,98%,Exceeding Target,Exceeding Target,2.85,3.27,3.06
+Brooklyn,0.682,47519.85,18%,95%,14%,93%,Meeting Target,94%,Meeting Target,87%,Meeting Target,91%,Exceeding Target,83%,Meeting Target,94%,Exceeding Target,Exceeding Target,2.68,2.95,2.815
+Brooklyn,0.679,43689.16,41%,96%,10%,89%,Approaching Target,90%,Meeting Target,94%,Meeting Target,82%,Meeting Target,78%,Approaching Target,93%,Meeting Target,Meeting Target,2.45,2.8,2.625
+Brooklyn,0.687,45059.44,24%,95%,15%,94%,Exceeding Target,91%,Exceeding Target,97%,Meeting Target,84%,Meeting Target,81%,Approaching Target,91%,Meeting Target,Approaching Target,2.6,2.85,2.725
+Brooklyn,0.723,45242.71,32%,95%,18%,92%,Meeting Target,89%,Meeting Target,95%,Meeting Target,83%,Meeting Target,80%,Approaching Target,90%,Meeting Target,Approaching Target,2.53,2.85,2.69
+Brooklyn,0.885,26217.74,5%,90%,40%,87%,Approaching Target,82%,Approaching Target,89%,Approaching Target,73%,Approaching Target,82%,Approaching Target,89%,Meeting Target,Exceeding Target,2.27,2.46,2.365
+Brooklyn,0.703,40233.93,29%,94%,15%,95%,Exceeding Target,94%,Exceeding Target,98%,Exceeding Target,86%,Exceeding Target,86%,Meeting Target,96%,Exceeding Target,Meeting Target,2.8,3.08,2.94
+Brooklyn,0.599,51896.27,16%,94%,18%,93%,Meeting Target,94%,Meeting Target,91%,Meeting Target,81%,Meeting Target,81%,Approaching Target,93%,Meeting Target,Meeting Target,2.64,2.82,2.73
+Brooklyn,0.762,34549.16,19%,93%,28%,91%,Exceeding Target,89%,Exceeding Target,96%,Meeting Target,78%,Meeting Target,79%,Approaching Target,92%,Meeting Target,Meeting Target,2.63,2.7,2.665
+Brooklyn,0.515,45832.34,15%,94%,19%,98%,Exceeding Target,96%,Exceeding Target,97%,Meeting Target,91%,Exceeding Target,80%,Approaching Target,92%,Meeting Target,Meeting Target,2.95,3.28,3.115
+Brooklyn,0.521,42871.4,15%,95%,14%,88%,Approaching Target,92%,Meeting Target,93%,Meeting Target,84%,Meeting Target,84%,Meeting Target,96%,Exceeding Target,Approaching Target,2.69,2.84,2.765
+Brooklyn,0.684,36586.39,41%,93%,24%,92%,Approaching Target,89%,Meeting Target,87%,Meeting Target,85%,Meeting Target,76%,Approaching Target,92%,Meeting Target,Meeting Target,2.51,2.64,2.575
+Brooklyn,0.692,47058.63,21%,95%,11%,95%,Exceeding Target,93%,Meeting Target,92%,Exceeding Target,85%,Meeting Target,82%,Meeting Target,93%,Exceeding Target,Meeting Target,2.72,2.89,2.805
+Brooklyn,0.8,44760.9,27%,94%,18%,88%,Meeting Target,91%,Meeting Target,89%,Exceeding Target,77%,Meeting Target,82%,Meeting Target,92%,Meeting Target,Meeting Target,2.42,2.49,2.455
+Brooklyn,0.8,32595.45,23%,95%,14%,99%,Exceeding Target,98%,Exceeding Target,97%,Exceeding Target,95%,Exceeding Target,84%,Meeting Target,98%,Exceeding Target,Meeting Target,2.56,2.97,2.765
+Brooklyn,0.912,22422.66,7%,89%,46%,83%,Approaching Target,86%,Approaching Target,80%,Approaching Target,82%,Meeting Target,81%,Approaching Target,89%,Meeting Target,Approaching Target,2.19,2.2,2.195
+Brooklyn,0.885,22533.91,3%,92%,30%,83%,Meeting Target,79%,Approaching Target,77%,Meeting Target,69%,Approaching Target,81%,Approaching Target,81%,Approaching Target,Meeting Target,2.34,2.33,2.335
+Brooklyn,0.57,53239.96,17%,94%,20%,87%,Meeting Target,82%,Meeting Target,92%,Meeting Target,72%,Approaching Target,82%,Approaching Target,85%,Meeting Target,Meeting Target,2.65,3.06,2.855
+Brooklyn,0.738,55488.67,6%,93%,23%,85%,Approaching Target,84%,Approaching Target,82%,Meeting Target,81%,Meeting Target,83%,Approaching Target,88%,Meeting Target,Meeting Target,2.32,2.2,2.26
+Brooklyn,0.667,56218.99,6%,96%,10%,98%,Meeting Target,96%,Meeting Target,95%,Exceeding Target,93%,Exceeding Target,86%,Meeting Target,99%,Exceeding Target,Meeting Target,2.43,2.5,2.465
+Brooklyn,0.795,39695.31,23%,96%,10%,94%,Exceeding Target,96%,Exceeding Target,97%,Exceeding Target,87%,Meeting Target,84%,Meeting Target,97%,Exceeding Target,Exceeding Target,2.81,3.24,3.025
+Brooklyn,0.667,50545.8,17%,95%,16%,79%,Approaching Target,77%,Approaching Target,82%,Meeting Target,65%,Not Meeting Target,83%,Approaching Target,82%,Approaching Target,Approaching Target,2.39,2.67,2.53
+Brooklyn,0.753,45469.71,13%,94%,22%,89%,Exceeding Target,87%,Meeting Target,88%,Meeting Target,72%,Approaching Target,85%,Meeting Target,87%,Meeting Target,Approaching Target,2.34,2.36,2.35
+Brooklyn,0.556,54582.78,17%,95%,15%,85%,Exceeding Target,81%,Meeting Target,89%,Meeting Target,61%,Not Meeting Target,83%,Approaching Target,81%,Approaching Target,Meeting Target,2.69,2.8,2.745
+Brooklyn,0.842,31128.43,8%,91%,36%,95%,Meeting Target,95%,Meeting Target,90%,Meeting Target,90%,Exceeding Target,85%,Meeting Target,96%,Exceeding Target,Meeting Target,2.35,2.43,2.39
+Brooklyn,0.262,75529.15,11%,94%,14%,94%,Exceeding Target,94%,Exceeding Target,95%,Meeting Target,86%,Meeting Target,87%,Meeting Target,95%,Exceeding Target,Meeting Target,3.06,3.44,3.25
+Brooklyn,0.635,47497.36,24%,94%,17%,95%,Meeting Target,93%,Meeting Target,96%,Meeting Target,87%,Meeting Target,83%,Meeting Target,96%,Exceeding Target,Meeting Target,2.65,2.93,2.79
+Brooklyn,0.666,60517.36,4%,93%,24%,94%,Meeting Target,93%,Meeting Target,91%,Meeting Target,87%,Exceeding Target,90%,Exceeding Target,97%,Exceeding Target,Meeting Target,2.46,2.45,2.455
+Brooklyn,0.585,70008.97,4%,95%,17%,90%,Meeting Target,89%,Exceeding Target,87%,Meeting Target,82%,Meeting Target,86%,Meeting Target,95%,Exceeding Target,Meeting Target,2.43,2.61,2.52
+Brooklyn,0.497,57254.23,19%,96%,9%,92%,Meeting Target,91%,Exceeding Target,87%,Meeting Target,84%,Meeting Target,79%,Approaching Target,89%,Meeting Target,Exceeding Target,2.98,3.26,3.12
+Brooklyn,0.315,73629.22,3%,96%,7%,93%,Meeting Target,91%,Exceeding Target,89%,Exceeding Target,84%,Meeting Target,84%,Meeting Target,92%,Meeting Target,Meeting Target,2.91,2.99,2.95
+Brooklyn,0.711,50085.45,22%,94%,15%,92%,Exceeding Target,86%,Meeting Target,92%,Meeting Target,76%,Approaching Target,83%,Approaching Target,86%,Meeting Target,Meeting Target,2.72,2.89,2.805
+Brooklyn,0.393,74211.29,4%,95%,11%,98%,Meeting Target,94%,Exceeding Target,98%,Exceeding Target,86%,Meeting Target,88%,Meeting Target,97%,Exceeding Target,Exceeding Target,3.03,3.32,3.175
+Brooklyn,0.305,62626.93,5%,95%,10%,94%,Meeting Target,95%,Meeting Target,96%,Meeting Target,86%,Exceeding Target,86%,Meeting Target,98%,Exceeding Target,Meeting Target,3.12,3.38,3.25
+Brooklyn,0.705,41740.33,16%,95%,13%,94%,Meeting Target,97%,Exceeding Target,95%,Exceeding Target,89%,Exceeding Target,90%,Exceeding Target,93%,Meeting Target,Exceeding Target,2.75,2.93,2.84
+Brooklyn,0.646,50557.18,6%,93%,24%,84%,Approaching Target,77%,Approaching Target,87%,Meeting Target,71%,Approaching Target,83%,Approaching Target,85%,Meeting Target,Approaching Target,2.27,2.35,2.31
+Brooklyn,0.474,50946.78,15%,95%,12%,93%,Approaching Target,90%,Meeting Target,96%,Meeting Target,82%,Meeting Target,81%,Approaching Target,91%,Meeting Target,Exceeding Target,3.02,3.43,3.225
+Brooklyn,0.623,46872.04,19%,96%,9%,90%,Meeting Target,92%,Exceeding Target,96%,Exceeding Target,81%,Meeting Target,83%,Approaching Target,91%,Meeting Target,Meeting Target,2.76,3.21,2.985
+Brooklyn,0.741,46197.25,18%,94%,18%,94%,Meeting Target,73%,Approaching Target,82%,Meeting Target,63%,Not Meeting Target,80%,Approaching Target,72%,Not Meeting Target,Approaching Target,2.09,2.06,2.075
+Brooklyn,0.286,62902.53,6%,95%,9%,99%,Exceeding Target,97%,Exceeding Target,97%,Exceeding Target,91%,Exceeding Target,87%,Meeting Target,97%,Exceeding Target,Meeting Target,2.97,3.12,3.045
+Brooklyn,0.345,72343.36,4%,95%,13%,94%,Meeting Target,93%,Meeting Target,96%,Meeting Target,83%,Meeting Target,86%,Meeting Target,93%,Meeting Target,Meeting Target,2.87,3.03,2.95
+Brooklyn,0.751,47037.27,13%,94%,20%,88%,Meeting Target,84%,Meeting Target,86%,Meeting Target,72%,Approaching Target,81%,Approaching Target,93%,Meeting Target,Meeting Target,2.42,2.41,2.415
+Brooklyn,0.9,29567.13,6%,89%,42%,87%,Approaching Target,88%,Meeting Target,79%,Approaching Target,81%,Meeting Target,77%,Not Meeting Target,87%,Approaching Target,Approaching Target,2.14,2.13,2.135
+Brooklyn,0.807,35419.93,3%,88%,43%,93%,Meeting Target,90%,Meeting Target,85%,Approaching Target,80%,Meeting Target,87%,Meeting Target,92%,Meeting Target,Meeting Target,2.27,2.38,2.325
+Brooklyn,0.877,36518.6,13%,88%,43%,91%,Meeting Target,96%,Meeting Target,86%,Approaching Target,88%,Meeting Target,86%,Meeting Target,95%,Exceeding Target,Approaching Target,2.14,2.15,2.145
+Brooklyn,0.857,34013.33,3%,90%,40%,93%,Meeting Target,93%,Meeting Target,90%,Approaching Target,85%,Meeting Target,84%,Meeting Target,96%,Exceeding Target,Approaching Target,2.19,2.29,2.24
+Brooklyn,0.815,34324.41,4%,86%,50%,91%,Approaching Target,89%,Meeting Target,87%,Approaching Target,81%,Meeting Target,83%,Meeting Target,92%,Meeting Target,Approaching Target,2.12,2.01,2.065
+Brooklyn,0.884,31132.53,7%,89%,46%,94%,Meeting Target,95%,Meeting Target,88%,Approaching Target,88%,Exceeding Target,90%,Exceeding Target,96%,Exceeding Target,Meeting Target,2.26,2.31,2.285
+Brooklyn,0.904,29709.42,4%,88%,48%,83%,Approaching Target,80%,Approaching Target,80%,Approaching Target,72%,Approaching Target,87%,Meeting Target,86%,Approaching Target,Approaching Target,2.17,2.21,2.19
+Brooklyn,0.906,20931.74,9%,89%,40%,90%,Meeting Target,87%,Meeting Target,86%,Approaching Target,80%,Meeting Target,90%,Exceeding Target,92%,Meeting Target,Approaching Target,2.08,2.09,2.085
+Brooklyn,0.933,23414.77,8%,89%,42%,97%,Meeting Target,94%,Meeting Target,88%,Approaching Target,83%,Meeting Target,85%,Meeting Target,92%,Meeting Target,Not Meeting Target,1.97,1.97,1.97
+Brooklyn,0.86,27808.12,3%,90%,38%,96%,Meeting Target,95%,Meeting Target,88%,Approaching Target,86%,Meeting Target,86%,Meeting Target,93%,Exceeding Target,Approaching Target,2.32,2.25,2.285
+Brooklyn,0.851,32208.89,9%,88%,47%,90%,Approaching Target,82%,Meeting Target,77%,Approaching Target,65%,Not Meeting Target,73%,Not Meeting Target,76%,Not Meeting Target,Approaching Target,2.17,1.98,2.075
+Brooklyn,0.944,23794.1,3%,88%,52%,92%,Meeting Target,82%,Meeting Target,91%,Approaching Target,68%,Approaching Target,86%,Meeting Target,88%,Meeting Target,Meeting Target,2.13,2.19,2.16
+Long Island,0.648,54053.95,37%,95%,12%,85%,Exceeding Target,84%,Meeting Target,92%,Meeting Target,77%,Meeting Target,78%,Approaching Target,91%,Meeting Target,Meeting Target,2.63,2.78,2.705
+Flushing,0.679,38731.69,31%,97%,7%,89%,Meeting Target,89%,Meeting Target,91%,Exceeding Target,83%,Meeting Target,81%,Approaching Target,93%,Meeting Target,Meeting Target,2.66,3.28,2.97
+Flushing,0.481,56414.94,19%,96%,8%,90%,Exceeding Target,94%,Exceeding Target,94%,Exceeding Target,87%,Exceeding Target,82%,Meeting Target,95%,Exceeding Target,Exceeding Target,2.96,3.28,3.12
+Flushing,0.606,49884.66,45%,97%,9%,93%,Exceeding Target,91%,Exceeding Target,94%,Exceeding Target,87%,Meeting Target,84%,Meeting Target,93%,Meeting Target,Exceeding Target,2.83,3.34,3.085
+Flushing,0.544,40033.97,40%,97%,7%,89%,Exceeding Target,87%,Meeting Target,93%,Exceeding Target,75%,Approaching Target,82%,Approaching Target,87%,Meeting Target,Exceeding Target,2.83,3.41,3.12
+Flushing,0.411,58764.47,13%,97%,7%,94%,Exceeding Target,97%,Exceeding Target,95%,Exceeding Target,94%,Exceeding Target,88%,Meeting Target,98%,Exceeding Target,Meeting Target,3.08,3.58,3.33
+Flushing,0.426,63863.56,20%,96%,12%,82%,Approaching Target,80%,Approaching Target,91%,Meeting Target,65%,Not Meeting Target,85%,Meeting Target,83%,Approaching Target,Meeting Target,2.71,3.16,2.935
+Flushing,0.606,43621.61,39%,97%,8%,91%,Meeting Target,83%,Meeting Target,93%,Exceeding Target,76%,Approaching Target,76%,Not Meeting Target,84%,Approaching Target,Exceeding Target,2.71,3.27,2.99
+Flushing,0.549,51933.12,24%,95%,12%,96%,Exceeding Target,91%,Meeting Target,96%,Exceeding Target,89%,Exceeding Target,83%,Meeting Target,94%,Exceeding Target,Approaching Target,2.63,2.93,2.78
+Flushing,0.478,56868.76,45%,97%,7%,94%,Exceeding Target,95%,Meeting Target,95%,Exceeding Target,90%,Exceeding Target,81%,Approaching Target,98%,Exceeding Target,Meeting Target,2.87,3.35,3.11
+Flushing,0.415,64280.02,10%,95%,10%,89%,Meeting Target,88%,Meeting Target,83%,Meeting Target,76%,Meeting Target,79%,Approaching Target,89%,Meeting Target,Meeting Target,2.95,3.24,3.095
+Flushing,0.537,49632.93,10%,95%,14%,90%,Exceeding Target,80%,Meeting Target,92%,Exceeding Target,66%,Approaching Target,82%,Approaching Target,80%,Approaching Target,Meeting Target,2.78,3.11,2.945
+Flushing,0.531,47345.33,6%,94%,18%,89%,Approaching Target,92%,Meeting Target,78%,Approaching Target,88%,Exceeding Target,83%,Meeting Target,91%,Meeting Target,Meeting Target,2.66,2.61,2.635
+Flushing,0.745,34723.19,9%,92%,29%,90%,Exceeding Target,83%,Meeting Target,92%,Meeting Target,75%,Approaching Target,84%,Meeting Target,89%,Meeting Target,Meeting Target,2.56,2.72,2.64
+Flushing,0.58,50336.56,15%,96%,10%,89%,Meeting Target,90%,Meeting Target,95%,Meeting Target,86%,Meeting Target,83%,Meeting Target,92%,Meeting Target,Exceeding Target,2.82,3.09,2.955
+Flushing,0.457,61994.44,15%,96%,13%,91%,Exceeding Target,86%,Exceeding Target,90%,Meeting Target,82%,Meeting Target,78%,Approaching Target,88%,Meeting Target,Exceeding Target,2.71,2.97,2.84
+Flushing,0.354,56351.95,4%,97%,3%,87%,Meeting Target,80%,Meeting Target,84%,Meeting Target,74%,Approaching Target,87%,Meeting Target,86%,Meeting Target,Meeting Target,3.12,3.38,3.25
+Flushing,0.389,59032.41,10%,96%,10%,91%,Meeting Target,84%,Meeting Target,95%,Meeting Target,70%,Approaching Target,82%,Approaching Target,87%,Meeting Target,Exceeding Target,3.05,3.25,3.15
+Flushing,0.306,77541.61,10%,97%,5%,91%,Exceeding Target,93%,Exceeding Target,94%,Exceeding Target,81%,Meeting Target,85%,Meeting Target,96%,Exceeding Target,Meeting Target,3,3.49,3.245
+Jamaica,0.215,92649.61,4%,96%,6%,93%,Exceeding Target,93%,Exceeding Target,86%,Meeting Target,84%,Meeting Target,85%,Meeting Target,90%,Meeting Target,Meeting Target,2.86,3.28,3.07
+Flushing,0.139,83369.58,3%,97%,3%,89%,Exceeding Target,93%,Exceeding Target,98%,Exceeding Target,91%,Exceeding Target,91%,Exceeding Target,94%,Exceeding Target,Exceeding Target,3.46,3.84,3.65
+Jamaica,0.677,59616.97,4%,93%,22%,86%,Meeting Target,89%,Meeting Target,92%,Meeting Target,79%,Meeting Target,85%,Meeting Target,92%,Meeting Target,Meeting Target,2.45,2.52,2.485
+Jamaica,0.813,45600.71,5%,91%,33%,96%,Meeting Target,91%,Meeting Target,88%,Meeting Target,89%,Exceeding Target,88%,Meeting Target,91%,Meeting Target,Approaching Target,2.26,2.38,2.32
+Jamaica,0.775,43937.09,7%,93%,27%,92%,Meeting Target,91%,Meeting Target,92%,Meeting Target,86%,Meeting Target,87%,Meeting Target,94%,Meeting Target,Exceeding Target,2.53,2.53,2.53
+Jamaica,0.671,47310.72,14%,93%,24%,93%,Meeting Target,84%,Meeting Target,90%,Meeting Target,80%,Meeting Target,84%,Meeting Target,89%,Meeting Target,Meeting Target,2.55,2.76,2.655
+Jamaica,0.555,57296.31,2%,94%,22%,90%,Meeting Target,75%,Approaching Target,78%,Approaching Target,67%,Approaching Target,85%,Meeting Target,80%,Approaching Target,Meeting Target,2.26,2.45,2.355
+Jamaica,0.713,41107.67,30%,94%,17%,86%,Meeting Target,77%,Approaching Target,89%,Meeting Target,61%,Not Meeting Target,78%,Approaching Target,80%,Approaching Target,Approaching Target,2.34,2.42,2.38
+Jamaica,0.691,46500.62,32%,94%,18%,92%,Approaching Target,90%,Exceeding Target,96%,Meeting Target,81%,Meeting Target,86%,Meeting Target,93%,Meeting Target,Meeting Target,2.6,2.91,2.755
+Jamaica,0.546,57582.32,9%,93%,22%,90%,Exceeding Target,88%,Exceeding Target,94%,Meeting Target,76%,Approaching Target,83%,Approaching Target,90%,Meeting Target,Meeting Target,2.55,2.88,2.715
+Jamaica,0.674,49625.91,4%,92%,35%,87%,Meeting Target,86%,Meeting Target,91%,Meeting Target,72%,Approaching Target,81%,Approaching Target,83%,Approaching Target,Approaching Target,2.19,2.25,2.22
+Jamaica,0.672,57366.77,4%,92%,29%,93%,Approaching Target,91%,Meeting Target,93%,Meeting Target,86%,Meeting Target,85%,Meeting Target,96%,Exceeding Target,Approaching Target,2.34,2.43,2.385
+Jamaica,0.576,58262.79,11%,94%,16%,97%,Exceeding Target,93%,Exceeding Target,97%,Meeting Target,91%,Exceeding Target,83%,Approaching Target,95%,Exceeding Target,Approaching Target,2.86,2.98,2.92
+Jamaica,0.725,42817.79,34%,93%,24%,87%,Meeting Target,86%,Exceeding Target,88%,Meeting Target,72%,Approaching Target,86%,Meeting Target,91%,Meeting Target,Approaching Target,2.33,2.39,2.36
+Jamaica,0.587,56318.26,3%,93%,22%,92%,Exceeding Target,83%,Meeting Target,93%,Meeting Target,72%,Approaching Target,83%,Approaching Target,85%,Meeting Target,Approaching Target,2.28,2.43,2.355
+Jamaica,0.647,68856.71,3%,93%,21%,90%,Exceeding Target,87%,Exceeding Target,85%,Meeting Target,79%,Meeting Target,86%,Meeting Target,91%,Meeting Target,Approaching Target,2.52,2.46,2.49
+Jamaica,0.691,69850.51,5%,91%,33%,93%,Meeting Target,90%,Meeting Target,87%,Approaching Target,83%,Meeting Target,87%,Meeting Target,91%,Meeting Target,Meeting Target,2.44,2.36,2.4
+Jamaica,0.721,41507.09,24%,93%,23%,95%,Exceeding Target,92%,Exceeding Target,96%,Meeting Target,87%,Exceeding Target,87%,Meeting Target,96%,Exceeding Target,Exceeding Target,2.77,2.81,2.79
+Jamaica,0.748,48919.46,11%,91%,38%,86%,Meeting Target,83%,Meeting Target,80%,Approaching Target,77%,Meeting Target,85%,Meeting Target,87%,Meeting Target,Approaching Target,2.26,2.24,2.25
+Jamaica,0.572,60211,21%,95%,10%,89%,Exceeding Target,91%,Exceeding Target,96%,Exceeding Target,85%,Meeting Target,81%,Approaching Target,96%,Exceeding Target,Exceeding Target,2.99,3.34,3.165
+Jamaica,0.65,47432.34,8%,94%,16%,91%,Meeting Target,83%,Meeting Target,88%,Meeting Target,73%,Approaching Target,78%,Approaching Target,82%,Approaching Target,Meeting Target,2.69,2.71,2.7
+Long Island,0.699,46465.49,23%,94%,20%,91%,Approaching Target,90%,Meeting Target,90%,Meeting Target,78%,Meeting Target,88%,Meeting Target,95%,Exceeding Target,Approaching Target,2.36,2.51,2.435
+Long Island,0.578,58639.79,20%,95%,13%,88%,Meeting Target,76%,Meeting Target,90%,Meeting Target,62%,Not Meeting Target,78%,Approaching Target,78%,Approaching Target,Meeting Target,2.72,2.91,2.815
+Long Island,0.766,33120.79,12%,93%,26%,82%,Approaching Target,82%,Meeting Target,86%,Approaching Target,75%,Approaching Target,76%,Not Meeting Target,83%,Approaching Target,Meeting Target,2.23,2.44,2.335
+Long Island,0.232,98309.97,5%,95%,13%,96%,Exceeding Target,97%,Exceeding Target,87%,Meeting Target,89%,Meeting Target,89%,Exceeding Target,93%,Meeting Target,Approaching Target,2.94,3.06,3
+Long Island,0.481,59442.38,9%,94%,19%,97%,Meeting Target,87%,Meeting Target,95%,Meeting Target,70%,Approaching Target,84%,Meeting Target,83%,Approaching Target,Exceeding Target,3.11,3.35,3.23
+Long Island,0.847,26289.11,19%,89%,45%,87%,Approaching Target,84%,Approaching Target,84%,Approaching Target,76%,Approaching Target,78%,Approaching Target,83%,Approaching Target,Approaching Target,2.06,2.03,2.045
+Long Island,0.82,40496.4,15%,94%,20%,93%,Meeting Target,91%,Exceeding Target,93%,Meeting Target,82%,Meeting Target,86%,Meeting Target,93%,Meeting Target,Meeting Target,2.39,2.62,2.505
+Long Island,0.512,54911.92,13%,95%,10%,94%,Exceeding Target,81%,Meeting Target,93%,Exceeding Target,64%,Not Meeting Target,81%,Approaching Target,84%,Approaching Target,Exceeding Target,2.89,3.27,3.08
+Long Island,0.609,52935.98,17%,95%,11%,91%,Meeting Target,90%,Exceeding Target,94%,Exceeding Target,83%,Meeting Target,83%,Approaching Target,90%,Meeting Target,Exceeding Target,2.84,3.08,2.96
+Long Island,0.754,38600.97,19%,92%,30%,93%,Meeting Target,92%,Exceeding Target,92%,Meeting Target,80%,Meeting Target,81%,Approaching Target,93%,Meeting Target,Approaching Target,2.21,2.45,2.33
+Staten Island,0.298,71278.87,5%,94%,18%,96%,Exceeding Target,91%,Exceeding Target,97%,Meeting Target,81%,Meeting Target,87%,Meeting Target,92%,Meeting Target,Meeting Target,2.85,2.81,2.83
+Staten Island,0.194,89390.74,2%,95%,11%,87%,Approaching Target,72%,Not Meeting Target,90%,Approaching Target,51%,Not Meeting Target,83%,Approaching Target,71%,Not Meeting Target,Approaching Target,2.84,3.15,2.995
+Staten Island,0.292,91880.61,3%,94%,14%,95%,Meeting Target,96%,Meeting Target,98%,Meeting Target,90%,Exceeding Target,84%,Meeting Target,96%,Exceeding Target,Meeting Target,2.78,2.86,2.82
+Staten Island,0.158,95538.26,0%,96%,5%,100%,Exceeding Target,99%,Exceeding Target,100%,Exceeding Target,96%,Exceeding Target,90%,Exceeding Target,96%,Exceeding Target,Exceeding Target,3.2,3.35,3.275
+Staten Island,0.239,82498.64,3%,95%,12%,90%,Meeting Target,88%,Exceeding Target,96%,Exceeding Target,69%,Approaching Target,84%,Meeting Target,81%,Approaching Target,Approaching Target,2.52,2.88,2.7
+Staten Island,0.273,85181.84,2%,95%,11%,97%,Meeting Target,97%,Exceeding Target,95%,Exceeding Target,87%,Exceeding Target,87%,Meeting Target,97%,Exceeding Target,Meeting Target,2.9,3.1,3
+Staten Island,0.567,61018.91,11%,94%,19%,93%,Meeting Target,86%,Exceeding Target,85%,Meeting Target,77%,Meeting Target,88%,Meeting Target,87%,Meeting Target,Meeting Target,2.52,2.63,2.575
+Staten Island,0.639,62621.47,13%,94%,20%,94%,Meeting Target,93%,Exceeding Target,95%,Meeting Target,85%,Meeting Target,88%,Meeting Target,94%,Exceeding Target,Meeting Target,2.48,2.76,2.62
+Staten Island,0.829,49651.7,23%,92%,30%,95%,Meeting Target,87%,Meeting Target,90%,Meeting Target,74%,Approaching Target,83%,Approaching Target,89%,Meeting Target,Approaching Target,2.15,2.18,2.165
+Staten Island,0.851,47859.82,6%,92%,34%,89%,Meeting Target,81%,Approaching Target,84%,Approaching Target,72%,Approaching Target,83%,Approaching Target,86%,Approaching Target,Approaching Target,2.15,2.34,2.245
+Staten Island,0.755,59197.08,17%,93%,24%,89%,Meeting Target,89%,Exceeding Target,91%,Meeting Target,75%,Approaching Target,85%,Meeting Target,91%,Meeting Target,Approaching Target,2.36,2.53,2.445
+Staten Island,0.862,41980.16,38%,94%,18%,86%,Approaching Target,89%,Approaching Target,92%,Meeting Target,85%,Meeting Target,84%,Meeting Target,90%,Meeting Target,Meeting Target,2.16,2.32,2.24
+Staten Island,0.788,54340.32,17%,93%,20%,98%,Meeting Target,91%,Meeting Target,95%,Meeting Target,78%,Approaching Target,82%,Approaching Target,87%,Meeting Target,Meeting Target,2.2,2.36,2.28
+Staten Island,0.696,60992.26,14%,93%,25%,85%,Meeting Target,86%,Exceeding Target,87%,Meeting Target,66%,Not Meeting Target,80%,Approaching Target,89%,Meeting Target,Meeting Target,2.44,2.65,2.545
+Staten Island,0.261,88174.15,2%,95%,10%,95%,Meeting Target,97%,Exceeding Target,95%,Exceeding Target,92%,Exceeding Target,88%,Meeting Target,97%,Exceeding Target,Exceeding Target,3,3.29,3.145
+Staten Island,0.392,79357.72,9%,95%,11%,99%,Exceeding Target,99%,Exceeding Target,97%,Exceeding Target,94%,Exceeding Target,89%,Exceeding Target,99%,Exceeding Target,Approaching Target,2.65,2.87,2.76
+Staten Island,0.347,72028.99,3%,95%,10%,94%,Exceeding Target,95%,Exceeding Target,97%,Exceeding Target,88%,Exceeding Target,97%,Exceeding Target,96%,Exceeding Target,Meeting Target,2.89,3.06,2.975
+Staten Island,0.31,83138.08,6%,95%,14%,95%,Exceeding Target,97%,Exceeding Target,96%,Meeting Target,89%,Exceeding Target,84%,Meeting Target,96%,Exceeding Target,Meeting Target,2.85,3.12,2.985
+Staten Island,0.902,49054.18,4%,90%,41%,89%,Approaching Target,90%,Meeting Target,89%,Approaching Target,78%,Meeting Target,85%,Meeting Target,93%,Meeting Target,Meeting Target,2.12,2.18,2.15
+Staten Island,0.243,87061.73,2%,95%,13%,88%,Exceeding Target,90%,Meeting Target,93%,Meeting Target,83%,Meeting Target,86%,Meeting Target,90%,Meeting Target,Meeting Target,2.74,2.94,2.84
+Staten Island,0.319,74254.73,3%,94%,14%,99%,Exceeding Target,96%,Exceeding Target,99%,Exceeding Target,85%,Meeting Target,87%,Meeting Target,96%,Exceeding Target,Meeting Target,3.13,3.32,3.225
+Staten Island,0.173,88391.97,2%,95%,8%,89%,Approaching Target,85%,Meeting Target,91%,Meeting Target,69%,Approaching Target,84%,Meeting Target,83%,Approaching Target,Meeting Target,3.06,3.14,3.1
+Staten Island,0.538,80042.25,15%,95%,16%,98%,Meeting Target,92%,Meeting Target,96%,Meeting Target,84%,Meeting Target,82%,Approaching Target,90%,Meeting Target,Meeting Target,2.75,2.88,2.815
+Staten Island,0.562,73449.66,11%,94%,19%,97%,Exceeding Target,93%,Exceeding Target,97%,Exceeding Target,85%,Meeting Target,86%,Meeting Target,94%,Exceeding Target,Approaching Target,2.57,2.68,2.625
+Staten Island,0.47,72519.97,11%,94%,15%,93%,Exceeding Target,87%,Exceeding Target,89%,Meeting Target,78%,Meeting Target,83%,Approaching Target,85%,Approaching Target,Meeting Target,2.75,2.87,2.81
+Staten Island,0.249,79364.56,3%,95%,13%,96%,Meeting Target,95%,Meeting Target,97%,Meeting Target,84%,Meeting Target,86%,Meeting Target,96%,Exceeding Target,Meeting Target,2.87,3.01,2.94
+Staten Island,0.834,41056.56,7%,91%,37%,89%,Approaching Target,85%,Meeting Target,87%,Approaching Target,72%,Approaching Target,81%,Approaching Target,90%,Meeting Target,Meeting Target,2.11,2.18,2.145
+Staten Island,0.635,66662.96,5%,93%,21%,91%,Exceeding Target,87%,Meeting Target,88%,Meeting Target,79%,Meeting Target,88%,Meeting Target,88%,Meeting Target,Meeting Target,2.55,2.56,2.555
+Staten Island,0.659,59790.15,9%,92%,27%,94%,Meeting Target,93%,Exceeding Target,96%,Meeting Target,87%,Exceeding Target,84%,Meeting Target,98%,Exceeding Target,Approaching Target,2.33,2.46,2.395
+Staten Island,0.334,72831.32,6%,95%,10%,94%,Exceeding Target,93%,Exceeding Target,88%,Meeting Target,92%,Exceeding Target,87%,Meeting Target,94%,Exceeding Target,Meeting Target,3.04,3.25,3.145
+Staten Island,0.234,82269.05,3%,95%,11%,96%,Meeting Target,95%,Meeting Target,97%,Exceeding Target,90%,Exceeding Target,86%,Meeting Target,96%,Exceeding Target,Exceeding Target,3.29,3.55,3.42
+Staten Island,0.398,69961.21,12%,94%,17%,93%,Meeting Target,93%,Meeting Target,94%,Meeting Target,85%,Meeting Target,86%,Meeting Target,94%,Meeting Target,Meeting Target,2.7,2.95,2.825
+Staten Island,0.24,82129.41,4%,95%,13%,98%,Exceeding Target,97%,Exceeding Target,99%,Exceeding Target,91%,Exceeding Target,87%,Meeting Target,96%,Exceeding Target,Meeting Target,2.8,3.14,2.97
+Staten Island,0.439,78381.47,8%,94%,16%,90%,Meeting Target,82%,Meeting Target,92%,Meeting Target,67%,Approaching Target,82%,Approaching Target,85%,Approaching Target,Meeting Target,2.78,3.18,2.98
+Staten Island,0.278,91069,2%,95%,11%,95%,Meeting Target,91%,Meeting Target,89%,Meeting Target,80%,Meeting Target,86%,Meeting Target,90%,Meeting Target,Meeting Target,2.8,2.99,2.895
+Staten Island,0.25,80109.28,1%,95%,12%,93%,Approaching Target,89%,Meeting Target,93%,Meeting Target,73%,Approaching Target,82%,Approaching Target,88%,Meeting Target,Exceeding Target,3.11,3.27,3.19
+Staten Island,0.845,43857.06,8%,90%,36%,92%,Meeting Target,91%,Meeting Target,89%,Meeting Target,82%,Meeting Target,84%,Meeting Target,94%,Meeting Target,Meeting Target,2.33,2.25,2.29
+Staten Island,0.357,75172.27,5%,94%,16%,96%,Meeting Target,97%,Meeting Target,94%,Meeting Target,88%,Exceeding Target,81%,Approaching Target,97%,Exceeding Target,Meeting Target,2.75,2.77,2.76
+Staten Island,0.356,79967.66,4%,95%,10%,85%,Meeting Target,84%,Meeting Target,91%,Exceeding Target,78%,Meeting Target,84%,Meeting Target,88%,Meeting Target,Approaching Target,2.65,2.75,2.7
+Staten Island,0.503,58183.51,3%,95%,12%,98%,Exceeding Target,97%,Meeting Target,98%,Exceeding Target,90%,Exceeding Target,89%,Exceeding Target,97%,Exceeding Target,Meeting Target,2.75,2.93,2.84
+Staten Island,0.371,81128.29,5%,95%,12%,98%,Exceeding Target,94%,Exceeding Target,96%,Exceeding Target,86%,Meeting Target,82%,Approaching Target,92%,Meeting Target,Meeting Target,2.74,3,2.87
+Staten Island,0.817,48219.48,30%,92%,29%,83%,Meeting Target,83%,Meeting Target,81%,Approaching Target,76%,Approaching Target,86%,Meeting Target,88%,Meeting Target,Exceeding Target,2.26,2.34,2.3
+Staten Island,0.366,67750.03,1%,95%,10%,93%,Exceeding Target,92%,Exceeding Target,87%,Meeting Target,90%,Meeting Target,80%,Approaching Target,92%,Meeting Target,Meeting Target,2.83,2.88,2.855
+Staten Island,0.569,67543.01,4%,94%,17%,94%,Meeting Target,91%,Exceeding Target,85%,Meeting Target,82%,Meeting Target,81%,Approaching Target,90%,Meeting Target,Exceeding Target,2.79,2.91,2.85
+Brooklyn,0.824,37020.6,14%,90%,37%,90%,Approaching Target,89%,Meeting Target,95%,Meeting Target,78%,Meeting Target,85%,Meeting Target,94%,Exceeding Target,Meeting Target,2.4,2.49,2.445
+Brooklyn,0.856,35590.06,16%,91%,35%,91%,Meeting Target,87%,Meeting Target,87%,Approaching Target,71%,Approaching Target,81%,Approaching Target,83%,Approaching Target,Meeting Target,2.16,2.3,2.23
+Brooklyn,0.881,45302.62,28%,95%,16%,93%,Exceeding Target,95%,Exceeding Target,95%,Exceeding Target,92%,Exceeding Target,85%,Meeting Target,99%,Exceeding Target,Meeting Target,2.24,2.41,2.325
+Brooklyn,0.847,41958.04,26%,92%,33%,96%,Meeting Target,94%,Meeting Target,96%,Meeting Target,86%,Meeting Target,83%,Approaching Target,96%,Exceeding Target,Meeting Target,2.12,2.37,2.245
+Brooklyn,0.842,38932.96,26%,94%,21%,90%,Meeting Target,81%,Meeting Target,90%,Meeting Target,63%,Not Meeting Target,79%,Not Meeting Target,83%,Approaching Target,Meeting Target,2.37,2.68,2.525
+Brooklyn,0.859,44858.04,28%,95%,17%,90%,Meeting Target,94%,Meeting Target,94%,Exceeding Target,88%,Exceeding Target,89%,Meeting Target,97%,Exceeding Target,Meeting Target,2.22,2.36,2.29
+Brooklyn,0.855,43502.4,17%,93%,24%,91%,Approaching Target,91%,Meeting Target,93%,Meeting Target,83%,Meeting Target,82%,Approaching Target,96%,Exceeding Target,Approaching Target,2.26,2.29,2.275
+Brooklyn,0.892,41236.54,21%,93%,28%,84%,Approaching Target,85%,Meeting Target,87%,Meeting Target,78%,Meeting Target,87%,Meeting Target,89%,Meeting Target,Approaching Target,2.02,2.1,2.06
+Brooklyn,0.833,41068.16,21%,92%,31%,91%,Meeting Target,88%,Exceeding Target,95%,Meeting Target,81%,Meeting Target,85%,Meeting Target,93%,Meeting Target,Meeting Target,2.2,2.42,2.31
+Brooklyn,0.893,39617.18,16%,92%,29%,95%,Exceeding Target,92%,Exceeding Target,93%,Meeting Target,85%,Meeting Target,98%,Exceeding Target,93%,Exceeding Target,Exceeding Target,2.25,2.52,2.385
+Brooklyn,0.88,38851.58,17%,95%,13%,96%,Exceeding Target,97%,Exceeding Target,98%,Exceeding Target,92%,Exceeding Target,81%,Approaching Target,95%,Meeting Target,Exceeding Target,2.58,2.76,2.67
+Brooklyn,0.819,36894.07,19%,91%,32%,90%,Approaching Target,85%,Meeting Target,85%,Approaching Target,73%,Approaching Target,81%,Approaching Target,89%,Meeting Target,Approaching Target,2.14,2.22,2.18
+Brooklyn,0.863,36830.45,25%,93%,23%,88%,Meeting Target,91%,Meeting Target,93%,Meeting Target,78%,Approaching Target,79%,Approaching Target,92%,Meeting Target,Meeting Target,2.39,2.37,2.38
+Brooklyn,0.716,45240.23,5%,94%,16%,92%,Meeting Target,93%,Exceeding Target,92%,Exceeding Target,88%,Exceeding Target,86%,Meeting Target,96%,Exceeding Target,Approaching Target,2.23,2.65,2.44
+Brooklyn,0.57,44077.39,0%,98%,1%,84%,Approaching Target,84%,Meeting Target,81%,Meeting Target,77%,Approaching Target,85%,Meeting Target,85%,Approaching Target,Meeting Target,2.59,2.93,2.76
+Brooklyn,0.719,36954.18,1%,95%,16%,84%,Approaching Target,82%,Approaching Target,81%,Meeting Target,77%,Approaching Target,83%,Approaching Target,90%,Meeting Target,Exceeding Target,2.48,2.73,2.605
+Brooklyn,0.693,35515.31,1%,98%,2%,91%,Meeting Target,91%,Meeting Target,86%,Exceeding Target,84%,Meeting Target,89%,Meeting Target,89%,Meeting Target,Meeting Target,2.69,2.95,2.82
+Brooklyn,0.484,52361.11,3%,96%,7%,96%,Exceeding Target,94%,Exceeding Target,94%,Exceeding Target,91%,Exceeding Target,85%,Meeting Target,95%,Exceeding Target,Exceeding Target,2.94,3.34,3.14
+Brooklyn,0.538,57512.74,4%,96%,10%,83%,Approaching Target,81%,Approaching Target,78%,Approaching Target,79%,Meeting Target,84%,Meeting Target,87%,Meeting Target,Approaching Target,2.28,2.5,2.39
+Brooklyn,0.692,42984.69,0%,98%,1%,94%,Exceeding Target,93%,Exceeding Target,84%,Meeting Target,90%,Exceeding Target,88%,Meeting Target,92%,Meeting Target,Meeting Target,2.62,2.98,2.8
+Brooklyn,0.362,61778.93,2%,100%,0%,91%,Meeting Target,93%,Exceeding Target,86%,Meeting Target,89%,Exceeding Target,97%,Exceeding Target,93%,Exceeding Target,Meeting Target,2.86,2.86,2.86
+Brooklyn,0.652,41262.87,2%,94%,0%,89%,Meeting Target,88%,Meeting Target,77%,Approaching Target,84%,Meeting Target,86%,Meeting Target,85%,Meeting Target,Meeting Target,2.63,3.2,2.915
+Brooklyn,0.735,35872.33,1%,98%,4%,91%,Meeting Target,91%,Meeting Target,83%,Meeting Target,84%,Meeting Target,87%,Meeting Target,91%,Meeting Target,Approaching Target,2.59,2.78,2.685
+Brooklyn,0.763,37646.78,6%,100%,0%,84%,Approaching Target,84%,Meeting Target,87%,Meeting Target,79%,Meeting Target,86%,Meeting Target,91%,Meeting Target,Meeting Target,2.37,2.82,2.595
+Brooklyn,0.776,33133.86,5%,97%,0%,90%,Meeting Target,84%,Meeting Target,83%,Meeting Target,78%,Meeting Target,88%,Meeting Target,92%,Meeting Target,Meeting Target,2.56,2.84,2.7
+Brooklyn,0.606,45876.16,1%,97%,4%,84%,Approaching Target,87%,Meeting Target,83%,Meeting Target,80%,Meeting Target,84%,Meeting Target,89%,Meeting Target,Approaching Target,2.55,2.56,2.555
+Brooklyn,0.757,38916.83,7%,92%,26%,86%,Approaching Target,88%,Meeting Target,85%,Approaching Target,84%,Meeting Target,88%,Meeting Target,92%,Meeting Target,Approaching Target,2.42,2.61,2.515
+Brooklyn,0.635,42161.63,2%,95%,16%,83%,Approaching Target,84%,Meeting Target,79%,Approaching Target,80%,Meeting Target,90%,Exceeding Target,87%,Meeting Target,Approaching Target,2.43,2.65,2.54
+Brooklyn,0.812,34663.34,7%,100%,0%,88%,Meeting Target,89%,Meeting Target,84%,Meeting Target,87%,Meeting Target,89%,Meeting Target,90%,Meeting Target,Approaching Target,2.32,2.34,2.33
+Brooklyn,0.558,44870.01,5%,96%,11%,83%,Approaching Target,84%,Meeting Target,78%,Approaching Target,73%,Approaching Target,87%,Meeting Target,85%,Approaching Target,Approaching Target,2.36,2.65,2.505
+Brooklyn,0.792,33307.62,1%,96%,10%,90%,Meeting Target,88%,Meeting Target,83%,Meeting Target,83%,Meeting Target,87%,Meeting Target,89%,Meeting Target,Meeting Target,2.62,3.25,2.935
+Brooklyn,0.68,40473.95,2%,94%,18%,93%,Meeting Target,93%,Meeting Target,84%,Meeting Target,88%,Exceeding Target,89%,Meeting Target,88%,Meeting Target,Meeting Target,2.99,3.48,3.235
+Brooklyn,0.699,38826.92,2%,95%,14%,84%,Approaching Target,79%,Approaching Target,81%,Approaching Target,73%,Approaching Target,81%,Approaching Target,86%,Approaching Target,Approaching Target,2.35,2.37,2.36
+Brooklyn,0.758,33699.66,1%,95%,9%,85%,Approaching Target,87%,Meeting Target,86%,Meeting Target,84%,Meeting Target,83%,Approaching Target,92%,Meeting Target,Approaching Target,2.48,2.65,2.565
+Brooklyn,0.71,33468.7,1%,95%,12%,87%,Approaching Target,88%,Meeting Target,83%,Meeting Target,84%,Meeting Target,89%,Exceeding Target,92%,Meeting Target,Meeting Target,2.45,2.73,2.59
+Brooklyn,0.78,35280.22,4%,94%,17%,80%,Approaching Target,72%,Approaching Target,80%,Approaching Target,56%,Not Meeting Target,83%,Approaching Target,75%,Not Meeting Target,Approaching Target,2.28,2.37,2.325
+Brooklyn,0.463,57595.61,8%,95%,10%,98%,Exceeding Target,96%,Exceeding Target,97%,Exceeding Target,90%,Exceeding Target,88%,Meeting Target,95%,Exceeding Target,Meeting Target,2.73,3.25,2.99
+Brooklyn,0.801,30822.3,9%,94%,25%,79%,Not Meeting Target,69%,Approaching Target,83%,Approaching Target,63%,Approaching Target,86%,Meeting Target,83%,Approaching Target,Approaching Target,2.4,2.48,2.44
+Brooklyn,0.748,36379.99,7%,98%,2%,83%,Approaching Target,86%,Meeting Target,92%,Exceeding Target,81%,Meeting Target,95%,Exceeding Target,92%,Meeting Target,Meeting Target,2.52,2.9,2.71
+Brooklyn,0.745,37886.74,3%,95%,16%,96%,Exceeding Target,95%,Exceeding Target,87%,Meeting Target,91%,Exceeding Target,90%,Exceeding Target,91%,Meeting Target,Exceeding Target,2.89,3.59,3.24
+Brooklyn,0.789,33933.08,8%,95%,19%,84%,Approaching Target,82%,Approaching Target,82%,Meeting Target,74%,Approaching Target,84%,Meeting Target,86%,Approaching Target,Approaching Target,2.4,2.53,2.465
+Brooklyn,0.68,38872.33,0%,94%,18%,93%,Exceeding Target,98%,Exceeding Target,93%,Exceeding Target,90%,Exceeding Target,91%,Exceeding Target,97%,Exceeding Target,Meeting Target,2.4,2.8,2.6
+Brooklyn,0.447,52497.57,0%,96%,6%,86%,Approaching Target,90%,Meeting Target,87%,Meeting Target,79%,Meeting Target,90%,Exceeding Target,96%,Exceeding Target,Approaching Target,2.36,2.45,2.405
+Brooklyn,0.76,40604.74,18%,96%,5%,80%,Approaching Target,68%,Approaching Target,89%,Meeting Target,64%,Approaching Target,83%,Approaching Target,84%,Approaching Target,Approaching Target,2.45,2.71,2.58
+Brooklyn,0.555,53258.58,0%,100%,1%,91%,Meeting Target,89%,Meeting Target,92%,Exceeding Target,87%,Meeting Target,91%,Exceeding Target,95%,Exceeding Target,Approaching Target,2.47,2.63,2.55
+New York,0.768,33937.49,2%,95%,13%,85%,Approaching Target,80%,Approaching Target,87%,Exceeding Target,78%,Approaching Target,82%,Approaching Target,89%,Meeting Target,Meeting Target,2.51,2.91,2.71
+New York,0.733,34629.03,6%,94%,17%,92%,Meeting Target,94%,Exceeding Target,97%,Exceeding Target,88%,Exceeding Target,89%,Meeting Target,97%,Exceeding Target,Exceeding Target,2.51,3.03,2.77
+New York,0.776,38746.8,4%,95%,15%,82%,Approaching Target,84%,Meeting Target,84%,Meeting Target,81%,Meeting Target,88%,Meeting Target,94%,Exceeding Target,Approaching Target,2.25,2.45,2.35
+New York,0.733,35223.3,2%,94%,18%,90%,Meeting Target,93%,Exceeding Target,85%,Meeting Target,88%,Exceeding Target,87%,Meeting Target,90%,Meeting Target,Meeting Target,2.72,2.83,2.775
+New York,0.722,30184.66,5%,95%,14%,86%,Meeting Target,86%,Meeting Target,80%,Meeting Target,81%,Meeting Target,81%,Approaching Target,90%,Meeting Target,Meeting Target,2.36,2.72,2.54
+New York,0.798,33303.04,12%,96%,12%,93%,Exceeding Target,95%,Exceeding Target,88%,Exceeding Target,94%,Exceeding Target,90%,Exceeding Target,95%,Exceeding Target,Exceeding Target,2.6,3.13,2.865
+New York,0.757,35109.03,3%,95%,14%,86%,Meeting Target,85%,Meeting Target,80%,Meeting Target,80%,Meeting Target,83%,Approaching Target,88%,Meeting Target,Exceeding Target,2.57,3.13,2.85
+New York,0.806,32207.34,6%,94%,16%,87%,Approaching Target,93%,Exceeding Target,82%,Meeting Target,85%,Meeting Target,90%,Exceeding Target,89%,Meeting Target,Exceeding Target,2.51,2.85,2.68
+New York,0.609,42931.1,16%,95%,9%,94%,Exceeding Target,81%,Meeting Target,94%,Exceeding Target,74%,Approaching Target,85%,Meeting Target,84%,Approaching Target,Meeting Target,2.44,2.62,2.53
+New York,0.815,35365.51,2%,93%,27%,90%,Meeting Target,90%,Meeting Target,92%,Meeting Target,88%,Meeting Target,89%,Meeting Target,96%,Exceeding Target,Meeting Target,2.43,2.79,2.61
+New York,0.741,30585.6,3%,87%,30%,93%,Meeting Target,96%,Exceeding Target,88%,Meeting Target,90%,Exceeding Target,88%,Meeting Target,96%,Exceeding Target,Exceeding Target,2.91,2.94,2.925
+New York,0.756,32951.28,5%,94%,15%,94%,Exceeding Target,95%,Exceeding Target,98%,Exceeding Target,89%,Exceeding Target,83%,Approaching Target,97%,Exceeding Target,Meeting Target,2.69,2.97,2.83
+New York,0.815,28953.15,7%,96%,11%,90%,Meeting Target,91%,Meeting Target,81%,Meeting Target,86%,Meeting Target,86%,Meeting Target,88%,Meeting Target,Approaching Target,2.47,2.69,2.58
+New York,0.742,35020.21,7%,92%,26%,93%,Meeting Target,90%,Meeting Target,86%,Approaching Target,84%,Meeting Target,89%,Meeting Target,91%,Meeting Target,Meeting Target,2.43,2.62,2.525
+Long Island,0.597,48346.04,17%,96%,8%,85%,Approaching Target,89%,Meeting Target,77%,Approaching Target,87%,Meeting Target,83%,Approaching Target,91%,Meeting Target,Meeting Target,2.73,3.23,2.98
+Long Island,0.507,49432.69,9%,100%,0%,81%,Approaching Target,85%,Meeting Target,89%,Meeting Target,83%,Meeting Target,90%,Exceeding Target,93%,Exceeding Target,Meeting Target,2.67,2.99,2.83
+Jamaica,0.485,55532.82,0%,95%,12%,92%,Meeting Target,90%,Meeting Target,92%,Exceeding Target,83%,Meeting Target,85%,Meeting Target,91%,Meeting Target,Approaching Target,2.36,2.58,2.47
+Staten Island,0.749,48091.89,4%,95%,14%,89%,Meeting Target,91%,Meeting Target,86%,Meeting Target,81%,Meeting Target,87%,Meeting Target,96%,Exceeding Target,Approaching Target,2.36,2.43,2.395
+Bronx,0.847,25916.69,18%,95%,15%,98%,Exceeding Target,91%,Meeting Target,98%,Exceeding Target,85%,Meeting Target,88%,Meeting Target,94%,Exceeding Target,Exceeding Target,2.83,3.07,2.95
+Bronx,0.748,28271.22,8%,95%,14%,82%,Approaching Target,86%,Meeting Target,79%,Meeting Target,85%,Meeting Target,77%,Not Meeting Target,86%,Approaching Target,Approaching Target,2.33,2.54,2.435
+Bronx,0.566,43325,8%,97%,4%,95%,Exceeding Target,96%,Exceeding Target,91%,Exceeding Target,92%,Exceeding Target,86%,Meeting Target,94%,Exceeding Target,Exceeding Target,2.97,3.25,3.11
+Bronx,0.849,24842.22,34%,92%,29%,97%,Exceeding Target,89%,Meeting Target,97%,Meeting Target,81%,Meeting Target,85%,Meeting Target,90%,Meeting Target,Approaching Target,2.53,2.45,2.49
+Bronx,0.779,27967.11,8%,95%,9%,82%,Approaching Target,84%,Meeting Target,84%,Meeting Target,81%,Meeting Target,88%,Meeting Target,90%,Meeting Target,Meeting Target,2.41,2.53,2.47
+Bronx,0.756,26028.95,10%,96%,3%,87%,Meeting Target,84%,Meeting Target,77%,Approaching Target,86%,Meeting Target,85%,Meeting Target,88%,Meeting Target,Exceeding Target,3.24,3.47,3.355
+Bronx,0.593,41991.37,8%,94%,19%,99%,Exceeding Target,97%,Exceeding Target,97%,N/A,92%,Exceeding Target,76%,Not Meeting Target,96%,Exceeding Target,Meeting Target,2.99,3.36,3.175
+Bronx,0.769,29416.51,9%,96%,9%,91%,Meeting Target,92%,Meeting Target,78%,Meeting Target,86%,Meeting Target,83%,Meeting Target,90%,Meeting Target,Meeting Target,2.69,2.81,2.75
+Bronx,0.928,23312.54,14%,93%,26%,89%,Meeting Target,90%,Meeting Target,93%,Exceeding Target,88%,Meeting Target,89%,Meeting Target,93%,Meeting Target,Meeting Target,2.57,3.04,2.805
+Bronx,0.761,32642.03,16%,100%,0%,96%,Exceeding Target,96%,Exceeding Target,94%,Exceeding Target,96%,Exceeding Target,91%,Exceeding Target,98%,Exceeding Target,Approaching Target,2.43,2.66,2.545
+Bronx,0.862,23824.44,18%,97%,4%,93%,Meeting Target,92%,Exceeding Target,88%,Meeting Target,84%,Meeting Target,85%,Meeting Target,96%,Exceeding Target,Approaching Target,2.21,2.29,2.25
+Bronx,0.818,26578.37,20%,95%,11%,95%,Exceeding Target,93%,Exceeding Target,93%,Exceeding Target,90%,Exceeding Target,84%,Meeting Target,95%,Exceeding Target,Meeting Target,2.59,2.76,2.675
+Bronx,0.648,36726.4,3%,95%,12%,93%,Meeting Target,93%,Exceeding Target,79%,Approaching Target,86%,Meeting Target,80%,Approaching Target,87%,Approaching Target,Approaching Target,2.55,2.83,2.69
+Bronx,0.798,26912.82,13%,96%,5%,77%,Approaching Target,77%,Approaching Target,87%,Meeting Target,70%,Approaching Target,85%,Meeting Target,91%,Meeting Target,Approaching Target,2.3,2.46,2.38
+Bronx,0.764,29665.65,5%,95%,14%,90%,Meeting Target,95%,Exceeding Target,89%,Meeting Target,88%,Exceeding Target,90%,Exceeding Target,94%,Exceeding Target,Meeting Target,2.67,2.87,2.77
+Bronx,0.848,24982.3,10%,94%,20%,95%,Exceeding Target,84%,Meeting Target,95%,Exceeding Target,80%,Meeting Target,83%,Approaching Target,91%,Meeting Target,Exceeding Target,2.83,3.11,2.97
+Bronx,0.654,38268.68,0%,95%,33%,96%,Exceeding Target,98%,Exceeding Target,87%,Approaching Target,91%,Exceeding Target,90%,Exceeding Target,95%,Exceeding Target,Exceeding Target,3,3.52,3.26
+Bronx,0.535,44086.43,1%,96%,10%,95%,Exceeding Target,95%,Exceeding Target,96%,Exceeding Target,86%,Meeting Target,86%,Meeting Target,98%,Exceeding Target,Meeting Target,3.03,3.18,3.105
+Bronx,0.832,27243.69,19%,95%,13%,94%,Exceeding Target,93%,Exceeding Target,94%,Exceeding Target,88%,Meeting Target,83%,Meeting Target,94%,Meeting Target,Meeting Target,2.48,2.6,2.54
+Bronx,0.825,24172.46,11%,94%,24%,93%,Meeting Target,90%,Meeting Target,88%,Meeting Target,88%,Exceeding Target,88%,Meeting Target,93%,Meeting Target,Meeting Target,2.5,2.85,2.675
+Bronx,0.724,26422.05,2%,95%,12%,97%,Exceeding Target,92%,Exceeding Target,89%,Meeting Target,84%,Meeting Target,86%,Meeting Target,94%,Meeting Target,Meeting Target,2.77,3.09,2.93
+Bronx,0.544,47192.42,2%,95%,12%,93%,Meeting Target,91%,Meeting Target,96%,Exceeding Target,89%,Exceeding Target,91%,Exceeding Target,95%,Exceeding Target,Meeting Target,2.6,3.29,2.945
+Bronx,0.84,29096.71,15%,93%,22%,87%,Approaching Target,84%,Meeting Target,84%,Approaching Target,77%,Meeting Target,85%,Meeting Target,84%,Approaching Target,Exceeding Target,2.74,3.19,2.965
