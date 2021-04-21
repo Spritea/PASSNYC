@@ -58,7 +58,7 @@
         .barchart_div {
             position: absolute;
             top: 50px;
-            left: 640px;
+            left: 1280px;
         }
 
         .biplot_div {
@@ -67,16 +67,16 @@
             left: 0px;
         }
 
-        .mca_div {
+        .scatterplot2_div {
             position: absolute;
-            top: 470px;
+            top: 50px;
             left: 640px;
         }
 
-        .histogram_div {
+        .pcp_div {
             position: absolute;
-            top: 50px;
-            left: 1280px;
+            top: 470px;
+            left: 640px;
         }
 
     </style>
@@ -95,12 +95,12 @@
     <svg width="640" height="420" id="barchartsvg" class="svgs"></svg>
 </div>
 
-<div class="mca_div">
-    <svg width="640" height="420" id="mcasvg" class="svgs"></svg>
+<div class="scatterplot2_div">
+    <svg width="640" height="420" id="scattersvg2" class="svgs"></svg>
 </div>
 
-<div class="histogram_div">
-    <svg width="640" height="840" id="histogramsvg" class="svgs"></svg>
+<div class="pcp_div">
+    <svg width="1280" height="420" id="pcpsvg" class="svgs"></svg>
 </div>
 
 <div class="text_title" , id="text_title">
@@ -122,8 +122,18 @@
 
     const biplotsvg = d3.select('#biplotsvg');
     const barchartsvg = d3.select('#barchartsvg');
-    const mcasvg = d3.select('#mcasvg');
-    const histogramsvg = d3.select('#histogramsvg');
+    const scattersvg2 = d3.select('#scattersvg2');
+    const pcpsvg = d3.select('#pcpsvg');
+
+    const city_color = {
+        'New York': 'aqua',
+        'Bronx': 'blue',
+        'Brooklyn': 'fuchsia',
+        'Flushing': '#5F9EA0',
+        'Jamaica': 'green',
+        'Long Island': 'lime',
+        'Staten Island': 'maroon'
+    }
 
     scattersvg.append('g')
         .append('text')
@@ -155,25 +165,25 @@
         .attr('id', "barchartcaption")
         .text('Barchart');
 
-    mcasvg.append('g')
+    scattersvg2.append('g')
         .append('text')
         .attr('x', width / 2)
         .attr('y', margin.top / 2)
         .attr('font-size', 18)
         .attr('fill', 'black')
         .attr('text-anchor', 'middle')
-        .attr('id', "mcacaption")
-        .text('MCA');
+        .attr('id', "scatterplot2caption")
+        .text('Scatterplot2');
 
-    histogramsvg.append('g')
+    pcpsvg.append('g')
         .append('text')
-        .attr('x', width / 2)
+        .attr('x', width)
         .attr('y', margin.top / 2)
         .attr('font-size', 18)
         .attr('fill', 'black')
         .attr('text-anchor', 'middle')
-        .attr('id', "histogramcaption")
-        .text('Histogram');
+        .attr('id', "pcpcaption")
+        .text('PCP');
 
     //below call functions to draw.
     biPlot()
