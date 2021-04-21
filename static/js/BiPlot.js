@@ -8,13 +8,13 @@ function biPlot() {
         var dataAll = JSON.parse(data);
         var dataArray = dataAll[0];
         var axisArray = dataAll[1];
-        var label_unique=dataAll[2];
+        var label_unique = dataAll[2];
         // var data_color_list = ["#00FFFF", "#37BFE5", "#8A2BE2", "#0000FF", "#FF1493", "#00FF00", "#FFA500"];
 
         var color_list = ['aqua', 'blue', 'fuchsia', '#5F9EA0', 'green', 'lime', 'maroon', 'navy', '#008B8B',
-            'purple', 'red', '#A52A2A', 'teal', 'yellow'];
+            'purple', 'red', '#A52A2A', 'teal'];
         var attr_names = ['ENI', 'SIE', 'PELL', 'SAR', 'PSCA',
-            'RI', 'CT', 'SE', 'ESL', 'SFCT', 'TS', 'AELA', 'AMP', 'AP'];
+            'RI', 'CT', 'SE', 'ESL', 'SFCT', 'TS', 'AELA', 'AMP'];
 
         var margin = {top: 20 * 2, right: 170, bottom: 70, left: 50},
             width = 640 - margin.left - margin.right,
@@ -86,7 +86,7 @@ function biPlot() {
         svg.append("text")
             .attr("transform",
                 "translate(" + (width / 2) + " ," +
-                (height + margin.top + 20) + ")")
+                (height + margin.top + 10) + ")")
             .style("text-anchor", "middle")
             .text("PC1")
             .style("font-weight", "bold");
@@ -173,6 +173,51 @@ function biPlot() {
             .text(function (d, i) {
                 return attr_names[i];
             });
+
+        var count_txt = 0;
+        var count_x = 0;
+        var count_y = 0;
+        svg.append('g')
+            .selectAll("axis_arrow")
+            .data(axisArray)
+            .enter()
+            .append("text")
+            .text(function (d,i) {
+                // count_txt = count_txt + 1;
+                // var axis_txt = 'X' + count_txt;
+                var axis_txt=attr_names[i];
+                return axis_txt;
+            })
+            .attr("x", function (d) {
+                count_x = count_x + 1;
+                if (count_x === 2 || count_x === 9) {
+                    return x(7 * d[0]) - 13;
+                }
+                if (count_x === 13) {
+                    return x(7 * d[0]) + 17;
+                } else {
+                    return x(7 * d[0]);
+                }
+            })
+            .attr("y", function (d) {
+                count_y = count_y + 1;
+                if (count_y === 2 || count_y === 9) {
+                    return y(7 * d[1]) + 5;
+                }
+                if (count_y === 13) {
+                    return y(7 * d[1]) + 5;
+                }
+                if (d[1] >= 0) {
+                    return y(7 * d[1]) - 5;
+                } else {
+                    return y(7 * d[1]) + 17;
+                }
+            })
+            .style("text-anchor", "middle")
+            .style("font-weight", "bold")
+            .style("font-size", 12)
+
     });
 
 }
+
