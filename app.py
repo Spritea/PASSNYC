@@ -53,6 +53,11 @@ class My_PCA:
 pca_class=My_PCA(csv_file='school_data_clean_v2.csv', label_col="City")
 print('kk')
 
+df_ori = pd.read_csv('school_data_clean_v2.csv')
+df_pcp = pca_class.change_percent(df_ori)
+pcp_columns = ["City", "Rigorous Instruction Rating", "Collaborative Teachers Rating", "Student Attendance Rate", "Student Achievement Rating",
+ "Average ELA Proficiency", "Average Math Proficiency"]
+
 @app.route('/')
 def index():
     # return 'Hello World!'
@@ -65,5 +70,36 @@ def plotTop2OriginalPCA():
         axis_data = list(zip(pca_class.pca_components[0, :], pca_class.pca_components[1, :]))
         return json.dumps([points_data, axis_data,pca_class.label_unique])
 
-if __name__ == '__main__':
-    app.run()
+@app.route("/barchart", methods=['POST', 'GET'])
+def barchart():
+    if request.method == 'POST':
+        city_hist = df_ori['City'].value_counts().to_dict()
+        # print(city_hist)
+        # city = []
+        # num = []
+        # for key, value in city_hist.items():
+        #     city.append(key)
+        #     num.append(value)
+        # resp = dict(
+        #     city=city,
+        #     freq=num
+        # )
+        resp = []
+        for key, value in city_hist.items():
+            resp.append(dict(
+                city=key,
+                num=value))
+        return json.dumps(resp)
+
+@app.route('/pcp', methods=['POST', 'GET'])
+def pcp():
+    if request.method == 'POST':
+        resp = dict(
+            data = df_pcp.loc[:, pcp_columns].to_json(orient = "index"),
+            column_name = pcp_columns,
+            city = df_pcp.loc[:, 'City'].tolist()
+        )
+        return json.dumps(resp)
+
+if __name__== "__main__":
+    app.run(host='127.0.0.1', port=80, debug=True)
