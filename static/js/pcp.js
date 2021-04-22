@@ -90,8 +90,6 @@ function pcp(){
             .attr("d", path)
             .style("stroke", function(d, i){ return( city_color[city[i]]); } );
 
-        console.log("1111111111111")
-
         var pcp_g = g.selectAll(".dimension")
               .data(columns)
             .enter().append("g")
@@ -129,8 +127,9 @@ function pcp(){
         .append("text")
           .style("text-anchor", "middle")
           .attr("y", -9)
-          .text(function(d) { return d; })
-          .style("fill", "black");
+          .text(function(d) { return col_abbr[d]; })
+          .style("fill", "black")
+          .style("font-weight", "bold");
 
         pcp_g.append("g")
           .attr("class", "brush")
