@@ -174,48 +174,48 @@ function biPlot() {
                 return attr_names[i];
             });
 
-        var count_txt = 0;
-        var count_x = 0;
-        var count_y = 0;
-        svg.append('g')
-            .selectAll("axis_arrow")
-            .data(axisArray)
-            .enter()
-            .append("text")
-            .text(function (d,i) {
-                // count_txt = count_txt + 1;
-                // var axis_txt = 'X' + count_txt;
-                var axis_txt=attr_names[i];
-                return axis_txt;
-            })
-            .attr("x", function (d) {
-                count_x = count_x + 1;
-                if (count_x === 2 || count_x === 9) {
-                    return x(7 * d[0]) - 13;
-                }
-                if (count_x === 13) {
-                    return x(7 * d[0]) + 17;
-                } else {
-                    return x(7 * d[0]);
-                }
-            })
-            .attr("y", function (d) {
-                count_y = count_y + 1;
-                if (count_y === 2 || count_y === 9) {
-                    return y(7 * d[1]) + 5;
-                }
-                if (count_y === 13) {
-                    return y(7 * d[1]) + 5;
-                }
-                if (d[1] >= 0) {
-                    return y(7 * d[1]) - 5;
-                } else {
-                    return y(7 * d[1]) + 17;
-                }
-            })
-            .style("text-anchor", "middle")
-            .style("font-weight", "bold")
-            .style("font-size", 12)
+        // var count_txt = 0;
+        // var count_x = 0;
+        // var count_y = 0;
+        // svg.append('g')
+        //     .selectAll("axis_arrow")
+        //     .data(axisArray)
+        //     .enter()
+        //     .append("text")
+        //     .text(function (d,i) {
+        //         // count_txt = count_txt + 1;
+        //         // var axis_txt = 'X' + count_txt;
+        //         var axis_txt=attr_names[i];
+        //         return axis_txt;
+        //     })
+        //     .attr("x", function (d) {
+        //         count_x = count_x + 1;
+        //         if (count_x === 2 || count_x === 9) {
+        //             return x(7 * d[0]) - 13;
+        //         }
+        //         if (count_x === 13) {
+        //             return x(7 * d[0]) + 17;
+        //         } else {
+        //             return x(7 * d[0]);
+        //         }
+        //     })
+        //     .attr("y", function (d) {
+        //         count_y = count_y + 1;
+        //         if (count_y === 2 || count_y === 9) {
+        //             return y(7 * d[1]) + 5;
+        //         }
+        //         if (count_y === 13) {
+        //             return y(7 * d[1]) + 5;
+        //         }
+        //         if (d[1] >= 0) {
+        //             return y(7 * d[1]) - 5;
+        //         } else {
+        //             return y(7 * d[1]) + 17;
+        //         }
+        //     })
+        //     .style("text-anchor", "middle")
+        //     .style("font-weight", "bold")
+        //     .style("font-size", 12);
 
     });
 

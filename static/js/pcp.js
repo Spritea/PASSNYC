@@ -128,7 +128,7 @@ function pcp(){
           .style("text-anchor", "middle")
           .attr("y", -9)
           .text(function(d) { return col_abbr[d]; })
-          .style("fill", "black")
+          // .style("fill", "black")
           .style("font-weight", "bold");
 
         pcp_g.append("g")

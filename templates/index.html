@@ -20,8 +20,8 @@
             text-align: center;
             max-width: 150px;
             font-size: 14px;
-            background: white;
-            color: red;
+            /*background: white;*/
+            color: white;
             /* pointer-events: none; */
         }
 
@@ -83,6 +83,97 @@
             left: 640px;
         }
 
+        /*below for dark bg*/
+        body {
+            background-color: black;
+        }
+
+        .x.axis line {
+            stroke: white;
+        }
+
+        .x.axis path {
+            stroke: white;
+        }
+
+        .x.axis text {
+            fill: white;
+        }
+
+        .y.axis line {
+            stroke: white;
+        }
+
+        .y.axis path {
+            stroke: white;
+        }
+
+        .y.axis text {
+            fill: white;
+        }
+
+        .x-axis line {
+            stroke: white;
+        }
+
+        .x-axis path {
+            stroke: white;
+        }
+
+        .x-axis text {
+            fill: white;
+        }
+
+        .y-axis line {
+            stroke: white;
+        }
+
+        .y-axis path {
+            stroke: white;
+        }
+
+        .y-axis text {
+            fill: white;
+        }
+
+        .axis line {
+            stroke: white;
+        }
+
+        .axis path {
+            stroke: white;
+        }
+
+        .axis text {
+            fill: white;
+        }
+
+        text {
+            fill: white;
+        }
+
+        .text_title {
+            width: 100%;
+            background: white;
+        }
+
+        /*button {*/
+        /*    background: none;*/
+        /*    border: none;*/
+        /*    !*outline: delete the border when chosen.*!*/
+        /*    outline: none;*/
+        /*    !*border-radius: 12px;*!*/
+        /*    !*font-size: 25px;*!*/
+        /*    !*position: relative;*!*/
+        /*    !*top: 15px;*!*/
+        /*    transition-duration: 0.3s;*/
+        /*}*/
+
+        /*button:hover {*/
+        /*    background-color: gray;*/
+        /*    color: white;*/
+        /*}*/
+
     </style>
 
 <body>
@@ -107,8 +198,10 @@
     <svg width="1280" height="420" id="pcpsvg" class="svgs"></svg>
 </div>
 
-<div class="text_title" , id="text_title">
+<div class="text_title" id="text_title">
     PASSNYC: Specilized High School in NYC
+    <button id="button_reset">Reset</button>
+
 </div>
 
 </body>
