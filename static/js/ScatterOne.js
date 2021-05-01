@@ -7,8 +7,8 @@ function scatterOne() {
     $.post(functionName, function (data) {
         var dataAll = JSON.parse(data);
         var dataArray = dataAll[0];
-        var x_name= dataAll[1];
-        var y_name= dataAll[2];
+        var x_name = dataAll[1];
+        var y_name = dataAll[2];
         var margin = {top: 20 * 2, right: 170, bottom: 70, left: 50},
             width = 640 - margin.left - margin.right,
             height = 420 - margin.top - margin.bottom;
@@ -41,21 +41,50 @@ function scatterOne() {
         var xAxis = d3.axisBottom(x);
         var yAxis = d3.axisLeft(y);
 
+        // svg.append('g')
+        //     .selectAll("dot")
+        //     .data(dataArray)
+        //     .enter()
+        //     .append("circle")
+        //     .attr("cx", function (d) {
+        //         return x(d[0]);
+        //     })
+        //     .attr("cy", function (d) {
+        //         return y(d[1]);
+        //     })
+        //     .attr("r", 3)
+        //     .style("fill", function (d) {
+        //         return city_color[d[2]];
+        //     });
+
         svg.append('g')
             .selectAll("dot")
             .data(dataArray)
             .enter()
             .append("circle")
-            .attr("cx", function (d) {
+            .attr("cx", d3.min(dataArray, function (d) {
                 return x(d[0]);
-            })
+            }))
             .attr("cy", function (d) {
                 return y(d[1]);
             })
             .attr("r", 3)
             .style("fill", function (d) {
                 return city_color[d[2]];
+            })
+            //below for action.
+            .transition()
+            .delay(function (d, i) {
+                return (i)
+            })
+            .duration(1500)
+            .attr("cx", function (d) {
+                return x(d[0]);
+            })
+            .attr("cy", function (d) {
+                return y(d[1]);
             });
+
 
         svg.append("g")
             .attr("class", "x axis")

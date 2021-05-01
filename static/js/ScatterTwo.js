@@ -46,15 +46,27 @@ function scatterTwo() {
             .data(dataArray)
             .enter()
             .append("circle")
-            .attr("cx", function (d) {
+            .attr("cx", d3.min(dataArray, function (d) {
                 return x(d[0]);
-            })
+            }))
             .attr("cy", function (d) {
                 return y(d[1]);
             })
             .attr("r", 3)
             .style("fill", function (d) {
                 return city_color[d[2]];
+            })
+            //below for action.
+            .transition()
+            .delay(function (d, i) {
+                return (i)
+            })
+            .duration(1500)
+            .attr("cx", function (d) {
+                return x(d[0]);
+            })
+            .attr("cy", function (d) {
+                return y(d[1]);
             });
 
         svg.append("g")
