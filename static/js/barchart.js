@@ -1,6 +1,21 @@
 function barchart() {
     console.log("barchart");
 
+    //since barchart_update.js would remove barchart,
+    //the global const barchartsvg would be null,
+    //need init again.
+
+    var barchartsvg = d3.select('#barchartsvg');
+    barchartsvg.append('g')
+        .append('text')
+        .attr('x', width / 2)
+        .attr('y', margin.top / 2)
+        .attr('font-size', 18)
+        .attr('fill', 'black')
+        .attr('text-anchor', 'middle')
+        .attr('id', "barchartcaption")
+        .text('Barchart');
+
     var g = barchartsvg.append('g').attr('id', 'maingroup')
         .attr('transform', `translate(${margin.left * 1.5}, ${margin.top})`);
 
@@ -53,6 +68,8 @@ function barchart() {
                 //use yScale(0) for action initialization.
                 return innerHeight - yScale(0);
             })
+            //add hand cursor.
+            .style('cursor', 'pointer')
             .on("mouseover", function (d, i) {
                 tooltip.html(d['num'])
                     .style("top", +d3.select(this).attr('y') + margin.top + 20 + "px")
@@ -106,7 +123,7 @@ function barchart() {
                     }
                 }
                 brush_flag_barchart = brush_flag;
-                var brush_final=merge_global_brush();
+                var brush_final = merge_global_brush();
 
                 update_scatterplot("#scattersvg", brush_final);
                 update_scatterplot("#scattersvg2", brush_final);

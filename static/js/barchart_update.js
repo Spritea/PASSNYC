@@ -39,7 +39,7 @@ function barchart_update(data) {
     var svg_left = 1280
 
     // data = JSON.parse(data);
-    console.log(data);
+    // console.log(data);
 
     var xScale = d3.scaleBand()
         .domain(data.map(function (d, i) {
@@ -73,6 +73,8 @@ function barchart_update(data) {
             //use yScale(0) for action initialization.
             return innerHeight - yScale(d['num']);
         })
+        //add hand cursor.
+        .style('cursor','pointer')
         .on("mouseover", function (d, i) {
             tooltip.html(d['num'])
                 .style("top", +d3.select(this).attr('y') + margin.top + 20 + "px")
