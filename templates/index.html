@@ -320,21 +320,26 @@
             .text('PCP');
 
         //below call functions to draw.
-        biPlot()
-        scatterOne()
-        scatterTwo()
+        biPlot();
+        scatterOne();
+        scatterTwo();
         barchart();
         pcp();
 
         brush_flag_scatter = [];
         brush_flag_barchart = [];
         brush_flag_pcp = [];
+        brush_flag_scatter_two = [];
+        brush_flag_biplot=[];
 
     }
+
     var city_pcp;
     var brush_flag_scatter = [];
     var brush_flag_barchart = [];
     var brush_flag_pcp = [];
+    var brush_flag_scatter_two = [];
+    var brush_flag_biplot=[];
     plot_init();
 
     //below for brush update.
@@ -363,7 +368,8 @@
     function merge_global_brush() {
         var brush_merge = [];
         for (let k = 0; k < brush_flag_scatter.length; k++) {
-            var in_brush_merge = brush_flag_scatter[k] && brush_flag_barchart[k] && brush_flag_pcp[k];
+            var in_brush_merge = brush_flag_scatter[k] && brush_flag_barchart[k]
+                && brush_flag_pcp[k] && brush_flag_scatter_two[k]&&brush_flag_biplot[k];
             if (in_brush_merge) {
                 brush_merge.push(1);
             } else {
@@ -372,6 +378,78 @@
         }
         return brush_merge;
     }
+
+    function update(dataArray,brush_flag_global,x,y) {
+        //1: in brush,0: out of brush.
+        var brush_flag = [];
+        var extent = d3.event.selection;
+        for (let i = 0; i < dataArray.length; i++) {
+            var in_brush = isBrushed(extent, x(dataArray[i][0]), y(dataArray[i][1]));
+            if (in_brush) {
+                brush_flag.push(1);
+            } else {
+                brush_flag.push(0);
+            }
+        }
+        // console.log(extent)
+        console.log('kk')
+        // console.log(arr_flag)
+        //below is the way to pass global variable as function parameter.
+        //can't use it directly, since it would pass value only.
+        window[brush_flag_global] = brush_flag;
+        // brush_flag_scatter= brush_flag;
+
+        var brush_final = merge_global_brush();
+
+        update_scatterplot("#scattersvg", brush_final);
+        update_scatterplot("#scattersvg2", brush_final);
+        update_scatterplot("#biplotsvg", brush_final);
+        update_pcp("#pcpsvg", brush_final);
+
+        //below for bar chart brush update.
+        //count the out of brush data number of each city.
+        var city_dict = {};
+        var city_list = ["Brooklyn", "Bronx", "New York", "Staten Island", "Jamaica", "Flushing", "Long Island"];
+        for (let k = 0; k < city_list.length; k++) {
+            city_dict[city_list[k]] = 0;
+        }
+        for (let p = 0; p < dataArray.length; p++) {
+            let one_record_flag = brush_final[p];
+            if (one_record_flag == 1) {
+                let city_label = dataArray[p][2];
+                city_dict[city_label] = city_dict[city_label] + 1;
+            }
+        }
+        var city_data = [];
+        for (let city_key in city_dict) {
+            city_data.push({'city': city_key, 'num': city_dict[city_key]});
+        }
+        // console.log(city_num_list)
+        barchart_update(city_data);
+
+        // var one_plot = d3.select("#barchartsvg").selectAll("rect");
+        // one_plot.attr("y", function (d,i) {
+        //     return yscale_barchart(d['num']-city_num_list[i]);
+        // });
+        // one_plot.attr("height", function (d,i) {
+        //     return innerheight_barchart - yscale_barchart(d['num']-city_num_list[i]);
+        // });
+        // one_plot.on("mouseover", function (d, i) {
+        //     // tooltip.html(d['num'])
+        //     tooltip_barchart.html(d['num'] - city_num_list[i]);
+        // });
+    }
+
+
+    function isBrushed(brush_coords, cx, cy) {
+            var x0 = brush_coords[0][0],
+                x1 = brush_coords[1][0],
+                y0 = brush_coords[0][1],
+                y1 = brush_coords[1][1];
+            return x0 <= cx && cx <= x1 && y0 <= cy && cy <= y1;
+            // This return TRUE or FALSE depending on if the points is in the selected area
+        }
+
 
 
 </script>

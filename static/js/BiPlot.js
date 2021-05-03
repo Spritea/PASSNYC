@@ -83,6 +83,17 @@ function biPlot() {
                 return y(d[1]);
             });
 
+        svg.append("g")
+            .attr("class", "brush")
+            .call(d3.brush()
+                .extent([[0, 0], [width, height]])
+                //no 'start brush', since 'start' would give two points
+                //with same coord.
+                //cannot use .on('brush',update(dataArray,"brush_flag_scatter",x,y))
+                //since func para can't be passed.
+                .on('brush', function () {
+                    update(dataArray,"brush_flag_biplot",x,y)
+                }));
 
         svg.append("g")
             .attr("class", "x axis")

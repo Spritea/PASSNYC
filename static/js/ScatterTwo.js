@@ -7,8 +7,8 @@ function scatterTwo() {
     $.post(functionName, function (data) {
         var dataAll = JSON.parse(data);
         var dataArray = dataAll[0];
-        var x_name= dataAll[1];
-        var y_name= dataAll[2];
+        var x_name = dataAll[1];
+        var y_name = dataAll[2];
         var margin = {top: 20 * 2, right: 170, bottom: 70, left: 50},
             width = 640 - margin.left - margin.right,
             height = 420 - margin.top - margin.bottom;
@@ -68,6 +68,18 @@ function scatterTwo() {
             .attr("cy", function (d) {
                 return y(d[1]);
             });
+
+        svg.append("g")
+            .attr("class", "brush")
+            .call(d3.brush()
+                .extent([[0, 0], [width, height]])
+                //no 'start brush', since 'start' would give two points
+                //with same coord.
+                //cannot use .on('brush',update(dataArray,"brush_flag_scatter",x,y))
+                //since func para can't be passed.
+                .on('brush', function () {
+                    update(dataArray,"brush_flag_scatter_two",x,y)
+                }));
 
         svg.append("g")
             .attr("class", "x axis")
