@@ -12,6 +12,7 @@
     <script src="{{ url_for('static',filename='js/pcp.js') }}" charset="utf-8"></script>
     <script src="{{ url_for('static',filename='js/ScatterOne.js') }}" charset="utf-8"></script>
     <script src="{{ url_for('static',filename='js/ScatterTwo.js') }}" charset="utf-8"></script>
+    <script src="{{ url_for('static',filename='js/barchart_update.js') }}" charset="utf-8"></script>
 
     <style>
         .tooltip {
@@ -314,6 +315,48 @@
     scatterTwo()
     barchart();
     pcp();
+
+    var city_pcp;
+    var brush_flag_scatter = [];
+    var brush_flag_barchart = [];
+    var brush_flag_pcp = [];
+
+    //below for brush update.
+    function update_pcp(plot_id, brush_flag) {
+        var one_plot = d3.select(plot_id).select("#subgroup>g.foreground").selectAll("path");
+        one_plot.style("display", function (d, i) {
+            if (brush_flag[i] > 0) {
+                return null;
+            } else {
+                return 'none';
+            }
+        })
+    }
+
+    function update_scatterplot(plot_id, brush_flag) {
+        var one_plot = d3.select(plot_id).selectAll("circle");
+        one_plot.style("fill", function (d, i) {
+            if (brush_flag[i] > 0) {
+                return city_color[d[2]];
+            } else {
+                return 'gray';
+            }
+        })
+    }
+
+    function merge_global_brush() {
+        var brush_merge = [];
+        for (let k = 0; k < brush_flag_scatter.length; k++) {
+            var in_brush_merge = brush_flag_scatter[k] && brush_flag_barchart[k] && brush_flag_pcp[k];
+            if (in_brush_merge) {
+                brush_merge.push(1);
+            } else {
+                brush_merge.push(0);
+            }
+        }
+        return brush_merge;
+    }
+
 
 </script>
 </body>

@@ -9,6 +9,7 @@ function barchart() {
         .attr("class", "tooltip");
 
     var innerHeight = 420 - 110
+    // innerheight_barchart=innerHeight;
     // var svg_left = d3.select("#barchart_div").style('left')
     // svg_left = +svg_left.slice(0, svg_left.length-2)
     // console.log(d3.select("#barchart_div").style('left'))
@@ -27,8 +28,12 @@ function barchart() {
             .rangeRound([0, innerWidth - 20])
             .padding(0.1);
 
-        var yScale = d3.scaleLinear().domain([0, d3.max(data.map(p => p['num']))]).range([innerHeight, 0])
+        var yScale = d3.scaleLinear().domain([0, d3.max(data.map(p => p['num']))]).range([innerHeight, 0]);
+        // yscale_barchart=yScale;
 
+        var city_choose = [];
+        var mouse_down_flag = [false, false, false, false, false, false, false];
+        var mouse_down_start = 0;
         var rect = g.selectAll("rect")
             .data(data)
             .enter()
@@ -53,17 +58,64 @@ function barchart() {
                     .style("top", +d3.select(this).attr('y') + margin.top + 20 + "px")
                     .style("left", +d3.select(this).attr('x') + d3.select(this).attr('width') / 2 + svg_left + 10 + margin.left + "px")
                     .style("visibility", "visible");
-                d3.select(this)
-                    .attr("fill", "red");
+                // d3.select(this)
+                //     .attr("fill", "red");
             })
             .on("mouseout", function (d, i) {
-                d3.select(this)
-                    .attr("fill", function (d) {
-                        return city_color[d['city']]
-                    });
+                //decide whether mouse down happens.
+                if (mouse_down_start == 0) {
+                    d3.select(this)
+                        .attr("fill", function (d) {
+                            return city_color[d['city']]
+                        });
+                } else {
+                    d3.select(this)
+                        .attr("fill", function (d) {
+                            if (city_choose.includes(d['city']))
+                                return city_color[d['city']];
+                            else
+                                return 'gray';
+                        });
+                }
                 tooltip.style("visibility", "hidden");
+            })
+            .on('mousedown', function (d, i) {
+                mouse_down_start = 1;
+                //below code to enable cancel when click twice.
+                mouse_down_flag[i] = !mouse_down_flag[i];
+                if (mouse_down_flag[i])
+                    city_choose.push(d['city']);
+                else
+                    city_choose.splice(city_choose.indexOf(d['city']), 1);
+
+                d3.select("#barchartsvg").selectAll("rect")
+                    .attr("fill", function (d) {
+                        if (city_choose.includes(d['city']))
+                            return city_color[d['city']];
+                        else
+                            return 'gray';
+                    });
+
+                var brush_flag = [];
+                for (let i = 0; i < city_pcp.length; i++) {
+                    var in_brush = (city_choose.includes(city_pcp[i]));
+                    if (in_brush) {
+                        brush_flag.push(1);
+                    } else {
+                        brush_flag.push(0);
+                    }
+                }
+                brush_flag_barchart = brush_flag;
+                var brush_final=merge_global_brush();
+
+                update_scatterplot("#scattersvg", brush_final);
+                update_scatterplot("#scattersvg2", brush_final);
+                update_scatterplot("#biplotsvg", brush_final);
+                update_pcp("#pcpsvg", brush_final);
             });
 
+
+        // tooltip_barchart=tooltip;
         //add action.
         rect.transition()
             .duration(1500)

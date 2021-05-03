@@ -15,6 +15,7 @@ function pcp() {
         var pcp_data_ori = data.data;
         var columns = data.column_name
         var city = data.city;
+        city_pcp = city;
 
         pcp_data_ori = JSON.parse(pcp_data_ori);
         pcp_data = []
@@ -106,7 +107,7 @@ function pcp() {
         //below for line path action.
         background
             .attr("stroke-dasharray", function () {
-                var a=this.getTotalLength();
+                var a = this.getTotalLength();
                 // return pathLength = this.getTotalLength();
                 //just set a big enough number to shift away
                 //from the display area, to hide lines at first.
@@ -115,7 +116,7 @@ function pcp() {
             })
             .attr("stroke-dashoffset", pathLength)
             .transition()
-            .duration(1500)
+            .duration(3000)
             .on("start", function repeat() {
                 d3.active(this)
                     .attr("stroke-dashoffset", 0)
@@ -131,7 +132,7 @@ function pcp() {
             })
             .attr("stroke-dashoffset", pathLength)
             .transition()
-            .duration(1500)
+            .duration(3000)
             .on("start", function repeat() {
                 d3.active(this)
                     .attr("stroke-dashoffset", 0)
@@ -227,11 +228,67 @@ function pcp() {
                     });
                 });
 
-            foreground.style("display", function (d) {
-                return actives.every(function (p, i) {
+            // foreground.style("display", function (d,i) {
+            //     return actives.every(function (p) {
+            //         return p.extent[0] <= yScale[p.dimension](d[p.dimension]) && yScale[p.dimension](d[p.dimension]) <= p.extent[1];
+            //     }) ? null : "none";
+            // });
+            var brush_flag = [];
+
+            for (let i = 0; i < pcp_data.length; i++) {
+                var d=pcp_data[i];
+                var in_brush = (actives.every(function (p) {
                     return p.extent[0] <= yScale[p.dimension](d[p.dimension]) && yScale[p.dimension](d[p.dimension]) <= p.extent[1];
-                }) ? null : "none";
-            });
+                }))
+                if (in_brush) {
+                    brush_flag.push(1);
+                } else {
+                    brush_flag.push(0);
+                }
+            }
+
+            //below changes pcp line color directly, didn't merge the result of other plots.
+            //no use it.
+            // foreground.style("display", function (d) {
+            //     if (actives.every(function (p) {
+            //         return p.extent[0] <= yScale[p.dimension](d[p.dimension]) && yScale[p.dimension](d[p.dimension]) <= p.extent[1];
+            //     })) {
+            //         brush_flag.push(1);
+            //         return null;
+            //     } else {
+            //         brush_flag.push(0);
+            //         return 'none';
+            //     }
+            // });
+
+            brush_flag_pcp = brush_flag;
+            var brush_final = merge_global_brush();
+            update_scatterplot("#scattersvg", brush_final);
+            update_scatterplot("#scattersvg2", brush_final);
+            update_scatterplot("#biplotsvg", brush_final);
+            update_pcp("#pcpsvg", brush_final);
+
+            //below for bar chart brush update.
+            //count the out of brush data number of each city.
+            var city_dict = {};
+            var city_list = ["Brooklyn", "Bronx", "New York", "Staten Island", "Jamaica", "Flushing", "Long Island"];
+            for (let k = 0; k < city_list.length; k++) {
+                city_dict[city_list[k]] = 0;
+            }
+            for (let p = 0; p < city.length; p++) {
+                let one_record_flag = brush_final[p];
+                if (one_record_flag == 1) {
+                    let city_label = city[p];
+                    city_dict[city_label] = city_dict[city_label] + 1;
+                }
+            }
+            var city_data = [];
+            for (let city_key in city_dict) {
+                city_data.push({'city': city_key, 'num': city_dict[city_key]});
+            }
+            // console.log(city_num_list)
+            barchart_update(city_data);
+
         }
 
         function position(d) {

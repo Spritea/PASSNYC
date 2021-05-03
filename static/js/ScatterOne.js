@@ -18,7 +18,7 @@ function scatterOne() {
         var svg = d3.select("#scattersvg")
             .attr("width", width + margin.left + margin.right)
             .attr("height", height + margin.top + margin.bottom)
-            .attr("id", "canvas")
+            // .attr("id", "canvas")
             // .attr("transform", "translate(" + 300 + "," + 70 + ")")
             .append("g")
             .attr("transform", "translate(" + (margin.left + 50) + "," + (margin.top + 10) + ")");
@@ -85,6 +85,87 @@ function scatterOne() {
                 return y(d[1]);
             });
 
+        svg.append("g")
+            .attr("class", "brush")
+            .call(d3.brush()
+                .extent([[0, 0], [width, height]])
+                //no 'start brush', since 'start' would give two points
+                //with same coord.
+                .on('brush', update));
+
+        //init global brush flag.
+        for (let k = 0; k < dataArray.length; k++) {
+            brush_flag_scatter.push(1);
+            brush_flag_barchart.push(1);
+            brush_flag_pcp.push(1);
+        }
+
+        function update() {
+            //1: in brush,0: out of brush.
+            var brush_flag = [];
+            var extent = d3.event.selection;
+            for (let i = 0; i < dataArray.length; i++) {
+                var in_brush = isBrushed(extent, x(dataArray[i][0]), y(dataArray[i][1]));
+                if (in_brush) {
+                    brush_flag.push(1);
+                } else {
+                    brush_flag.push(0);
+                }
+            }
+            // console.log(extent)
+            console.log('kk')
+            // console.log(arr_flag)
+            brush_flag_scatter = brush_flag;
+
+            var brush_final=merge_global_brush();
+
+            update_scatterplot("#scattersvg", brush_final);
+            update_scatterplot("#scattersvg2", brush_final);
+            update_scatterplot("#biplotsvg", brush_final);
+            update_pcp("#pcpsvg", brush_final);
+
+            //below for bar chart brush update.
+            //count the out of brush data number of each city.
+            var city_dict = {};
+            var city_list = ["Brooklyn", "Bronx", "New York", "Staten Island", "Jamaica", "Flushing", "Long Island"];
+            for (let k = 0; k < city_list.length; k++) {
+                city_dict[city_list[k]] = 0;
+            }
+            for (let p = 0; p < dataArray.length; p++) {
+                let one_record_flag = brush_final[p];
+                if (one_record_flag == 1) {
+                    let city_label = dataArray[p][2];
+                    city_dict[city_label] = city_dict[city_label] + 1;
+                }
+            }
+            var city_data = [];
+            for (let city_key in city_dict) {
+                city_data.push({'city': city_key, 'num': city_dict[city_key]});
+            }
+            // console.log(city_num_list)
+            barchart_update(city_data);
+
+            // var one_plot = d3.select("#barchartsvg").selectAll("rect");
+            // one_plot.attr("y", function (d,i) {
+            //     return yscale_barchart(d['num']-city_num_list[i]);
+            // });
+            // one_plot.attr("height", function (d,i) {
+            //     return innerheight_barchart - yscale_barchart(d['num']-city_num_list[i]);
+            // });
+            // one_plot.on("mouseover", function (d, i) {
+            //     // tooltip.html(d['num'])
+            //     tooltip_barchart.html(d['num'] - city_num_list[i]);
+            // });
+        }
+
+        function isBrushed(brush_coords, cx, cy) {
+            var x0 = brush_coords[0][0],
+                x1 = brush_coords[1][0],
+                y0 = brush_coords[0][1],
+                y1 = brush_coords[1][1];
+            return x0 <= cx && cx <= x1 && y0 <= cy && cy <= y1;
+            // This return TRUE or FALSE depending on if the points is in the selected area
+        }
 
         svg.append("g")
             .attr("class", "x axis")

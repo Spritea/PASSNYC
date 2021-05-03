@@ -18,7 +18,7 @@ function scatterTwo() {
         var svg = d3.select("#scattersvg2")
             .attr("width", width + margin.left + margin.right)
             .attr("height", height + margin.top + margin.bottom)
-            .attr("id", "canvas")
+            // .attr("id", "canvas")
             // .attr("transform", "translate(" + 300 + "," + 70 + ")")
             .append("g")
             .attr("transform", "translate(" + (margin.left + 50) + "," + (margin.top + 10) + ")");

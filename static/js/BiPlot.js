@@ -8,7 +8,9 @@ function biPlot() {
         var dataAll = JSON.parse(data);
         var dataArray = dataAll[0];
         var axisArray = dataAll[1];
-        var label_unique = dataAll[2];
+        //no use label_unique.
+        //the label_unique has a different order with city_color.
+        // var label_unique = dataAll[2];
         // var data_color_list = ["#00FFFF", "#37BFE5", "#8A2BE2", "#0000FF", "#FF1493", "#00FF00", "#FFA500"];
 
         var color_list = ['aqua', 'blue', 'fuchsia', '#5F9EA0', 'green', 'lime', 'maroon', 'navy', '#008B8B',
@@ -25,7 +27,7 @@ function biPlot() {
         var svg = d3.select("#biplotsvg")
             .attr("width", width + margin.left + margin.right)
             .attr("height", height + margin.top + margin.bottom)
-            .attr("id", "canvas")
+            // .attr("id", "canvas")
             // .attr("transform", "translate(" + 300 + "," + 70 + ")")
             .append("g")
             .attr("transform", "translate(" + (margin.left + 50) + "," + (margin.top + 10) + ")");
@@ -64,7 +66,9 @@ function biPlot() {
             })
             .attr("r", 3)
             .style("fill", function (d) {
-                return color_list[label_unique.indexOf(d[2])];
+                // return color_list[label_unique.indexOf(d[2])];
+                return city_color[d[2]];
+
             })
             //below for action.
             .transition()
