@@ -13,8 +13,17 @@ function biPlot() {
         // var label_unique = dataAll[2];
         // var data_color_list = ["#00FFFF", "#37BFE5", "#8A2BE2", "#0000FF", "#FF1493", "#00FF00", "#FFA500"];
 
-        var color_list = ['aqua', 'blue', 'fuchsia', '#5F9EA0', 'green', 'lime', 'maroon', 'navy', '#008B8B',
-            'purple', 'red', '#A52A2A', 'teal'];
+        // var color_list = ['aqua', 'blue', 'fuchsia', '#5F9EA0', 'green', 'lime', 'maroon', 'navy', '#008B8B',
+        //     'purple', 'red', '#A52A2A', 'teal'];
+
+        // // color blind
+        // var color_list = ['#6e0038', '#97215a', '#be417b', '#dc68a1', '#f68fc7', '#fbc2e2', 
+        //     '#f5f5f5', '#acde9b', '#80bd6c', '#5e9a4c', '#3d782f', '#1e5817', '#003900']
+
+        // // qualitiive
+        // var color_list = ['#a6cee3', '#1f78b4', '#b2df8a', '#33a02c', '#fb9a99', '#e31a1c', 
+        //     '#fdbf6f', '#ff7f00', '#cab2d6', '#6a3d9a', '#ffff99', '#b15928', '#7FFFD4']
+
         var attr_names = ['ENI', 'SIE', 'PELL', 'SAR', 'PSCA',
             'RI', 'CT', 'SE', 'ESL', 'SFCT', 'TS', 'AELA', 'AMP'];
 
@@ -104,10 +113,10 @@ function biPlot() {
             .attr("class", "y axis")
             .call(yAxis)
 
-        d3.selectAll('.x.axis')
+        svg.selectAll('.x.axis')
             .selectAll("text")
             .style('font-size', 'medium');
-        d3.selectAll('.y.axis')
+        svg.selectAll('.y.axis')
             .selectAll("text")
             .style('font-size', 'medium');
 
@@ -167,7 +176,7 @@ function biPlot() {
             .attr("y2", function (d) {
                 return y(9 * d[1]);
             })
-            .attr("stroke-width", 1.7)
+            .attr("stroke-width", 2.0)
             .attr("stroke", function (d, i) {
                 return color_list[i];
             })
@@ -181,6 +190,15 @@ function biPlot() {
             .attr("class", "legend")
             .attr("transform", function (d, i) {
                 return `translate(0, ${(i * 20 + 20)})`;
+            });
+        
+        legend.append("svg:title")
+        .text(function(d, i) { 
+            if (attr_names[i] != 'PELL'){
+                return col_ori[attr_names[i]]}
+            else{
+                return "Percent English Language Learner"
+            }
             });
 
         legend.append("rect")
@@ -244,6 +262,8 @@ function biPlot() {
         //     .style("text-anchor", "middle")
         //     .style("font-weight", "bold")
         //     .style("font-size", 12);
+    
+        // console.log(d3.select('#biplotsvg').selectAll('circle'));
 
     });
 

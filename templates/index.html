@@ -155,6 +155,7 @@
 
         .text_title {
             width: 100%;
+            font-size: 20px;
             background: white;
         }
 
@@ -174,6 +175,58 @@
         /*    background-color: gray;*/
         /*    color: white;*/
         /*}*/
+
+    .menu{
+        background-color:  #000000;
+        text-align: center;
+        width: 100%;
+        top: 885px;
+        position: absolute;
+      }
+
+      .menu ul{
+        display: inline-flex;
+        list-style: none;
+        color: white;
+      }
+
+      /* .menu ul li:hover {
+          background-color: #535353;
+          border-radius: 10px;
+      } */
+
+      .menu ul li{
+        width: 100%;
+        padding: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+
+      .menu ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+      }
+
+      .button_reset{
+          height: 80%;
+          margin: auto;
+          position: absolute;
+          font-size: 15px;
+          top: 0;
+          bottom: 0;
+          left: 1200px;
+      }
+
+      .button_color{
+          height: 80%;
+          margin: auto;
+          position: absolute;
+          font-size: 15px;
+          top: 0;
+          bottom: 0;
+          left: 1300px;
+      }
 
     </style>
 
@@ -201,9 +254,36 @@
 
 <div class="text_title" id="text_title">
     PASSNYC: Specilized High School in NYC
-    <button id="button_reset">Reset</button>
-
+    <button id="button_reset" class="button_reset">Reset</button>
+    <button id="button_color" class="button_color">Color Blind</button>
 </div>
+
+<div class="menu">
+    <ul id="menu">
+      <li>Attributes:</li>
+      <li><a href="#" title="City">City</a></li>
+      <li><a href="#" title="Economic Need Index">ENI</a></li>
+      <li><a href="#" title="School Income Estimate">SIE</a></li>
+      <li><a href="#" title="Persent English Language Learner">PELL</a></li>
+      <li><a href="#" title="Student Attendance Rate">SAR</a></li>
+      <li><a href="#" title="Percent of Students Chronically Absent">PSCA</a></li>
+      <li><a href="#" title="Rigorous Instruction %">RI</a></li>
+      <li><a href="#" title="Rigorous Instruction Rating">RIR</a></li>
+      <li><a href="#" title="Collaborative Teachers %">CT</a></li>
+      <li><a href="#" title="Collaborative Teachers Rating">CTR</a></li>
+      <li><a href="#" title="Supportive Environment %">SE</a></li>
+      <li><a href="#" title="Supportive Environment Rating">SER</a></li>
+      <li><a href="#" title="Effective School Leadership %">ESL</a></li>
+      <li><a href="#" title="Effective School Leadership Rating">ESLR</a></li>
+      <li><a href="#" title="Strong Family-Community Ties %">SFCT</a></li>
+      <li><a href="#" title="Strong Family-Community Ties Rating">SFCTR</a></li>
+      <li><a href="#" title="Trust %">TS</a></li>
+      <li><a href="#" title="Trust Rating">TSR</a></li>
+      <li><a href="#" title="Student Achievement Rating">SACR</a></li>
+      <li><a href="#" title="Average ELA Proficiency">AELA</a></li>
+      <li><a href="#" title="Average Math Proficiency">AMP</a></li>
+    </ul>
+  </div>
 
 </body>
 
@@ -217,12 +297,15 @@
     const margin = {top: 50, right: 50, bottom: 50, left: 50};
     const innerWidth = width - margin.left - margin.right;
     const innerHeight = height - margin.top - margin.bottom;
-    const pcpinnerWidth = width * 2 - margin.left - margin.right;
+    const pcpinnerWidth = width * 2 - margin.left - margin.right*2;
 
     const biplotsvg = d3.select('#biplotsvg');
     // const barchartsvg = d3.select('#barchartsvg');
     const scattersvg2 = d3.select('#scattersvg2');
     const pcpsvg = d3.select('#pcpsvg');
+
+    var city_color;
+    var color_list;
 
     var button_1 = document.getElementById("button_reset");
     button_1.onclick = function button1_test() {
@@ -230,17 +313,85 @@
         d3.selectAll("svg > *").remove();
         $("div.tooltip").remove();
         plot_init();
+        city_color = {
+        'New York': '#e41a1c',
+        'Bronx': '#377eb8',
+        'Brooklyn': '#4daf4a',
+        'Flushing': '#984ea3',
+        'Jamaica': '#ff7f00',
+        'Long Island': '#ffff33',
+        'Staten Island': '#a65628'
+        };
+        color_list = ['#a6cee3', '#1f78b4', '#b2df8a', '#33a02c', '#fb9a99', '#e31a1c', 
+            '#fdbf6f', '#ff7f00', '#cab2d6', '#6a3d9a', '#ffff99', '#b15928', '#7FFFD4'];
+    }
 
+    var button_2 = document.getElementById("button_color");
+    button_2.onclick = function button2_test() {
+        console.log("I am button 2");
+        d3.selectAll("svg > *").remove();
+        $("div.tooltip").remove();
+        plot_init();
+        city_color = {
+        'New York': '#a50026',
+        'Bronx': '#f46d43',
+        'Brooklyn': '#fee090',
+        'Flushing': '#ffffbf',
+        'Jamaica': '#74add1',
+        'Long Island': '#4575b4',
+        'Staten Island': '#313695'
+        };
+        color_list = ['#6e0038', '#97215a', '#be417b', '#dc68a1', '#f68fc7', '#fbc2e2', 
+            '#f5f5f5', '#acde9b', '#80bd6c', '#5e9a4c', '#3d782f', '#1e5817', '#003900'];
     }
-    const city_color = {
-        'New York': 'aqua',
-        'Bronx': 'blue',
-        'Brooklyn': 'fuchsia',
-        'Flushing': '#5F9EA0',
-        'Jamaica': 'green',
-        'Long Island': 'lime',
-        'Staten Island': 'maroon'
-    }
+    
+    // const city_color = {
+    //     'New York': 'aqua',
+    //     'Bronx': 'blue',
+    //     'Brooklyn': 'fuchsia',
+    //     'Flushing': '#5F9EA0',
+    //     'Jamaica': 'green',
+    //     'Long Island': 'lime',
+    //     'Staten Island': 'maroon'
+    // }
+
+    // const city_color = {
+    //     'New York': '#10ff0f',
+    //     'Bronx': '#bbd300',
+    //     'Brooklyn': '#eda300',
+    //     'Flushing': '#f57940',
+    //     'Jamaica': '#da626b',
+    //     'Long Island': '#a75d7e',
+    //     'Staten Island': '#715a73'
+    // }
+
+    // color blind
+
+    // const city_color = {
+    //     'New York': '#a50026',
+    //     'Bronx': '#f46d43',
+    //     'Brooklyn': '#fee090',
+    //     'Flushing': '#ffffbf',
+    //     'Jamaica': '#74add1',
+    //     'Long Island': '#4575b4',
+    //     'Staten Island': '#313695'
+    // }
+
+    // qualititive
+
+    city_color = {
+        'New York': '#e41a1c',
+        'Bronx': '#377eb8',
+        'Brooklyn': '#4daf4a',
+        'Flushing': '#984ea3',
+        'Jamaica': '#ff7f00',
+        'Long Island': '#ffff33',
+        'Staten Island': '#a65628'
+    };
+    color_list = ['#a6cee3', '#1f78b4', '#b2df8a', '#33a02c', '#fb9a99', '#e31a1c', 
+            '#fdbf6f', '#ff7f00', '#cab2d6', '#6a3d9a', '#ffff99', '#b15928', '#7FFFD4'];
+
+    // const city_color = {'New York':'#002aff', 'Bronx':'#7c6ee8', 'Brooklyn':'#97afd0', 'Flushing':'#00fbc0', 'Jamaica':'#e9a9bc', 'Long Island':'#d58ba1', 'Staten Island':'#ff00a3'}
 
     const col_abbr = {
         'City': 'City',
@@ -261,76 +412,125 @@
         'Strong Family-Community Ties Rating': 'SFCTR',
         'Trust %': 'TS',
         'Trust Rating': 'TSR',
-        'Student Achievement Rating': 'SAR',
-        'Average ELA Proficiency': 'AELAP',
+        'Student Achievement Rating': 'SACR',
+        'Average ELA Proficiency': 'AELA',
         'Average Math Proficiency': 'AMP',
         'Average Proficiency': 'AP',
     }
 
+    const col_ori = {
+        'City': 'City',
+        'ENI': 'Economic Need Index',
+        'SIE': 'School Income Estimate',
+        'PELL': 'Percent ELL',
+        'SAR': 'Student Attendance Rate',
+        'PSCA': 'Percent of Students Chronically Absent',
+        'RI': 'Rigorous Instruction %',
+        'RIR': 'Rigorous Instruction Rating',
+        'CT': 'Collaborative Teachers %',
+        'CTR': 'Collaborative Teachers Rating',
+        'SE': 'Supportive Environment %',
+        'SER': 'Supportive Environment Rating',
+        'ESL': 'Effective School Leadership %',
+        'ESLR': 'Effective School Leadership Rating',
+        'SFCT': 'Strong Family-Community Ties %',
+        'SFCTR': 'Strong Family-Community Ties Rating',
+        'TS': 'Trust %',
+        'TSR': 'Trust Rating',
+        'SACR': 'Student Achievement Rating',
+        'AELA': 'Average ELA Proficiency',
+        'AMP': 'Average Math Proficiency',
+        'AP': 'Average Proficiency',
+    }
+
+    var init_pcp_columns = ["City", "Rigorous Instruction Rating", "Collaborative Teachers Rating", 
+            "Student Attendance Rate", "Student Achievement Rating",
+            "Average ELA Proficiency", "Average Math Proficiency"];
+    
+    var pcp_columns = [];
+    var pcp_refresh_flage = false;
+
     function plot_init() {
+
+        // scattersvg.append('g')
+        //     .append('text')
+        //     .attr('x', width / 2)
+        //     .attr('y', margin.top / 2)
+        //     .attr('font-size', 16)
+        //     .attr('fill', 'black')
+        //     .attr('text-anchor', 'middle')
+        //     .attr('id', "scattercaption")
+        //     .text('Scatterplot');
 
         scattersvg.append('g')
             .append('text')
             .attr('x', width / 2)
             .attr('y', margin.top / 2)
-            .attr('font-size', 18)
+            .attr('font-size', 16)
             .attr('fill', 'black')
             .attr('text-anchor', 'middle')
             .attr('id', "scattercaption")
-            .text('Scatterplot');
+            .text('Average Proficiency V.S. School Income Estimate')
+            .style("font-weight", "bold");
 
         biplotsvg.append('g')
             .append('text')
             .attr('x', width / 2)
             .attr('y', margin.top / 2)
-            .attr('font-size', 18)
+            .attr('font-size', 16)
             .attr('fill', 'black')
             .attr('text-anchor', 'middle')
             .attr('id', "biplotcaption")
-            .text('Biplot');
+            .text('PCA Biplot')
+            .style("font-weight", "bold");
 
         // barchartsvg.append('g')
         //     .append('text')
         //     .attr('x', width / 2)
         //     .attr('y', margin.top / 2)
-        //     .attr('font-size', 18)
+        //     .attr('font-size', 16)
         //     .attr('fill', 'black')
         //     .attr('text-anchor', 'middle')
         //     .attr('id', "barchartcaption")
-        //     .text('Barchart');
+        //     .text('School Distribution among Cities')
+        //     .style("font-weight", "bold");
 
         scattersvg2.append('g')
             .append('text')
             .attr('x', width / 2)
             .attr('y', margin.top / 2)
-            .attr('font-size', 18)
+            .attr('font-size', 16)
             .attr('fill', 'black')
             .attr('text-anchor', 'middle')
             .attr('id', "scatterplot2caption")
-            .text('Scatterplot2');
+            .text('Percent of Students Chronically Absent V.S. Economic Need Index')
+            .style("font-weight", "bold");
 
         pcpsvg.append('g')
             .append('text')
             .attr('x', width)
             .attr('y', margin.top / 2)
-            .attr('font-size', 18)
+            .attr('font-size', 16)
             .attr('fill', 'black')
             .attr('text-anchor', 'middle')
             .attr('id', "pcpcaption")
-            .text('PCP');
+            .text('Parallel Coordinates Plot')
+            .style("font-weight", "bold");
 
         //below call functions to draw.
         biPlot();
         scatterOne();
         scatterTwo();
         barchart();
-        pcp();
+        pcp(init_pcp_columns, false);
 
         brush_flag_scatter = [];
         brush_flag_barchart = [];
         brush_flag_pcp = [];
         brush_flag_scatter_two = [];
         brush_flag_biplot=[];
+
+        pcp_columns = [];
 
     }
 
@@ -379,6 +579,8 @@
         return brush_merge;
     }
 
+    var brush_final = [];
+
     function update(dataArray,brush_flag_global,x,y) {
         //1: in brush,0: out of brush.
         var brush_flag = [];
@@ -399,7 +601,7 @@
         window[brush_flag_global] = brush_flag;
         // brush_flag_scatter= brush_flag;
 
-        var brush_final = merge_global_brush();
+        brush_final = merge_global_brush();
 
         update_scatterplot("#scattersvg", brush_final);
         update_scatterplot("#scattersvg2", brush_final);
@@ -449,6 +651,44 @@
             return x0 <= cx && cx <= x1 && y0 <= cy && cy <= y1;
             // This return TRUE or FALSE depending on if the points is in the selected area
         }
+
+    // d3.select('#biplotsvg').selectAll('dot').attr("visibility", "hidden");
+    console.log(d3.select('#biplotsvg').selectAll('circle'))
+
+    var menu = document.getElementById("menu").getElementsByTagName('li');
+      for (i=0; i<menu.length; i++){
+        menu[i].onclick = function get_graph_type(event){
+          var target = event.target;
+          column_select = col_ori[target.innerText]
+          console.log(column_select)
+          if (pcp_columns.indexOf(column_select) == -1 && pcp_columns.length < 7){
+              pcp_columns.push(column_select)
+              pcpsvg.selectAll('g').remove();
+              pcpsvg.append('g')
+                .append('text')
+                .attr('x', width)
+                .attr('y', margin.top / 2)
+                .attr('font-size', 16)
+                .attr('fill', 'black')
+                .attr('text-anchor', 'middle')
+                .attr('id', "pcpcaption")
+                .text('PCP');
+              if (brush_flag_pcp.length > 0){
+                brush_length = brush_flag_pcp.length;
+                brush_flag_pcp = []
+                for(i=0; i<brush_length; i++){
+                    brush_flag_pcp.push(1);
+                }
+                brush_final = merge_global_brush();
+                update_scatterplot("#scattersvg", brush_final);
+                update_scatterplot("#scattersvg2", brush_final);
+                update_scatterplot("#biplotsvg", brush_final);
+            }
+            pcp(pcp_columns, true);
+          }
+        }
+    }
+
 
 
 

@@ -89,10 +89,10 @@ function scatterTwo() {
             .attr("class", "y axis")
             .call(yAxis)
 
-        d3.selectAll('.x.axis')
+        svg.selectAll('.x.axis')
             .selectAll("text")
-            .style('font-size', 'medium');
-        d3.selectAll('.y.axis')
+            .style('font-size', '12px');
+        svg.selectAll('.y.axis')
             .selectAll("text")
             .style('font-size', 'medium');
 

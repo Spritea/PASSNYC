@@ -81,15 +81,14 @@ class My_Scatter:
 
 pca_class=My_PCA(csv_file='school_data_clean_v3.csv', label_col="City")
 scatter_school_income=My_Scatter(csv_file='school_data_clean_v3.csv',
-                                 x_var='Average Proficiency',y_var='School Income Estimate', label_col="City")
+                                 x_var='School Income Estimate',y_var='Average Proficiency', label_col="City")
 scatter_trust=My_Scatter(csv_file='school_data_clean_v3.csv',
                                  x_var='Economic Need Index',y_var='Percent of Students Chronically Absent', label_col="City")
-print('kk')
 
 df_ori = pd.read_csv('school_data_clean_v3.csv')
 df_pcp = pca_class.change_percent(df_ori)
-pcp_columns = ["City", "Rigorous Instruction Rating", "Collaborative Teachers Rating", "Student Attendance Rate", "Student Achievement Rating",
- "Average ELA Proficiency", "Average Math Proficiency"]
+# pcp_columns = ["City", "Rigorous Instruction Rating", "Collaborative Teachers Rating", "Student Attendance Rate", "Student Achievement Rating",
+#  "Average ELA Proficiency", "Average Math Proficiency"]
 
 @app.route('/')
 def index():
@@ -127,9 +126,13 @@ def barchart():
 @app.route('/pcp', methods=['POST', 'GET'])
 def pcp():
     if request.method == 'POST':
+        # print(request.form)
+        # pcp_columns = list(request.form['pcp_columns'])
+        # print(pcp_columns)
         resp = dict(
-            data = df_pcp.loc[:, pcp_columns].to_json(orient = "index"),
-            column_name = pcp_columns,
+            # data = df_pcp.loc[:, pcp_columns].to_json(orient = "index"),
+            # column_name = pcp_columns,
+            data = df_pcp.to_json(orient = "index"),
             city = df_pcp.loc[:, 'City'].tolist()
         )
         return json.dumps(resp)
@@ -147,4 +150,4 @@ def plotScatterTrustFunc():
         return json.dumps([points_data,scatter_trust.x_name,scatter_trust.y_name])
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='127.0.0.1', port=8080, debug=True)

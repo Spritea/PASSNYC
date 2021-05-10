@@ -5,25 +5,32 @@ function barchart() {
     //the global const barchartsvg would be null,
     //need init again.
 
+    var margin = {top: 25 * 2, right: 170, bottom: 70, left: 50};
+    var innerWidth = 640 - margin.right;
+    var innerHeight = 420 - margin.top - margin.bottom;
+
     var barchartsvg = d3.select('#barchartsvg');
     barchartsvg.append('g')
         .append('text')
         .attr('x', width / 2)
         .attr('y', margin.top / 2)
-        .attr('font-size', 18)
+        .attr('font-size', 16)
         .attr('fill', 'black')
         .attr('text-anchor', 'middle')
         .attr('id', "barchartcaption")
-        .text('Barchart');
+        .text('School Distribution among Cities')
+        .style("font-weight", "bold");
 
     var g = barchartsvg.append('g').attr('id', 'maingroup')
-        .attr('transform', `translate(${margin.left * 1.5}, ${margin.top})`);
+        // .attr("width", innerWidth + margin.left + margin.right)
+        // .attr("height", innerHeight + margin.top + margin.bottom)
+        .attr('transform', "translate(" + (margin.left + 50) + "," + (margin.top + 10) + ")");
 
     var tooltip = d3.select("body")
         .append("div")
         .attr("class", "tooltip");
 
-    var innerHeight = 420 - 110
+    // var innerHeight = 420 - 110
     // innerheight_barchart=innerHeight;
     // var svg_left = d3.select("#barchart_div").style('left')
     // svg_left = +svg_left.slice(0, svg_left.length-2)
@@ -72,8 +79,8 @@ function barchart() {
             .style('cursor', 'pointer')
             .on("mouseover", function (d, i) {
                 tooltip.html(d['num'])
-                    .style("top", +d3.select(this).attr('y') + margin.top + 20 + "px")
-                    .style("left", +d3.select(this).attr('x') + d3.select(this).attr('width') / 2 + svg_left + 10 + margin.left + "px")
+                    .style("top", +d3.select(this).attr('y') + margin.top + 25 + "px")
+                    .style("left", +d3.select(this).attr('x') + d3.select(this).attr('width') / 2 + svg_left + 40 + margin.left + "px")
                     .style("visibility", "visible");
                 // d3.select(this)
                 //     .attr("fill", "red");
@@ -150,9 +157,9 @@ function barchart() {
         var yAxis = d3.axisLeft(yScale);
         var xAxis = d3.axisBottom(xScale);
         g.append('g').attr("class", "y-axis").call(yAxis).selectAll("text")
-            .style("font-size", 12);
+            .style("font-size", 'medium');
         g.append('g').attr("class", "x-axis").call(xAxis).attr('transform', `translate(0, ${innerHeight})`).selectAll("text")
-            .style("font-size", 12);
+            .style("font-size", 11);
 
         // g.append('text')
         // .attr('font-size', 12)
@@ -169,14 +176,14 @@ function barchart() {
         g.append("text")
             .attr("transform",
                 "translate(" + (innerWidth / 2) + " ," +
-                (innerHeight + 40) + ")")
+                (innerHeight + 50) + ")")
             .style("text-anchor", "middle")
             .text("City")
             .style("font-weight", "bold");
 
         g.append("text")
             .attr("transform", "rotate(-90)")
-            .attr("y", 0 - margin.left - 2 - 10)
+            .attr("y", 0 - margin.left - 2 - 30)
             .attr("x", 0 - (innerHeight / 2))
             .attr("dy", "1em")
             .style("text-anchor", "middle")

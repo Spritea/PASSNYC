@@ -1,7 +1,7 @@
-function pcp() {
+function pcp(pcp_columns, refresh_flag) {
 
     var g = pcpsvg.append('g').attr('id', 'subgroup')
-        .attr('transform', `translate(${margin.left * 1.25}, ${margin.top})`);
+        .attr('transform', `translate(${margin.left * 2.2}, ${margin.top})`);
 
     // d3.select("#pcp_div").style('top', '975px');
 
@@ -13,7 +13,8 @@ function pcp() {
     var x = $.post('/pcp', function (data) {
         data = JSON.parse(data);
         var pcp_data_ori = data.data;
-        var columns = data.column_name
+        // var columns = data.column_name
+        var columns = pcp_columns
         var city = data.city;
         city_pcp = city;
 
@@ -72,17 +73,6 @@ function pcp() {
             .padding(0.1);
 
         console.log(xScale)
-
-        // ==========The following is referred to the template http://bl.ocks.org/sebastian-meier/03df214f456fc100526a posted by professor on piazza=============
-
-        // ======================= implement range selection by brush and axis interchange by drag=================================
-
-        // ===================================Main modifications beyond the template ========================================
-        // 1. updated the code from d3.v3 to d3.v4 (most of the brush functions were updated);
-        // 2. modified for my dataset format;
-        // 3. colored the brush selected data by colors;
-        // 4. added interactions with MDS 1-|correlation| distance
-
 
         var dragging = {};
 
@@ -190,7 +180,7 @@ function pcp() {
         pcp_g.append("g")
             .attr("class", "axis")
             .each(function (d) {
-                d3.select(this).call(d3.axisLeft().scale(yScale[d]));
+                d3.select(this).call(d3.axisLeft().scale(yScale[d])).attr('font-size', '12px');
             })
             .append("text")
             .style("text-anchor", "middle")
@@ -203,6 +193,21 @@ function pcp() {
             //below change cursor shape to arrow cross.
             .style('cursor', 'move');
 
+        // if(refresh_flag){
+        //     // pcp_g.append("g")
+        //     // .attr("class", "brush")
+        //     // .each(function (d) {
+        //     //     d3.select(this).call(yScale[d].brush = d3.brushY().extent([[-8, yScale[d].range()[1]], [8, yScale[d].range()[0]]])
+        //     //         .on("brush", brush));
+        //     // });
+        //     brush_flag_pcp = brush_flag;
+        //     var brush_final = merge_global_brush();
+        //     update_scatterplot("#scattersvg", brush_final);
+        //     update_scatterplot("#scattersvg2", brush_final);
+        //     update_scatterplot("#biplotsvg", brush_final);
+        //     update_pcp("#pcpsvg", brush_final);
+        // }
+
         pcp_g.append("g")
             .attr("class", "brush")
             .each(function (d) {
@@ -212,6 +217,19 @@ function pcp() {
 
         function brushstart() {
             d3.event.sourceEvent.stopPropagation();
+        }
+
+        if(refresh_flag){
+            var brush_flag = [];
+            for (let i = 0; i < pcp_data.length; i++) {
+                brush_flag.push(1);
+            }
+            brush_flag_pcp = brush_flag;
+            var brush_final = merge_global_brush();
+            update_scatterplot("#scattersvg", brush_final);
+            update_scatterplot("#scattersvg2", brush_final);
+            update_scatterplot("#biplotsvg", brush_final);
+            update_pcp("#pcpsvg", brush_final);
         }
 
         function brush() {
