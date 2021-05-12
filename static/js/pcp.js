@@ -44,18 +44,25 @@ function pcp(pcp_columns, refresh_flag) {
                     })
                     .entries(y_data[col]);
 
-                var category_sort = data_col.map(function (d) {
-                    return d.key
-                });
-                category_sort.sort(function (a, b) {
-                    return a.localeCompare(b)
-                });
-
-                yScale[col] = d3.scalePoint()
-                    .domain(category_sort.map(function (d) {
-                        return d
-                    }))
-                    .range([innerHeight, 0]);
+                    if (col.indexOf('Rating') !=-1){
+                        yScale[col] = d3.scalePoint()
+                        .domain(['Not Meeting Target', 'Approaching Target', 'Meeting Target', 'Exceeding Target'])
+                        .range([innerHeight, 0]);
+                    }
+                    else{
+                        var category_sort = data_col.map(function (d) {
+                            return d.key
+                        });
+                        category_sort.sort(function (a, b) {
+                            return a.localeCompare(b)
+                        });
+    
+                        yScale[col] = d3.scalePoint()
+                            .domain(category_sort.map(function (d) {
+                                return d
+                            }))
+                            .range([innerHeight, 0]);
+                    }
             } else {
                 console.log("Numerical");
                 y_min = d3.min(y_data[col]);

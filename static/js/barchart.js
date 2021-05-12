@@ -79,8 +79,8 @@ function barchart() {
             .style('cursor', 'pointer')
             .on("mouseover", function (d, i) {
                 tooltip.html(d['num'])
-                    .style("top", +d3.select(this).attr('y') + margin.top + 25 + "px")
-                    .style("left", +d3.select(this).attr('x') + d3.select(this).attr('width') / 2 + svg_left + 40 + margin.left + "px")
+                    .style("top", +d3.select(this).attr('y') + margin.top + 30 + "px")
+                    .style("left", +d3.select(this).attr('x') + d3.select(this).attr('width') / 2 + svg_left + 39 + margin.left + "px")
                     .style("visibility", "visible");
                 // d3.select(this)
                 //     .attr("fill", "red");
@@ -183,7 +183,7 @@ function barchart() {
 
         g.append("text")
             .attr("transform", "rotate(-90)")
-            .attr("y", 0 - margin.left - 2 - 30)
+            .attr("y", 0 - margin.left - 2 - 10)
             .attr("x", 0 - (innerHeight / 2))
             .attr("dy", "1em")
             .style("text-anchor", "middle")
