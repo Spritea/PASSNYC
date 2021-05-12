@@ -242,6 +242,22 @@
             background-color: gray;
             color: white;
         }
+
+        .checkbox_div {
+            position: absolute;
+            top: 480px;
+            left: 450px;
+            font-size: 13px;
+        }
+        .checkbox_div form{
+            color: white;
+        }
+        .checkbox_div form label{
+            color: white;
+        }
+        .checkbox{
+            color: white;
+        }
     </style>
 
 <body>
@@ -294,9 +310,16 @@
         <li><a href="#" title="Trust %">TS</a></li>
         <li><a href="#" title="Trust Rating">TSR</a></li>
         <li><a href="#" title="Student Achievement Rating">SACR</a></li>
-        <li><a href="#" title="Average ELA Proficiency">AELA</a></li>
+        <li><a href="#" title="Average English Language Arts Proficiency">AELA</a></li>
         <li><a href="#" title="Average Math Proficiency">AMP</a></li>
     </ul>
+</div>
+
+<div class="checkbox_div">
+    <form action="" method="get">
+        <label><input id="show_points" class="checkbox" type="checkbox" value="" checked=true />show_points </label>
+        <label><input id="show_axes" class="checkbox" type="checkbox" value="" />show_axes </label>
+    </form>
 </div>
 
 </body>
@@ -321,11 +344,21 @@
     var city_color;
     var color_list;
 
+    var checkbox_point = document.getElementById("show_points");
+    var checkbox_axes = document.getElementById("show_axes");
+
+    var show_points = checkbox_point.checked;
+    var show_axes = checkbox_axes.checked;
+
     var button_1 = document.getElementById("button_reset");
     button_1.onclick = function button1_test() {
         console.log("I am button 1");
         d3.selectAll("svg > *").remove();
         $("div.tooltip").remove();
+        checkbox_point.checked = true;
+        checkbox_axes.checked = false;
+        show_points = checkbox_point.checked;
+        show_axes = checkbox_axes.checked;
         plot_init();
         city_color = {
             'New York': '#e41a1c',
@@ -345,6 +378,10 @@
         console.log("I am button 2");
         d3.selectAll("svg > *").remove();
         $("div.tooltip").remove();
+        checkbox_point.checked = true;
+        checkbox_axes.checked = false;
+        show_points = checkbox_point.checked;
+        show_axes = checkbox_axes.checked;
         plot_init();
         city_color = {
             'New York': '#a50026',
@@ -359,40 +396,6 @@
             '#f5f5f5', '#acde9b', '#80bd6c', '#5e9a4c', '#3d782f', '#1e5817', '#003900'];
     }
 
-    // const city_color = {
-    //     'New York': 'aqua',
-    //     'Bronx': 'blue',
-    //     'Brooklyn': 'fuchsia',
-    //     'Flushing': '#5F9EA0',
-    //     'Jamaica': 'green',
-    //     'Long Island': 'lime',
-    //     'Staten Island': 'maroon'
-    // }
-
-    // const city_color = {
-    //     'New York': '#10ff0f',
-    //     'Bronx': '#bbd300',
-    //     'Brooklyn': '#eda300',
-    //     'Flushing': '#f57940',
-    //     'Jamaica': '#da626b',
-    //     'Long Island': '#a75d7e',
-    //     'Staten Island': '#715a73'
-    // }
-
-    // color blind
-
-    // const city_color = {
-    //     'New York': '#a50026',
-    //     'Bronx': '#f46d43',
-    //     'Brooklyn': '#fee090',
-    //     'Flushing': '#ffffbf',
-    //     'Jamaica': '#74add1',
-    //     'Long Island': '#4575b4',
-    //     'Staten Island': '#313695'
-    // }
-
-    // qualititive
-
     city_color = {
         'New York': '#e41a1c',
         'Bronx': '#377eb8',
@@ -404,8 +407,6 @@
     };
     color_list = ['#a6cee3', '#1f78b4', '#b2df8a', '#33a02c', '#fb9a99', '#e31a1c',
         '#fdbf6f', '#ff7f00', '#cab2d6', '#6a3d9a', '#ffff99', '#b15928', '#7FFFD4'];
-
-    // const city_color = {'New York':'#002aff', 'Bronx':'#7c6ee8', 'Brooklyn':'#97afd0', 'Flushing':'#00fbc0', 'Jamaica':'#e9a9bc', 'Long Island':'#d58ba1', 'Staten Island':'#ff00a3'}
 
     const col_abbr = {
         'City': 'City',
@@ -666,9 +667,6 @@
         // This return TRUE or FALSE depending on if the points is in the selected area
     }
 
-    // d3.select('#biplotsvg').selectAll('dot').attr("visibility", "hidden");
-    console.log(d3.select('#biplotsvg').selectAll('circle'))
-
     var menu = document.getElementById("menu").getElementsByTagName('li');
     for (i = 0; i < menu.length; i++) {
         menu[i].onclick = function get_graph_type(event) {
@@ -700,6 +698,30 @@
                 }
                 pcp(pcp_columns, true);
             }
+        }
+    }
+
+    checkbox_point.onclick = function change_points(event) {
+        show_points = checkbox_point.checked;
+        if(show_points){
+            d3.select('#biplotsvg').selectAll('circle').attr('visibility', 'visible');
+            d3.select('#biplotsvg').selectAll('.brush').attr("visibility", "visible");
+        }
+        else{
+            d3.select('#biplotsvg').selectAll('circle').attr('visibility', 'hidden');
+            d3.select('#biplotsvg').selectAll('.brush').attr("visibility", "hidden");
+        }
+    }
+
+    checkbox_axes.onclick = function change_legend(event) {
+        show_axes = checkbox_axes.checked;
+        if(show_axes){
+            d3.select('#biplotsvg').selectAll('.legend').attr('visibility', 'visible');
+            d3.select('#biplotsvg').selectAll('line').attr("visibility", "visible");
+        }
+        else{
+            d3.select('#biplotsvg').selectAll('.legend').attr('visibility', 'hidden');
+            d3.select('#biplotsvg').selectAll('line').attr("visibility", "hidden");
         }
     }
 

@@ -92,8 +92,13 @@ function biPlot() {
                 return y(d[1]);
             });
 
-        svg.append("g")
+        brush = svg.append("g")
             .attr("class", "brush")
+            .on("mousedown", function(){
+                if(!show_points){
+                    d3.event.stopImmediatePropagation();
+                };
+            })
             .call(d3.brush()
                 .extent([[0, 0], [width, height]])
                 //no 'start brush', since 'start' would give two points
@@ -102,7 +107,7 @@ function biPlot() {
                 //since func para can't be passed.
                 .on('brush', function () {
                     update(dataArray,"brush_flag_biplot",x,y)
-                }));
+            }));
 
         svg.append("g")
             .attr("class", "x axis")
@@ -194,12 +199,16 @@ function biPlot() {
         
         legend.append("svg:title")
         .text(function(d, i) { 
-            if (attr_names[i] != 'PELL'){
-                return col_ori[attr_names[i]]}
-            else{
+            if (attr_names[i] == 'AELA'){
+                return "Average English Arts Proficiency"
+            }
+            else if(attr_names[i] == 'PELL'){
                 return "Percent English Language Learner"
             }
-            });
+            else{
+                return col_ori[attr_names[i]]
+            }
+        });
 
         legend.append("rect")
             .attr("x", innerWidth - 50)
@@ -219,51 +228,24 @@ function biPlot() {
             .text(function (d, i) {
                 return attr_names[i];
             });
+        
+        if(show_points){
+            d3.select('#biplotsvg').selectAll('circle').attr('visibility', 'visible');
+            d3.select('#biplotsvg').selectAll('.brush').attr("visibility", "visible");
+        }
+        else{
+            d3.select('#biplotsvg').selectAll('circle').attr('visibility', 'hidden');
+            d3.select('#biplotsvg').selectAll('.brush').attr("visibility", "hidden");
+        }
 
-        // var count_txt = 0;
-        // var count_x = 0;
-        // var count_y = 0;
-        // svg.append('g')
-        //     .selectAll("axis_arrow")
-        //     .data(axisArray)
-        //     .enter()
-        //     .append("text")
-        //     .text(function (d,i) {
-        //         // count_txt = count_txt + 1;
-        //         // var axis_txt = 'X' + count_txt;
-        //         var axis_txt=attr_names[i];
-        //         return axis_txt;
-        //     })
-        //     .attr("x", function (d) {
-        //         count_x = count_x + 1;
-        //         if (count_x === 2 || count_x === 9) {
-        //             return x(7 * d[0]) - 13;
-        //         }
-        //         if (count_x === 13) {
-        //             return x(7 * d[0]) + 17;
-        //         } else {
-        //             return x(7 * d[0]);
-        //         }
-        //     })
-        //     .attr("y", function (d) {
-        //         count_y = count_y + 1;
-        //         if (count_y === 2 || count_y === 9) {
-        //             return y(7 * d[1]) + 5;
-        //         }
-        //         if (count_y === 13) {
-        //             return y(7 * d[1]) + 5;
-        //         }
-        //         if (d[1] >= 0) {
-        //             return y(7 * d[1]) - 5;
-        //         } else {
-        //             return y(7 * d[1]) + 17;
-        //         }
-        //     })
-        //     .style("text-anchor", "middle")
-        //     .style("font-weight", "bold")
-        //     .style("font-size", 12);
-    
-        // console.log(d3.select('#biplotsvg').selectAll('circle'));
+        if(show_axes){
+            d3.select('#biplotsvg').selectAll('.legend').attr('visibility', 'visible');
+            d3.select('#biplotsvg').selectAll('line').attr("visibility", "visible");
+        }
+        else{
+            d3.select('#biplotsvg').selectAll('.legend').attr('visibility', 'hidden');
+            d3.select('#biplotsvg').selectAll('line').attr("visibility", "hidden");
+        }
 
     });
 

@@ -191,7 +191,19 @@ function pcp(pcp_columns, refresh_flag) {
             // .style("fill", "black")
             .style("font-weight", "bold")
             //below change cursor shape to arrow cross.
-            .style('cursor', 'move');
+            .style('cursor', 'move')
+            .append("svg:title")
+            .text(function(d, i) { 
+                if (col_abbr[d] == 'PELL'){
+                    return "Percent English Language Learner"
+                }
+                else if (col_abbr[d] == 'AELA'){
+                    return "Average English Arts Proficiency"
+                }
+                else{
+                    return col_ori[col_abbr[d]]
+                }
+            });
 
         // if(refresh_flag){
         //     // pcp_g.append("g")
