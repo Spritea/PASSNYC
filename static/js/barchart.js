@@ -186,7 +186,7 @@ function barchart() {
             .attr("transform", "rotate(-90)")
             .attr("y", 0 - margin.left - 2 - 10)
             .attr("x", 0 - (innerHeight / 2))
-            .attr("dy", "1em")
+            .attr("dy", "1px")
             .style("text-anchor", "middle")
             .text("Number of Schools")
             .style("font-weight", "bold")
