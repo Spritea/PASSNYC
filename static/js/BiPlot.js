@@ -200,7 +200,7 @@ function biPlot() {
         legend.append("svg:title")
         .text(function(d, i) { 
             if (attr_names[i] == 'AELA'){
-                return "Average English Arts Proficiency"
+                return "Average English Language Arts Proficiency"
             }
             else if(attr_names[i] == 'PELL'){
                 return "Percent English Language Learner"

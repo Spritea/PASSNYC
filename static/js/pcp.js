@@ -205,7 +205,7 @@ function pcp(pcp_columns, refresh_flag) {
                     return "Percent English Language Learner"
                 }
                 else if (col_abbr[d] == 'AELA'){
-                    return "Average English Arts Proficiency"
+                    return "Average English Language Arts Proficiency"
                 }
                 else{
                     return col_ori[col_abbr[d]]
