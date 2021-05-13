@@ -36,7 +36,7 @@ function barchart() {
     // svg_left = +svg_left.slice(0, svg_left.length-2)
     // console.log(d3.select("#barchart_div").style('left'))
     // console.log(svg_left)
-    var svg_left = 1280
+    var svg_left = 0;
 
     $.post('/barchart', function (data) {
 
@@ -80,7 +80,7 @@ function barchart() {
             .on("mouseover", function (d, i) {
                 tooltip.html(d['num'])
                     .style("top", +d3.select(this).attr('y') + margin.top + 30 + "px")
-                    .style("left", +d3.select(this).attr('x') + d3.select(this).attr('width') / 2 + svg_left + 39 + margin.left + "px")
+                    .style("left", +d3.select(this).attr('x') + d3.select(this).attr('width') / 2 + svg_left + 40 + margin.left + "px")
                     .style("visibility", "visible");
                 // d3.select(this)
                 //     .attr("fill", "red");
