@@ -176,10 +176,11 @@ function barchart() {
         g.append("text")
             .attr("transform",
                 "translate(" + (innerWidth / 2) + " ," +
-                (innerHeight + 50) + ")")
+                (innerHeight + 45) + ")")
             .style("text-anchor", "middle")
             .text("City")
-            .style("font-weight", "bold");
+            .style("font-weight", "bold")
+            .style("font-size", "14px");
 
         g.append("text")
             .attr("transform", "rotate(-90)")
@@ -188,6 +189,7 @@ function barchart() {
             .attr("dy", "1em")
             .style("text-anchor", "middle")
             .text("Number of Schools")
-            .style("font-weight", "bold");
+            .style("font-weight", "bold")
+            .style("font-size", "14px");
     });
 };

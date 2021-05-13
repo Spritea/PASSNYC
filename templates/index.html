@@ -690,7 +690,8 @@
                     .attr('fill', 'black')
                     .attr('text-anchor', 'middle')
                     .attr('id', "pcpcaption")
-                    .text('PCP');
+                    .text('Parallel Coordinates Plot')
+                    .style("font-weight", "bold");
                 if (brush_flag_pcp.length > 0) {
                     brush_length = brush_flag_pcp.length;
                     brush_flag_pcp = []
@@ -723,11 +724,11 @@
         show_axes = checkbox_axes.checked;
         if(show_axes){
             d3.select('#biplotsvg').selectAll('.legend').attr('visibility', 'visible');
-            d3.select('#biplotsvg').selectAll('line').attr("visibility", "visible");
+            d3.select('#biplotsvg').selectAll('.axis_arrow').attr("visibility", "visible");
         }
         else{
             d3.select('#biplotsvg').selectAll('.legend').attr('visibility', 'hidden');
-            d3.select('#biplotsvg').selectAll('line').attr("visibility", "hidden");
+            d3.select('#biplotsvg').selectAll('.axis_arrow').attr("visibility", "hidden");
         }
     }
 

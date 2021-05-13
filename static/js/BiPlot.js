@@ -59,7 +59,7 @@ function biPlot() {
 
         var xAxis = d3.axisBottom(x);
 
-        var yAxis = d3.axisLeft(y)
+        var yAxis = d3.axisLeft(y);
         // .ticks(10);
 
         svg.append('g')
@@ -128,19 +128,21 @@ function biPlot() {
         svg.append("text")
             .attr("transform",
                 "translate(" + (width / 2) + " ," +
-                (height + margin.top + 10) + ")")
+                (height + margin.top + 5) + ")")
             .style("text-anchor", "middle")
             .text("PC1")
-            .style("font-weight", "bold");
+            .style("font-weight", "bold")
+            .style("font-size", "14px");
 
         svg.append("text")
             .attr("transform", "rotate(-90)")
             .attr("y", 0 - margin.left - 2 - 10)
             .attr("x", 0 - (height / 2))
-            .attr("dy", "1em")
+            .attr("dy", "1px")
             .style("text-anchor", "middle")
             .text("PC2")
-            .style("font-weight", "bold");
+            .style("font-weight", "bold")
+            .style("font-size", "14px");
 
         svg.append('g')
             .selectAll("marker")
@@ -169,6 +171,7 @@ function biPlot() {
             .data(axisArray)
             .enter()
             .append("line")
+            .attr("class", "axis_arrow")
             .attr("x1", function (d) {
                 return x(0);
             })
@@ -240,11 +243,11 @@ function biPlot() {
 
         if(show_axes){
             d3.select('#biplotsvg').selectAll('.legend').attr('visibility', 'visible');
-            d3.select('#biplotsvg').selectAll('line').attr("visibility", "visible");
+            d3.select('#biplotsvg').selectAll('.axis_arrow').attr("visibility", "visible");
         }
         else{
             d3.select('#biplotsvg').selectAll('.legend').attr('visibility', 'hidden');
-            d3.select('#biplotsvg').selectAll('line').attr("visibility", "hidden");
+            d3.select('#biplotsvg').selectAll('.axis_arrow').attr("visibility", "hidden");
         }
 
     });

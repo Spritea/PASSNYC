@@ -124,10 +124,11 @@ function scatterOne() {
         svg.append("text")
             .attr("transform",
                 "translate(" + (width / 2) + " ," +
-                (height + margin.top + 10) + ")")
+                (height + margin.top + 5) + ")")
             .style("text-anchor", "middle")
             .text(x_name)
-            .style("font-weight", "bold");
+            .style("font-weight", "bold")
+            .style("font-size", "14px");
 
         svg.append("text")
             .attr("transform", "rotate(-90)")
@@ -136,7 +137,8 @@ function scatterOne() {
             .attr("dy", "1px")
             .style("text-anchor", "middle")
             .text(y_name)
-            .style("font-weight", "bold");
+            .style("font-weight", "bold")
+            .style("font-size", "14px");
 
     });
 
