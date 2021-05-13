@@ -692,17 +692,17 @@
                     .attr('id', "pcpcaption")
                     .text('Parallel Coordinates Plot')
                     .style("font-weight", "bold");
-                if (brush_flag_pcp.length > 0) {
-                    brush_length = brush_flag_pcp.length;
-                    brush_flag_pcp = []
-                    for (i = 0; i < brush_length; i++) {
-                        brush_flag_pcp.push(1);
-                    }
-                    brush_final = merge_global_brush();
-                    update_scatterplot("#scattersvg", brush_final);
-                    update_scatterplot("#scattersvg2", brush_final);
-                    update_scatterplot("#biplotsvg", brush_final);
-                }
+                // if (brush_flag_pcp.length > 0) {
+                //     brush_length = brush_flag_pcp.length;
+                //     brush_flag_pcp = []
+                //     for (i = 0; i < brush_length; i++) {
+                //         brush_flag_pcp.push(1);
+                //     }
+                //     brush_final = merge_global_brush();
+                //     update_scatterplot("#scattersvg", brush_final);
+                //     update_scatterplot("#scattersvg2", brush_final);
+                //     update_scatterplot("#biplotsvg", brush_final);
+                // }
                 pcp(pcp_columns, true);
             }
         }

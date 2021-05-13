@@ -249,6 +249,25 @@ function pcp(pcp_columns, refresh_flag) {
             update_scatterplot("#scattersvg2", brush_final);
             update_scatterplot("#biplotsvg", brush_final);
             update_pcp("#pcpsvg", brush_final);
+
+            var city_dict = {};
+            var city_list = ["Brooklyn", "Bronx", "New York", "Staten Island", "Jamaica", "Flushing", "Long Island"];
+            for (let k = 0; k < city_list.length; k++) {
+                city_dict[city_list[k]] = 0;
+            }
+            for (let p = 0; p < city.length; p++) {
+                let one_record_flag = brush_final[p];
+                if (one_record_flag == 1) {
+                    let city_label = city[p];
+                    city_dict[city_label] = city_dict[city_label] + 1;
+                }
+            }
+            var city_data = [];
+            for (let city_key in city_dict) {
+                city_data.push({'city': city_key, 'num': city_dict[city_key]});
+            }
+            // console.log(city_num_list)
+            barchart_update(city_data);
         }
 
         function brush() {
