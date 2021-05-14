@@ -182,6 +182,9 @@
             width: 100%;
             top: 885px;
             position: absolute;
+            /*below for avoid horizontal overflow*/
+            left: 50%;
+            transform: translate(-50%, 0);
         }
 
         .menu ul {
@@ -258,6 +261,8 @@
         .checkbox{
             color: white;
         }
+        /*below draw borders of all div, to find the element that causes overflow*/
+        /**{border: 1px solid #f00 !important;}*/
     </style>
 
 <body>
